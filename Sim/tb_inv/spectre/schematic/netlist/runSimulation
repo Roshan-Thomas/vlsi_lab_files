@@ -1,0 +1,1 @@
+spectre  input.scs  +escchars +log ../psf/spectre.out  -format psfbin +rtsf -raw ../psf   +lqtimeout 900 -maxw 5 -maxn 5 +param /eda/cadence/ams/4.10/spectre/ams_range.lmts   

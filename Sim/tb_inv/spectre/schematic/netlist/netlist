@@ -1,0 +1,20 @@
+
+// Library name: lab2024
+// Cell name: inv
+// View name: schematic
+subckt inv in out
+    MN0 (out in 0 0) modn w=10u l=0.35u as=8.5e-12 ad=8.5e-12 ps=11.7u \
+        pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP0 (out in vdd! vdd!) modp w=6u l=0.35u as=5.1e-12 ad=5.1e-12 ps=7.7u \
+        pd=7.7u nrd=0.08333333 nrs=0.08333333 ng=1
+ends inv
+// End of subcircuit definition.
+
+// Library name: lab2024
+// Cell name: tb_inv
+// View name: schematic
+I0 (net2 net3) inv
+V0 (vdd! 0) vsource dc=3.3 type=dc
+C0 (net3 0) capacitor c=12f
+V1 (net2 0) vsource type=pulse val0=0 val1=3.3 period=2n rise=100p \
+        fall=100p width=1n

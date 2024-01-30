@@ -1,0 +1,89 @@
+ahdlcmicompile: Compiling ahdlcmi in input.ahdlSimDB//421d24576e48a3dc380c07f28ab19450.modn_ahdl.ahdlcmi/Linux-64/ for Linux-64 with optimize using gcc on Tue Jan 23 11:10:15 GMT 2024 [5.0]
+ahdlcmicompile: Generating makefile
+PATH:  /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/bin:/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/bin/64bit:/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/bin:/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/bin:/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools/bin/64bit:/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools/bin:/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/share/oa/bin:/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/opt/matlab/R2023a/bin:/opt/haskell/9.2/bin:/usr/share/Modules/bin:/usr/local/cuda-11.4/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/opt/puppetlabs/bin:/var/lib/snapd/snap/bin:/opt/software/bin:/eda/cadence/ams/4.10/cds/bin:/eda/cadence/2018-19/RHELx86/INCISIVE_15.20.058/bin:/eda/cadence/2018-19/RHELx86/INCISIVE_15.20.058/tools/bin:/eda/cadence/2018-19/RHELx86/INCISIVE_15.20.058/tools/systemc/gcc/bin:/eda/cadence/2018-19/RHELx86/INCISIVE_15.20.058/kits/VerificationKit/bin:/eda/cadence/2018-19/RHELx86/CONFRML_18.10.200/bin:/eda/cadence/2018-19/RHELx86/INNOVUS_18.10.000/bin:/eda/cadence/2018-19/RHELx86/GENUS_18.10.000/bin:/eda/cadence/2018-19/RHELx86/SSV_18.10.000/bin:/eda/cadence/2018-19/RHELx86/MODUS_18.10.000/bin:/eda/cadence/2018-19/RHELx86/PVS_16.12.000/bin:/eda/cadence/2018-19/RHELx86/EXT_18.21.000/bin:/eda/cadence/2018-19/RHELx86/MVS_18.10.000/bin:/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools/dfII/bin:/eda/cadence/2018-19/RHELx86/ASSURA_04.16.001_618/tools/bin:/eda/cadence/2018-19/RHELx86/ASSURA_04.16.001_618/tools/assura/bin:/eda/cadence/2018-19/RHELx86/ASSURA_04.16.001_618/bin:/eda/cadence/2018-19/RHELx86/VIPCAT_11.30.057_UVM/tools/bin:/eda/cadence/2018-19/RHELx86/JASPER_2018.06.002/bin:/eda/cadence/2018-19/RHELx86/LIBERATE_18.10.293/bin:/eda/cadence/2018-19/RHELx86/SIG_18.00.000/Translators/bin /eda/cadence/2018-19/RHELx86/SIG_18.00.000/SpeedXP/bin:/eda/cadence/2018-19/RHELx86/SIG_18.00.000/tools/pcb/bin:/eda/cadence/2018-19/RHELx86/SIG_18.00.000/tools/bin:/eda/cadence/2018-19/RHELx86/INDAGO_18.03.001/bin
+LD_LIBRARY_PATH:  /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/giganta/lib/64bit:/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/mdl/lib/64bit:/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/mmsim/lib/64bit:/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/tcltk-8.4.20/lib/64bit:/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/inca/lib/64bit:/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/lib/64bit:/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/dfII/lib/64bit:/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/lib/64bit:/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/lib/64bit:/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/lib:/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools/lib/64bit:/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools/lib:/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/share/oa/lib/linux_rhel60_64/opt:/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools/dfII/lib/64bit:/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools/sev/lib/64bit:/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools/hdf5/lib/64bit:/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools/lz4/lib/64bit:/eda/cadence/2018-19/RHELx86/INCISIVE_15.20.058/tools.lnx86/lib/64bit:/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools/Qt/v5/64bit/lib:/eda/cadence/ams/4.10/tools/lib
+/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/bin/gnumake -j12 -f GNUmakefile
+Cleaning ./obj/optimize/5.0
+rm -f -rf ./obj/optimize/5.0
+Compiling C file modn_ahdl_func.c (optimize)
+Compiling C file modn_ahdl_DcFuncDerLoad.c (optimize)
+/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include -c modn_ahdl_func.c -o obj/optimize/5.0/modn_ahdl_func.o || rm -f -f obj/optimize/5.0/modn_ahdl_func.o
+/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include -c modn_ahdl_DcFuncDerLoad.c -o obj/optimize/5.0/modn_ahdl_DcFuncDerLoad.o || rm -f -f obj/optimize/5.0/modn_ahdl_DcFuncDerLoad.o
+Compiling C file modn_ahdl_DcFuncLoad.c (optimize)
+/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include -c modn_ahdl_DcFuncLoad.c -o obj/optimize/5.0/modn_ahdl_DcFuncLoad.o || rm -f -f obj/optimize/5.0/modn_ahdl_DcFuncLoad.o
+Compiling C file modn_ahdl_TranFuncLoad.c (optimize)
+Compiling C file modn_ahdl_TranFuncDerLoad.c (optimize)
+/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include -c modn_ahdl_TranFuncDerLoad.c -o obj/optimize/5.0/modn_ahdl_TranFuncDerLoad.o || rm -f -f obj/optimize/5.0/modn_ahdl_TranFuncDerLoad.o
+/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include -c modn_ahdl_TranFuncLoad.c -o obj/optimize/5.0/modn_ahdl_TranFuncLoad.o || rm -f -f obj/optimize/5.0/modn_ahdl_TranFuncLoad.o
+Compiling C file modn_ahdl_cmi_c.c (optimize)
+/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include -I/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/cmi/include -c modn_ahdl_cmi_c.c -o obj/optimize/5.0/modn_ahdl_cmi_c.o || rm -f -f obj/optimize/5.0/modn_ahdl_cmi_c.o
+<stdin>: In function 'modn_ahdl_pPrintDescription':
+<stdin>:1033:229: warning: implicit declaration of function 'msgWrite' [-Wimplicit-function-declaration]
+<stdin>:1033:1105: warning: implicit declaration of function 'devGetRFinFreqDomain' [-Wimplicit-function-declaration]
+<stdin>: In function 'modn_ahdl_pGetInstanceParams':
+<stdin>:1048:1576: warning: implicit declaration of function 'devGetInstKnotStatus' [-Wimplicit-function-declaration]
+<stdin>: In function 'modn_ahdl_pDC_Load':
+<stdin>:1065:2940: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:0:
+/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2709:33: note: expected 'void *' but argument is of type 'long int'
+ ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'modn_ahdl_pCompare':
+<stdin>:1119:914: warning: implicit declaration of function 'spReplaceMatrixPointer' [-Wimplicit-function-declaration]
+<stdin>:1119:1782: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:1119:1863: warning: passing argument 1 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5:0,
+                 from /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:83,
+                 from <stdin>:24:
+/usr/include/string.h:43:14: note: expected 'void * restrict' but argument is of type 'long int'
+ extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+              ^~~~~~
+<stdin>:1119:1899: warning: passing argument 2 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5:0,
+                 from /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:83,
+                 from <stdin>:24:
+/usr/include/string.h:43:14: note: expected 'const void * restrict' but argument is of type 'long int'
+ extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+              ^~~~~~
+<stdin>:1119:2029: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'modn_ahdl_pGetMatrixPointers':
+<stdin>:1125:2375: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:1125:2519: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'modn_ahdl_pAnalTranLoad':
+<stdin>:1167:3299: warning: implicit declaration of function 'isEurekaFlow' [-Wimplicit-function-declaration]
+<stdin>:1167:0: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:0:
+/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2709:33: note: expected 'void *' but argument is of type 'long int'
+ ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<stdin>:1168:74: warning: passing argument 1 of 'aslDevFillZeroDiagQuartet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:0:
+/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2711:33: note: expected 'void *' but argument is of type 'long int'
+ ASL_FUNC_DECL_START extern void aslDevFillZeroDiagQuartet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'modn_ahdl_pSaveRestart':
+<stdin>:1194:1832: warning: implicit declaration of function 'mmsThreshSR' [-Wimplicit-function-declaration]
+<stdin>:1194:2193: warning: implicit declaration of function 'pklAccessDouble' [-Wimplicit-function-declaration]
+<stdin>:1194:2272: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+In file included from <stdin>:24:0:
+/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1223:39: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+                                       ^~~~~~~~~~~~
+<stdin>: In function 'modn_ahdl_pSaveRestartInst':
+<stdin>:1197:2172: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+In file included from <stdin>:24:0:
+/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1223:39: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+                                       ^~~~~~~~~~~~
+<stdin>: In function 'ahdlmodn_ahdlDescInstall':
+<stdin>:1274:2043: warning: implicit declaration of function 'descSetSetContrInfoPtr' [-Wimplicit-function-declaration]
+<stdin>:1274:2451: warning: implicit declaration of function 'descSetCopySignals' [-Wimplicit-function-declaration]
+<stdin>:1274:4075: warning: implicit declaration of function 'descSetPrintDescription' [-Wimplicit-function-declaration]
+rm -f -rf modn_ahdl_DcFuncDerLoad.c
+rm -f -rf modn_ahdl_DcFuncLoad.c
+rm -f -rf modn_ahdl_TranFuncLoad.c
+rm -f -rf modn_ahdl_TranFuncDerLoad.c
+rm -f -rf modn_ahdl_func.c
+rm -f -rf modn_ahdl_cmi_c.c
+/eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc -shared -O3 -m64 -fPIC -o obj/optimize/5.0/libahdlcmi_modn_ahdl.so ./obj/optimize/5.0/modn_ahdl_func.o ./obj/optimize/5.0/modn_ahdl_DcFuncDerLoad.o ./obj/optimize/5.0/modn_ahdl_DcFuncLoad.o ./obj/optimize/5.0/modn_ahdl_TranFuncDerLoad.o ./obj/optimize/5.0/modn_ahdl_TranFuncLoad.o ./obj/optimize/5.0/modn_ahdl_cmi_c.o  -Wl,-rpath,/usr/lib -Wl,-rpath,/lib -s 
+rm -f -f ./obj/optimize/5.0/modn_ahdl_func.o ./obj/optimize/5.0/modn_ahdl_DcFuncDerLoad.o ./obj/optimize/5.0/modn_ahdl_DcFuncLoad.o ./obj/optimize/5.0/modn_ahdl_TranFuncDerLoad.o ./obj/optimize/5.0/modn_ahdl_TranFuncLoad.o ./obj/optimize/5.0/modn_ahdl_cmi_c.o 

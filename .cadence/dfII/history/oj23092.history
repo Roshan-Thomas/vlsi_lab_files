@@ -1,0 +1,1 @@
+("tb_inv:/\ttb_inv lab2024 schematic" (("open" (nil hierarchy "/{lab2024 tb_inv schematic }:a"))) (((-3.6 -1.5125) (1.675 2.375)) "a" "analogArtist-Schematic" 8))("inv:/\tinv lab2024 schematic" (("open" (nil hierarchy "/{lab2024 inv schematic }:a"))) (((-1.4 -1.55) (2.2875 1.325)) "a" "Schematics" 10))

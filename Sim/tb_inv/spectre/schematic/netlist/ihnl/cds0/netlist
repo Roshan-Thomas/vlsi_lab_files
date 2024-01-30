@@ -1,0 +1,6 @@
+    MN0 (out in 0 0) modn w=10u l=0.35u as=8.5e-12 ad=8.5e-12 ps=11.7u \
+        pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP0 (out in vdd! vdd!) modp w=6u l=0.35u as=5.1e-12 ad=5.1e-12 ps=7.7u \
+        pd=7.7u nrd=0.08333333 nrs=0.08333333 ng=1
+ends inv
+// End of subcircuit definition.
