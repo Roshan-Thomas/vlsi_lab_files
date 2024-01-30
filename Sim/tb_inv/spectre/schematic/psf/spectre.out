@@ -5,19 +5,19 @@ Copyright (C) 1989-2018 Cadence Design Systems, Inc. All rights reserved worldwi
 
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
 
-User: oj23092   Host: it075665.wks.bris.ac.uk   HostID: DE890A87   PID: 204388
-Memory  available: 6.6442 GB  physical: 16.2980 GB
+User: oj23092   Host: it075665.wks.bris.ac.uk   HostID: DE890A87   PID: 18929
+Memory  available: 8.1212 GB  physical: 16.2980 GB
 Linux   : Rocky Linux release 8.9 (Green Obsidian)
 CPU Type: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
         Socket: Processors [Frequency] (Hyperthreaded Processor)
-        0:       0 [3200.0] (  6 ),  1 [4300.0] (  7 ),  2 [3200.0] (  8 )
-                 3 [3200.0] (  9 ),  4 [3200.0] ( 10 ),  5 [3200.0] ( 11 )
+        0:       0 [4341.3] (  6 ),  1 [3200.0] (  7 ),  2 [3200.0] (  8 )
+                 3 [3200.0] (  9 ),  4 [3200.0] ( 10 ),  5 [4299.4] ( 11 )
         
-System load averages (1min, 5min, 15min) : 3.2 %, 1.3 %, 1.1 %
+System load averages (1min, 5min, 15min) : 0.2 %, 0.7 %, 0.7 %
 Hyperthreading is enabled
 
 
-Simulating `input.scs' on it075665.wks.bris.ac.uk at 10:14:36 AM, Tue Jan 30, 2024 (process id: 204388).
+Simulating `input.scs' on it075665.wks.bris.ac.uk at 12:34:41 PM, Tue Jan 30, 2024 (process id: 18929).
 Current working directory: /home/oj23092/VLSI_Design_Lab/Sim/tb_inv/spectre/schematic/netlist
 Command line:
      \
@@ -54,16 +54,16 @@ Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cap.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/bip.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/ind.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/esddiode.scs
-Time for NDB Parsing: CPU = 80.877 ms, elapsed = 213.849 ms.
-Time accumulated: CPU = 98.441 ms, elapsed = 213.853 ms.
-Peak resident memory used = 95.2 Mbytes.
+Time for NDB Parsing: CPU = 81.861 ms, elapsed = 213.243 ms.
+Time accumulated: CPU = 99.612 ms, elapsed = 213.247 ms.
+Peak resident memory used = 94.7 Mbytes.
 
 Existing shared object for module modn_ahdl is up to date.
 Installed compiled interface for modn_ahdl.
 Existing shared object for module modp_ahdl is up to date.
 Installed compiled interface for modp_ahdl.
-Time for Elaboration: CPU = 22.663 ms, elapsed = 22.927 ms.
-Time accumulated: CPU = 121.169 ms, elapsed = 236.844 ms.
+Time for Elaboration: CPU = 22.617 ms, elapsed = 23.3989 ms.
+Time accumulated: CPU = 122.297 ms, elapsed = 236.714 ms.
 Peak resident memory used = 104 Mbytes.
 
 
@@ -71,9 +71,9 @@ Warning from spectre during hierarchy flattening.
     WARNING (SPECTRE-17101): The value 'psf' specified using the 'checklimitdest' option will no longer be supported in future releases.
 
 
-Time for EDB Visiting: CPU = 1.177 ms, elapsed = 1.17993 ms.
-Time accumulated: CPU = 122.416 ms, elapsed = 238.093 ms.
-Peak resident memory used = 105 Mbytes.
+Time for EDB Visiting: CPU = 1.074 ms, elapsed = 1.07813 ms.
+Time accumulated: CPU = 123.445 ms, elapsed = 237.864 ms.
+Peak resident memory used = 104 Mbytes.
 
 Loading /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/lib/64bit/mdl/libSpectreEH_sh.so ...
 
@@ -148,9 +148,9 @@ Design checks inventory:
 Notice from spectre.
     2 warnings suppressed.
 
-Time for parsing: CPU = 46.384 ms, elapsed = 315.028 ms.
-Time accumulated: CPU = 168.853 ms, elapsed = 553.174 ms.
-Peak resident memory used = 123 Mbytes.
+Time for parsing: CPU = 45.741 ms, elapsed = 313.483 ms.
+Time accumulated: CPU = 169.241 ms, elapsed = 551.402 ms.
+Peak resident memory used = 122 Mbytes.
 
 ~~~~~~~~~~~~~~~~~~~~~~
 Pre-Simulation Summary
@@ -177,7 +177,7 @@ SOAC_modp_vbpsub : ON
 ************************************************
 Transient Analysis `tran': time = (0 s -> 10 ns)
 ************************************************
-DC simulation time: CPU = 228 us, elapsed = 228.882 us.
+DC simulation time: CPU = 279 us, elapsed = 281.096 us.
 
 Opening the PSF file ../psf/tran.tran.tran ...
 Important parameter values:
@@ -207,31 +207,31 @@ Output and IC/nodeset summary:
                  save   2       (current)
                  save   5       (voltage)
 
-    tran: time = 250.3 ps     (2.5 %), step = 42.15 ps     (421 m%)
-    tran: time = 823.3 ps    (8.23 %), step = 100 ps          (1 %)
-    tran: time = 1.252 ns    (12.5 %), step = 7.843 ps    (78.4 m%)
-    tran: time = 1.77 ns     (17.7 %), step = 88.61 ps     (886 m%)
-    tran: time = 2.257 ns    (22.6 %), step = 49.48 ps     (495 m%)
-    tran: time = 2.849 ns    (28.5 %), step = 100 ps          (1 %)
-    tran: time = 3.255 ns    (32.5 %), step = 5.898 ps      (59 m%)
-    tran: time = 3.767 ns    (37.7 %), step = 87.43 ps     (874 m%)
-    tran: time = 4.327 ns    (43.3 %), step = 79.9 ps      (799 m%)
-    tran: time = 4.827 ns    (48.3 %), step = 100 ps          (1 %)
-    tran: time = 5.255 ns    (52.6 %), step = 5.858 ps    (58.6 m%)
-    tran: time = 5.85 ns     (58.5 %), step = 100 ps          (1 %)
-    tran: time = 6.328 ns    (63.3 %), step = 80.16 ps     (802 m%)
-    tran: time = 6.828 ns    (68.3 %), step = 100 ps          (1 %)
-    tran: time = 7.252 ns    (72.5 %), step = 8.565 ps    (85.6 m%)
-    tran: time = 7.848 ns    (78.5 %), step = 100 ps          (1 %)
-    tran: time = 8.327 ns    (83.3 %), step = 79.61 ps     (796 m%)
-    tran: time = 8.827 ns    (88.3 %), step = 100 ps          (1 %)
-    tran: time = 9.255 ns    (92.6 %), step = 5.864 ps    (58.6 m%)
-    tran: time = 9.846 ns    (98.5 %), step = 100 ps          (1 %)
-Number of accepted tran steps =             1133
+    tran: time = 254.7 ps    (2.55 %), step = 6.675 ps    (66.7 m%)
+    tran: time = 793.5 ps    (7.94 %), step = 100 ps          (1 %)
+    tran: time = 1.256 ns    (12.6 %), step = 9.386 ps    (93.9 m%)
+    tran: time = 1.756 ns    (17.6 %), step = 8.9 ps        (89 m%)
+    tran: time = 2.252 ns    (22.5 %), step = 6.585 ps    (65.8 m%)
+    tran: time = 2.842 ns    (28.4 %), step = 100 ps          (1 %)
+    tran: time = 3.257 ns    (32.6 %), step = 9.265 ps    (92.7 m%)
+    tran: time = 3.757 ns    (37.6 %), step = 8.928 ps    (89.3 m%)
+    tran: time = 4.255 ns    (42.5 %), step = 6.695 ps    (66.9 m%)
+    tran: time = 4.755 ns    (47.5 %), step = 100 ps          (1 %)
+    tran: time = 5.259 ns    (52.6 %), step = 9.017 ps    (90.2 m%)
+    tran: time = 5.751 ns    (57.5 %), step = 8.771 ps    (87.7 m%)
+    tran: time = 6.25 ns     (62.5 %), step = 6.517 ps    (65.2 m%)
+    tran: time = 6.81 ns     (68.1 %), step = 100 ps          (1 %)
+    tran: time = 7.253 ns    (72.5 %), step = 9.627 ps    (96.3 m%)
+    tran: time = 7.756 ns    (77.6 %), step = 8.9 ps        (89 m%)
+    tran: time = 8.252 ns    (82.5 %), step = 6.6 ps        (66 m%)
+    tran: time = 8.751 ns    (87.5 %), step = 100 ps          (1 %)
+    tran: time = 9.25 ns     (92.5 %), step = 10.11 ps     (101 m%)
+    tran: time = 9.757 ns    (97.6 %), step = 8.938 ps    (89.4 m%)
+Number of accepted tran steps =             1273
 
 Maximum value achieved for any signal of each quantity: 
-V: V(I0.MP0:int_d) = 3.398 V
-I: I(V1:p) = 1.325 mA
+V: V(I0.MP0:int_d) = 3.333 V
+I: I(V0:p) = 339.4 uA
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Post-Transient Simulation Summary
@@ -245,15 +245,15 @@ Post-Transient Simulation Summary
 
 
 During simulation, the CPU load for active processors is :
-        Spectre  0 (23.2 %)      1 (8.9 %)       2 (25.0 %)      3 (5.3 %)
-                 4 (3.6 %)       5 (6.9 %)       6 (19.6 %)      7 (7.1 %)
-                 8 (8.8 %)       9 (5.4 %)      10 (3.6 %)      11 (7.1 %)
+        Spectre  0 (12.5 %)      1 (10.5 %)      2 (14.0 %)      3 (7.0 %)
+                 4 (3.5 %)       5 (29.8 %)      6 (8.9 %)       7 (6.9 %)
+                 8 (5.4 %)       9 (7.0 %)      10 (3.5 %)      11 (23.7 %)
         Other   
-Initial condition solution time: CPU = 252 us, elapsed = 253.201 us.
-Intrinsic tran analysis time:    CPU = 52.334 ms, elapsed = 55.2349 ms.
-Total time required for tran analysis `tran': CPU = 82.005 ms, elapsed = 97.151 ms.
-Time accumulated: CPU = 254.7 ms, elapsed = 660.781 ms.
-Peak resident memory used = 127 Mbytes.
+Initial condition solution time: CPU = 305 us, elapsed = 309.944 us.
+Intrinsic tran analysis time:    CPU = 63.032 ms, elapsed = 66.7572 ms.
+Total time required for tran analysis `tran': CPU = 92.586 ms, elapsed = 109.294 ms.
+Time accumulated: CPU = 265.691 ms, elapsed = 671.279 ms.
+Peak resident memory used = 126 Mbytes.
 
 finalTimeOP: writing operating point information to rawfile.
 
@@ -277,9 +277,9 @@ subckts: writing subcircuits to rawfile.
 
 Opening the PSFASCII file ../psf/subckts.info.subckts ...
 
-Aggregate audit (10:14:37 AM, Tue Jan 30, 2024):
-Time used: CPU = 266 ms, elapsed = 689 ms, util. = 38.6%.
-Time spent in licensing: elapsed = 84.4 ms, percentage of total = 12.3%.
+Aggregate audit (12:34:42 PM, Tue Jan 30, 2024):
+Time used: CPU = 277 ms, elapsed = 700 ms, util. = 39.6%.
+Time spent in licensing: elapsed = 83.7 ms, percentage of total = 12%.
 Peak memory used = 128 Mbytes.
-Simulation started at: 10:14:36 AM, Tue Jan 30, 2024, ended at: 10:14:37 AM, Tue Jan 30, 2024, with elapsed time (wall clock): 689 ms.
+Simulation started at: 12:34:41 PM, Tue Jan 30, 2024, ended at: 12:34:42 PM, Tue Jan 30, 2024, with elapsed time (wall clock): 700 ms.
 spectre completes with 0 errors, 12 warnings, and 3 notices.

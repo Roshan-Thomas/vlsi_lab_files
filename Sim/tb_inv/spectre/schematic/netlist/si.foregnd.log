@@ -393,13 +393,17 @@ hnlPrintTopCellHeader hnlPrintTopCellFooter hnlPrintPorts hnlPrintDeviceHeader
 hnlPrintDeviceFooter hnlPrintInst) .
 Loading the file
 '/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools.lnx86/dfII/etc/skill/hnl/spectre.ile'.Loading the file
-'/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools.lnx86/dfII/etc/skill/hnl/driver.ile'.Begin Incremental Netlisting Jan 30 10:03:44 2024
-End netlisting Jan 30 10:03:45 2024
-Begin Incremental Netlisting Jan 30 10:07:03 2024
-End netlisting Jan 30 10:07:03 2024
-Begin Incremental Netlisting Jan 30 10:07:43 2024
-End netlisting Jan 30 10:07:43 2024
-Begin Incremental Netlisting Jan 30 10:14:28 2024
-End netlisting Jan 30 10:14:28 2024
-Begin Incremental Netlisting Jan 30 10:14:36 2024
-End netlisting Jan 30 10:14:36 2024
+'/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools.lnx86/dfII/etc/skill/hnl/driver.ile'.Begin Incremental Netlisting Jan 30 11:46:56 2024
+End netlisting Jan 30 11:46:56 2024
+Begin Incremental Netlisting Jan 30 11:47:27 2024
+End netlisting Jan 30 11:47:27 2024
+Begin Incremental Netlisting Jan 30 11:48:25 2024
+End netlisting Jan 30 11:48:26 2024
+Begin Incremental Netlisting Jan 30 12:12:30 2024
+End netlisting Jan 30 12:12:30 2024
+Begin Incremental Netlisting Jan 30 12:12:41 2024
+End netlisting Jan 30 12:12:41 2024
+Begin Incremental Netlisting Jan 30 12:34:30 2024
+End netlisting Jan 30 12:34:30 2024
+Begin Incremental Netlisting Jan 30 12:34:41 2024
+End netlisting Jan 30 12:34:41 2024

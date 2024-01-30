@@ -4,6 +4,6 @@
 // View name: schematic
 I0 (net2 net3) inv
 V0 (vdd! 0) vsource dc=3.3 type=dc
-C0 (net3 0) capacitor c=12f
+C0 (net3 0) capacitor c=25f
 V1 (net2 0) vsource type=pulse val0=0 val1=3.3 period=2n rise=100p \
         fall=100p width=1n
