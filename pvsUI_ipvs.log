@@ -1,9 +1,2 @@
-WARNING: HOST <it075665.wks.bris.ac.uk> DOES NOT APPEAR TO BE A CADENCE SUPPORTED LINUX CONFIGURATION.
-         For More Info,  Please Run '<cdsroot>/tools.lnx86/bin/checkSysConf' <productId>.
-
-pvsgui:    INFO: Note that OpenAccess (OA) requires running the Configure phase.
-pvsgui:          See the "OpenAccess Installation and Configuration Guide" before
-pvsgui:          you complete the configuration step. This manual is included with
-pvsgui:          the Cadence product documentation.
-pvsgui:   ERROR: The command /eda/cadence/2018-19/RHELx86/PVS_16.12.000/share/oa/bin/sysname returned an error status:
-                            unknown
+2024/01/31 13:06:07 WARNING The glibc version of this host does not appear to be a Cadence supported version.
+2024/01/31 13:06:07 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>

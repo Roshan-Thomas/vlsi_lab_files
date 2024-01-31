@@ -1,8 +1,9 @@
-819265
-375074
-modn_ahdl_DcFuncDerLoad.c 0 31591
-modn_ahdl_DcFuncLoad.c 31591 30240
-modn_ahdl_TranFuncDerLoad.c 61831 40440
-modn_ahdl_TranFuncLoad.c 102271 39121
-modn_ahdl_cmi_c.c 141392 151704
-modn_ahdl_func.c 293096 80954
+196671
+413353
+modn_ahdl_DcFuncDerLoad.c 0 31648
+modn_ahdl_DcFuncLoad.c 31648 30297
+modn_ahdl_OpPointCalc.c 61945 27018
+modn_ahdl_TranFuncDerLoad.c 88963 40696
+modn_ahdl_TranFuncLoad.c 129659 39370
+modn_ahdl_cmi_c.c 169029 154556
+modn_ahdl_func.c 323585 81576

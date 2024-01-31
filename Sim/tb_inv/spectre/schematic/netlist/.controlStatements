@@ -1,4 +1,4 @@
-simulatorOptions options psfversion="1.1.0" reltol=100e-6 vabstol=1e-6 \
+simulatorOptions options psfversion="1.4.0" reltol=100e-6 vabstol=1e-6 \
     iabstol=1e-12 temp=27 tnom=27 homotopy=all limit=delta scalem=1.0 \
     scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
     digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \

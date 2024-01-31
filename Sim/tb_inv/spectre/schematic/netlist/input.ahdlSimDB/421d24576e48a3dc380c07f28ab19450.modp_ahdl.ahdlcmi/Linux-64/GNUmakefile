@@ -1,6 +1,6 @@
 DELETE_CFILE := YES
 BSRC_PRE_COMPILE := NO
-AHDLCC := /eda/cadence/2018-19/RHELx86/SPECTRE_18.10.077/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc
+AHDLCC := /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc
 ENCRYPTED_MOD := 0
 # -*- mode: makefile -*-
 # -*- eval: font-lock-fontify-buffer -*-

@@ -1,5 +1,5 @@
 // Generated for: spectre
-// Generated on: Jan 30 12:34:41 2024
+// Generated on: Jan 31 14:22:22 2024
 // Design library name: lab2024
 // Design cell name: tb_inv
 // Design view name: schematic
@@ -20,8 +20,8 @@ include "/eda/cadence/ams/4.10/spectre/c35/soac/esddiode.scs" section=esddiodetm
 subckt inv in out
     MN0 (out in 0 0) modn w=1.6u l=0.35u as=1.36e-12 ad=1.36e-12 ps=3.3u \
         pd=3.3u nrd=0.3125 nrs=0.3125 ng=1
-    MP0 (out in vdd! vdd!) modp w=1.45u l=0.35u as=1.2325e-12 \
-        ad=1.2325e-12 ps=3.15u pd=3.15u nrd=0.3448276 nrs=0.3448276 ng=1
+    MP0 (out in vdd! vdd!) modp w=3.25u l=0.35u as=2.7625e-12 \
+        ad=2.7625e-12 ps=4.95u pd=4.95u nrd=0.1538462 nrs=0.1538462 ng=1
 ends inv
 // End of subcircuit definition.
 
@@ -33,7 +33,7 @@ V0 (vdd! 0) vsource dc=3.3 type=dc
 C0 (net3 0) capacitor c=25f
 V1 (net2 0) vsource type=pulse val0=0 val1=3.3 period=2n rise=100p \
         fall=100p width=1n
-simulatorOptions options psfversion="1.1.0" reltol=100e-6 vabstol=1e-6 \
+simulatorOptions options psfversion="1.4.0" reltol=100e-6 vabstol=1e-6 \
     iabstol=1e-12 temp=27 tnom=27 homotopy=all limit=delta scalem=1.0 \
     scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
     digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \

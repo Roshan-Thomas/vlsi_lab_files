@@ -16,7 +16,7 @@ si: simSetDef().... simDefaultSimulator is already set to "spice". Redefinition
 to nil is ignored.
 si: simSetDef().... simDefaultRunDir is already set to "spice.run1".
 Redefinition to nil is ignored.
-si: simSetDef().... simSymbolModifiedAction is initialized to "ignore" .
+si: simSetDef().... simSymbolModifiedAction is initialized to "warning" .
 si: simSetDef().... simOtherInfo is initialized to "nil".
 si: simSetDef().... simIsFlattenP is initialized to "nil".
 si: simSetDef().... simStlInputFile is initialized to "input.stl" .
@@ -150,7 +150,8 @@ hnlNetlistFileList hnlNetlistFileName hnlNetNameDifferentFrom
 hnlOverrideViewList hnlPreviousError hnlReNetlistAll hnlRlistString
 hnlslistString hnlSoftLineLength hnlStopList hnlTarget hnlTermNameDifferentFrom
 hnlParamNameDifferentFrom hnlTopCell hnlTopCellFuncs hnlViewList
-hnlInvalidLineBreakChars hnlHonorLxRemoveDevice hnlCurrentSourceFilePath
+hnlInvalidLineBreakChars hnlHonorLxRemoveDevice hnlShortTwoTermPolicy
+hnlLxRemovePropertyOrder hnlCaseSensitiveShortProperty hnlCurrentSourceFilePath
 hnlCurrentSourceFileModel hnlStoppingPropName hnlVerilogViewName
 hnlCurrentInstHdbProps hnlCurrentInstOverCellHdbProps hnlLastInvalidInstNames
 hnlLastInvalidModelNames hnlLastInvalidNames hnlLastInvalidNetNames
@@ -161,7 +162,13 @@ hnlLastMapModelFirstChar hnlLastMapModelInName hnlLastMapNetFirstChar
 hnlLastMapNetInName hnlLastMapTermFirstChar hnlLastMapTermInName
 hnlLastTermNameDifferentFrom hnlLastParamNameDifferentFrom
 hnlLastMapParamFirstChar hnlLastMapParamInName hnlEMH
-_hnlPostNetlistTriggerProcList _hnlPreNetlistTriggerProcList) .
+_simPostNetlistTriggerProcList _simPreNetlistTriggerProcList smashNetlistON
+generateFullyFlatNetlist simPrintInstAsBlackBox
+hnlProcessAliasSignalWithSourceDirection hnlProcessConnectionsInAscendingOrder
+hnlUseSchematicForSystemVerilogView simSupportDuplicatePorts
+hnlDisableObserverDuringElaboration hnlBusDirectionPolicy
+hnlProcessDifferentPmAndInstTerminalRepresentation hnlSurviveNetLabel
+hnlOptimizeCellGenerationInConfig) .
 si: simSetDef().... simTermNamePrefix is initialized to "nil".
 si: simSetDef().... simParamNamePrefix is already set to "_par". Redefinition to
 nil is ignored.
@@ -218,8 +225,35 @@ si: simSetDef().... hnlInvalidNetNames is already set to (("gnd!" "0") ("0"
 "plot" "print" "process" "save" "sens" "statistics" "subckt" "to" "truncate"
 "vary" "temp" "tnom" "scalem" "scale" "export" "int" "library" "function"
 "endfunction" "real" "integer" "input" "return" "FUNCTION" "montecarlo" "pwr"
-"analogmodel" "protect" "PROTECT" "prot" "PROT" "0"). Redefinition to nil is
-ignored.
+"analogmodel" "prot" "Prot" "pRot" "PRot" "prOt" "PrOt" "pROt" "PROt" "proT"
+"ProT" "pRoT" "PRoT" "prOT" "PrOT" "pROT" "PROT" "prote" "Prote" "pRote" "PRote"
+"prOte" "PrOte" "pROte" "PROte" "proTe" "ProTe" "pRoTe" "PRoTe" "prOTe" "PrOTe"
+"pROTe" "PROTe" "protE" "ProtE" "pRotE" "PRotE" "prOtE" "PrOtE" "pROtE" "PROtE"
+"proTE" "ProTE" "pRoTE" "PRoTE" "prOTE" "PrOTE" "pROTE" "PROTE" "protec"
+"Protec" "pRotec" "PRotec" "prOtec" "PrOtec" "pROtec" "PROtec" "proTec" "ProTec"
+"pRoTec" "PRoTec" "prOTec" "PrOTec" "pROTec" "PROTec" "protEc" "ProtEc" "pRotEc"
+"PRotEc" "prOtEc" "PrOtEc" "pROtEc" "PROtEc" "proTEc" "ProTEc" "pRoTEc" "PRoTEc"
+"prOTEc" "PrOTEc" "pROTEc" "PROTEc" "proteC" "ProteC" "pRoteC" "PRoteC" "prOteC"
+"PrOteC" "pROteC" "PROteC" "proTeC" "ProTeC" "pRoTeC" "PRoTeC" "prOTeC" "PrOTeC"
+"pROTeC" "PROTeC" "protEC" "ProtEC" "pRotEC" "PRotEC" "prOtEC" "PrOtEC" "pROtEC"
+"PROtEC" "proTEC" "ProTEC" "pRoTEC" "PRoTEC" "prOTEC" "PrOTEC" "pROTEC" "PROTEC"
+"protect" "Protect" "pRotect" "PRotect" "prOtect" "PrOtect" "pROtect" "PROtect"
+"proTect" "ProTect" "pRoTect" "PRoTect" "prOTect" "PrOTect" "pROTect" "PROTect"
+"protEct" "ProtEct" "pRotEct" "PRotEct" "prOtEct" "PrOtEct" "pROtEct" "PROtEct"
+"proTEct" "ProTEct" "pRoTEct" "PRoTEct" "prOTEct" "PrOTEct" "pROTEct" "PROTEct"
+"proteCt" "ProteCt" "pRoteCt" "PRoteCt" "prOteCt" "PrOteCt" "pROteCt" "PROteCt"
+"proTeCt" "ProTeCt" "pRoTeCt" "PRoTeCt" "prOTeCt" "PrOTeCt" "pROTeCt" "PROTeCt"
+"protECt" "ProtECt" "pRotECt" "PRotECt" "prOtECt" "PrOtECt" "pROtECt" "PROtECt"
+"proTECt" "ProTECt" "pRoTECt" "PRoTECt" "prOTECt" "PrOTECt" "pROTECt" "PROTECt"
+"protecT" "ProtecT" "pRotecT" "PRotecT" "prOtecT" "PrOtecT" "pROtecT" "PROtecT"
+"proTecT" "ProTecT" "pRoTecT" "PRoTecT" "prOTecT" "PrOTecT" "pROTecT" "PROTecT"
+"protEcT" "ProtEcT" "pRotEcT" "PRotEcT" "prOtEcT" "PrOtEcT" "pROtEcT" "PROtEcT"
+"proTEcT" "ProTEcT" "pRoTEcT" "PRoTEcT" "prOTEcT" "PrOTEcT" "pROTEcT" "PROTEcT"
+"proteCT" "ProteCT" "pRoteCT" "PRoteCT" "prOteCT" "PrOteCT" "pROteCT" "PROteCT"
+"proTeCT" "ProTeCT" "pRoTeCT" "PRoTeCT" "prOTeCT" "PrOTeCT" "pROTeCT" "PROTeCT"
+"protECT" "ProtECT" "pRotECT" "PRotECT" "prOtECT" "PrOtECT" "pROtECT" "PROtECT"
+"proTECT" "ProTECT" "pRoTECT" "PRoTECT" "prOTECT" "PrOTECT" "pROTECT" "PROTECT"
+"0"). Redefinition to nil is ignored.
 si: simSetDef().... hnlInvalidInstNames is already set to ("M_1_PI" "M_2_PI"
 "M_2_SQRTPI" "M_DEGPERRAD" "M_E" "M_LN10" "M_LN2" "M_LOG10E" "M_LOG2E" "M_PI"
 "M_PI_2" "M_PI_4" "M_SQRT1_2" "M_SQRT2" "M_TWO_PI" "P_C" "P_CELSIUS0" "P_EPS0"
@@ -230,8 +264,36 @@ si: simSetDef().... hnlInvalidInstNames is already set to ("M_1_PI" "M_2_PI"
 "model" "nodeset" "output" "parameters" "paramset" "plot" "print" "process"
 "save" "sens" "statistics" "subckt" "to" "truncate" "vary" "temp" "tnom"
 "scalem" "scale" "export" "int" "library" "function" "endfunction" "real"
-"integer" "input" "return" "FUNCTION" "montecarlo" "pwr" "analogmodel" "protect"
-"PROTECT" "prot" "PROT"). Redefinition to nil is ignored.
+"integer" "input" "return" "FUNCTION" "montecarlo" "pwr" "analogmodel" "prot"
+"Prot" "pRot" "PRot" "prOt" "PrOt" "pROt" "PROt" "proT" "ProT" "pRoT" "PRoT"
+"prOT" "PrOT" "pROT" "PROT" "prote" "Prote" "pRote" "PRote" "prOte" "PrOte"
+"pROte" "PROte" "proTe" "ProTe" "pRoTe" "PRoTe" "prOTe" "PrOTe" "pROTe" "PROTe"
+"protE" "ProtE" "pRotE" "PRotE" "prOtE" "PrOtE" "pROtE" "PROtE" "proTE" "ProTE"
+"pRoTE" "PRoTE" "prOTE" "PrOTE" "pROTE" "PROTE" "protec" "Protec" "pRotec"
+"PRotec" "prOtec" "PrOtec" "pROtec" "PROtec" "proTec" "ProTec" "pRoTec" "PRoTec"
+"prOTec" "PrOTec" "pROTec" "PROTec" "protEc" "ProtEc" "pRotEc" "PRotEc" "prOtEc"
+"PrOtEc" "pROtEc" "PROtEc" "proTEc" "ProTEc" "pRoTEc" "PRoTEc" "prOTEc" "PrOTEc"
+"pROTEc" "PROTEc" "proteC" "ProteC" "pRoteC" "PRoteC" "prOteC" "PrOteC" "pROteC"
+"PROteC" "proTeC" "ProTeC" "pRoTeC" "PRoTeC" "prOTeC" "PrOTeC" "pROTeC" "PROTeC"
+"protEC" "ProtEC" "pRotEC" "PRotEC" "prOtEC" "PrOtEC" "pROtEC" "PROtEC" "proTEC"
+"ProTEC" "pRoTEC" "PRoTEC" "prOTEC" "PrOTEC" "pROTEC" "PROTEC" "protect"
+"Protect" "pRotect" "PRotect" "prOtect" "PrOtect" "pROtect" "PROtect" "proTect"
+"ProTect" "pRoTect" "PRoTect" "prOTect" "PrOTect" "pROTect" "PROTect" "protEct"
+"ProtEct" "pRotEct" "PRotEct" "prOtEct" "PrOtEct" "pROtEct" "PROtEct" "proTEct"
+"ProTEct" "pRoTEct" "PRoTEct" "prOTEct" "PrOTEct" "pROTEct" "PROTEct" "proteCt"
+"ProteCt" "pRoteCt" "PRoteCt" "prOteCt" "PrOteCt" "pROteCt" "PROteCt" "proTeCt"
+"ProTeCt" "pRoTeCt" "PRoTeCt" "prOTeCt" "PrOTeCt" "pROTeCt" "PROTeCt" "protECt"
+"ProtECt" "pRotECt" "PRotECt" "prOtECt" "PrOtECt" "pROtECt" "PROtECt" "proTECt"
+"ProTECt" "pRoTECt" "PRoTECt" "prOTECt" "PrOTECt" "pROTECt" "PROTECt" "protecT"
+"ProtecT" "pRotecT" "PRotecT" "prOtecT" "PrOtecT" "pROtecT" "PROtecT" "proTecT"
+"ProTecT" "pRoTecT" "PRoTecT" "prOTecT" "PrOTecT" "pROTecT" "PROTecT" "protEcT"
+"ProtEcT" "pRotEcT" "PRotEcT" "prOtEcT" "PrOtEcT" "pROtEcT" "PROtEcT" "proTEcT"
+"ProTEcT" "pRoTEcT" "PRoTEcT" "prOTEcT" "PrOTEcT" "pROTEcT" "PROTEcT" "proteCT"
+"ProteCT" "pRoteCT" "PRoteCT" "prOteCT" "PrOteCT" "pROteCT" "PROteCT" "proTeCT"
+"ProTeCT" "pRoTeCT" "PRoTeCT" "prOTeCT" "PrOTeCT" "pROTeCT" "PROTeCT" "protECT"
+"ProtECT" "pRotECT" "PRotECT" "prOtECT" "PrOtECT" "pROtECT" "PROtECT" "proTECT"
+"ProTECT" "pRoTECT" "PRoTECT" "prOTECT" "PrOTECT" "pROTECT" "PROTECT").
+Redefinition to nil is ignored.
 si: simSetDef().... hnlInvalidModelNames is already set to ("M_1_PI" "M_2_PI"
 "M_2_SQRTPI" "M_DEGPERRAD" "M_E" "M_LN10" "M_LN2" "M_LOG10E" "M_LOG2E" "M_PI"
 "M_PI_2" "M_PI_4" "M_SQRT1_2" "M_SQRT2" "M_TWO_PI" "P_C" "P_CELSIUS0" "P_EPS0"
@@ -242,8 +304,36 @@ si: simSetDef().... hnlInvalidModelNames is already set to ("M_1_PI" "M_2_PI"
 "model" "nodeset" "output" "parameters" "paramset" "plot" "print" "process"
 "save" "sens" "statistics" "subckt" "to" "truncate" "vary" "temp" "tnom"
 "scalem" "scale" "export" "int" "library" "function" "endfunction" "real"
-"integer" "input" "return" "FUNCTION" "montecarlo" "pwr" "analogmodel" "protect"
-"PROTECT" "prot" "PROT"). Redefinition to nil is ignored.
+"integer" "input" "return" "FUNCTION" "montecarlo" "pwr" "analogmodel" "prot"
+"Prot" "pRot" "PRot" "prOt" "PrOt" "pROt" "PROt" "proT" "ProT" "pRoT" "PRoT"
+"prOT" "PrOT" "pROT" "PROT" "prote" "Prote" "pRote" "PRote" "prOte" "PrOte"
+"pROte" "PROte" "proTe" "ProTe" "pRoTe" "PRoTe" "prOTe" "PrOTe" "pROTe" "PROTe"
+"protE" "ProtE" "pRotE" "PRotE" "prOtE" "PrOtE" "pROtE" "PROtE" "proTE" "ProTE"
+"pRoTE" "PRoTE" "prOTE" "PrOTE" "pROTE" "PROTE" "protec" "Protec" "pRotec"
+"PRotec" "prOtec" "PrOtec" "pROtec" "PROtec" "proTec" "ProTec" "pRoTec" "PRoTec"
+"prOTec" "PrOTec" "pROTec" "PROTec" "protEc" "ProtEc" "pRotEc" "PRotEc" "prOtEc"
+"PrOtEc" "pROtEc" "PROtEc" "proTEc" "ProTEc" "pRoTEc" "PRoTEc" "prOTEc" "PrOTEc"
+"pROTEc" "PROTEc" "proteC" "ProteC" "pRoteC" "PRoteC" "prOteC" "PrOteC" "pROteC"
+"PROteC" "proTeC" "ProTeC" "pRoTeC" "PRoTeC" "prOTeC" "PrOTeC" "pROTeC" "PROTeC"
+"protEC" "ProtEC" "pRotEC" "PRotEC" "prOtEC" "PrOtEC" "pROtEC" "PROtEC" "proTEC"
+"ProTEC" "pRoTEC" "PRoTEC" "prOTEC" "PrOTEC" "pROTEC" "PROTEC" "protect"
+"Protect" "pRotect" "PRotect" "prOtect" "PrOtect" "pROtect" "PROtect" "proTect"
+"ProTect" "pRoTect" "PRoTect" "prOTect" "PrOTect" "pROTect" "PROTect" "protEct"
+"ProtEct" "pRotEct" "PRotEct" "prOtEct" "PrOtEct" "pROtEct" "PROtEct" "proTEct"
+"ProTEct" "pRoTEct" "PRoTEct" "prOTEct" "PrOTEct" "pROTEct" "PROTEct" "proteCt"
+"ProteCt" "pRoteCt" "PRoteCt" "prOteCt" "PrOteCt" "pROteCt" "PROteCt" "proTeCt"
+"ProTeCt" "pRoTeCt" "PRoTeCt" "prOTeCt" "PrOTeCt" "pROTeCt" "PROTeCt" "protECt"
+"ProtECt" "pRotECt" "PRotECt" "prOtECt" "PrOtECt" "pROtECt" "PROtECt" "proTECt"
+"ProTECt" "pRoTECt" "PRoTECt" "prOTECt" "PrOTECt" "pROTECt" "PROTECt" "protecT"
+"ProtecT" "pRotecT" "PRotecT" "prOtecT" "PrOtecT" "pROtecT" "PROtecT" "proTecT"
+"ProTecT" "pRoTecT" "PRoTecT" "prOTecT" "PrOTecT" "pROTecT" "PROTecT" "protEcT"
+"ProtEcT" "pRotEcT" "PRotEcT" "prOtEcT" "PrOtEcT" "pROtEcT" "PROtEcT" "proTEcT"
+"ProTEcT" "pRoTEcT" "PRoTEcT" "prOTEcT" "PrOTEcT" "pROTEcT" "PROTEcT" "proteCT"
+"ProteCT" "pRoteCT" "PRoteCT" "prOteCT" "PrOteCT" "pROteCT" "PROteCT" "proTeCT"
+"ProTeCT" "pRoTeCT" "PRoTeCT" "prOTeCT" "PrOTeCT" "pROTeCT" "PROTeCT" "protECT"
+"ProtECT" "pRotECT" "PRotECT" "prOtECT" "PrOtECT" "pROtECT" "PROtECT" "proTECT"
+"ProTECT" "pRoTECT" "PRoTECT" "prOTECT" "PrOTECT" "pROTECT" "PROTECT").
+Redefinition to nil is ignored.
 si: simSetDef().... hnlInvalidTermNames is initialized to "nil".
 si: simSetDef().... hnlInvalidParamNames is already set to ("altergroup"
 "calculate" "correlate" "else" "end" "ends" "for" "global" "ic" "if" "inline"
@@ -251,18 +341,45 @@ si: simSetDef().... hnlInvalidParamNames is already set to ("altergroup"
 "plot" "print" "process" "save" "sens" "statistics" "subckt" "to" "truncate"
 "vary" "temp" "tnom" "scalem" "scale" "export" "int" "library" "function"
 "endfunction" "real" "integer" "input" "return" "FUNCTION" "montecarlo" "pwr"
-"analogmodel" "protect" "PROTECT" "prot" "PROT" "abs" "acos" "acosh" "asin"
-"asinh" "atan" "atan2" "atanh" "cos" "cosh" "exp" "hypot" "log" "log10" "max"
-"min" "pow" "sin" "sinh" "sqrt" "tan" "tanh" "ceil" "floor" "fmod" "absin"
-"absolute" "absout" "all" "allglobal" "alllocal" "allpub" "autodc" "awb"
-"backward" "bert" "bilinear" "both" "breakdown" "brief" "brk" "bsim" "bulk"
-"cdsspice" "child" "continue" "correlations" "conservative" "dc" "debug" "delta"
-"detailed" "dev" "diff" "dptran" "eng" "error" "euler" "exp" "fatal" "file"
-"finish" "float" "forward" "full" "fwd" "gear2" "gear2only" "gmin" "gnd"
-"hspice" "in" "indifferent" "input" "insist" "inst" "inversez" "isdb" "lateral"
-"liberal" "list" "log" "logfile" "lvl" "lvlpub" "max_only" "max_v_only" "meyer"
-"min" "mismatch" "models" "moderate" "n" "no" "node" "nodes"
-"nodes_and_terminals" "none" "nonlinear" "normal" "nowhere" "npn" "npnv"
+"analogmodel" "prot" "Prot" "pRot" "PRot" "prOt" "PrOt" "pROt" "PROt" "proT"
+"ProT" "pRoT" "PRoT" "prOT" "PrOT" "pROT" "PROT" "prote" "Prote" "pRote" "PRote"
+"prOte" "PrOte" "pROte" "PROte" "proTe" "ProTe" "pRoTe" "PRoTe" "prOTe" "PrOTe"
+"pROTe" "PROTe" "protE" "ProtE" "pRotE" "PRotE" "prOtE" "PrOtE" "pROtE" "PROtE"
+"proTE" "ProTE" "pRoTE" "PRoTE" "prOTE" "PrOTE" "pROTE" "PROTE" "protec"
+"Protec" "pRotec" "PRotec" "prOtec" "PrOtec" "pROtec" "PROtec" "proTec" "ProTec"
+"pRoTec" "PRoTec" "prOTec" "PrOTec" "pROTec" "PROTec" "protEc" "ProtEc" "pRotEc"
+"PRotEc" "prOtEc" "PrOtEc" "pROtEc" "PROtEc" "proTEc" "ProTEc" "pRoTEc" "PRoTEc"
+"prOTEc" "PrOTEc" "pROTEc" "PROTEc" "proteC" "ProteC" "pRoteC" "PRoteC" "prOteC"
+"PrOteC" "pROteC" "PROteC" "proTeC" "ProTeC" "pRoTeC" "PRoTeC" "prOTeC" "PrOTeC"
+"pROTeC" "PROTeC" "protEC" "ProtEC" "pRotEC" "PRotEC" "prOtEC" "PrOtEC" "pROtEC"
+"PROtEC" "proTEC" "ProTEC" "pRoTEC" "PRoTEC" "prOTEC" "PrOTEC" "pROTEC" "PROTEC"
+"protect" "Protect" "pRotect" "PRotect" "prOtect" "PrOtect" "pROtect" "PROtect"
+"proTect" "ProTect" "pRoTect" "PRoTect" "prOTect" "PrOTect" "pROTect" "PROTect"
+"protEct" "ProtEct" "pRotEct" "PRotEct" "prOtEct" "PrOtEct" "pROtEct" "PROtEct"
+"proTEct" "ProTEct" "pRoTEct" "PRoTEct" "prOTEct" "PrOTEct" "pROTEct" "PROTEct"
+"proteCt" "ProteCt" "pRoteCt" "PRoteCt" "prOteCt" "PrOteCt" "pROteCt" "PROteCt"
+"proTeCt" "ProTeCt" "pRoTeCt" "PRoTeCt" "prOTeCt" "PrOTeCt" "pROTeCt" "PROTeCt"
+"protECt" "ProtECt" "pRotECt" "PRotECt" "prOtECt" "PrOtECt" "pROtECt" "PROtECt"
+"proTECt" "ProTECt" "pRoTECt" "PRoTECt" "prOTECt" "PrOTECt" "pROTECt" "PROTECt"
+"protecT" "ProtecT" "pRotecT" "PRotecT" "prOtecT" "PrOtecT" "pROtecT" "PROtecT"
+"proTecT" "ProTecT" "pRoTecT" "PRoTecT" "prOTecT" "PrOTecT" "pROTecT" "PROTecT"
+"protEcT" "ProtEcT" "pRotEcT" "PRotEcT" "prOtEcT" "PrOtEcT" "pROtEcT" "PROtEcT"
+"proTEcT" "ProTEcT" "pRoTEcT" "PRoTEcT" "prOTEcT" "PrOTEcT" "pROTEcT" "PROTEcT"
+"proteCT" "ProteCT" "pRoteCT" "PRoteCT" "prOteCT" "PrOteCT" "pROteCT" "PROteCT"
+"proTeCT" "ProTeCT" "pRoTeCT" "PRoTeCT" "prOTeCT" "PrOTeCT" "pROTeCT" "PROTeCT"
+"protECT" "ProtECT" "pRotECT" "PRotECT" "prOtECT" "PrOtECT" "pROtECT" "PROtECT"
+"proTECT" "ProTECT" "pRoTECT" "PRoTECT" "prOTECT" "PrOTECT" "pROTECT" "PROTECT"
+"abs" "acos" "acosh" "asin" "asinh" "atan" "atan2" "atanh" "cos" "cosh" "exp"
+"hypot" "log" "log10" "max" "min" "pow" "sin" "sinh" "sqrt" "tan" "tanh" "ceil"
+"floor" "fmod" "absin" "absolute" "absout" "all" "allglobal" "alllocal" "allpub"
+"autodc" "awb" "backward" "bert" "bilinear" "both" "breakdown" "brief" "brk"
+"bsim" "bulk" "cdsspice" "child" "continue" "correlations" "conservative" "dc"
+"debug" "delta" "detailed" "dev" "diff" "dptran" "eng" "error" "euler" "exp"
+"fatal" "file" "finish" "float" "forward" "full" "fwd" "gear2" "gear2only"
+"gmin" "gnd" "hspice" "in" "indifferent" "input" "insist" "inst" "inversez"
+"isdb" "lateral" "liberal" "list" "log" "logfile" "lvl" "lvlpub" "max_only"
+"max_v_only" "meyer" "min" "mismatch" "models" "moderate" "n" "no" "node"
+"nodes" "nodes_and_terminals" "none" "nonlinear" "normal" "nowhere" "npn" "npnv"
 "nutascii" "nutbin" "off" "on" "only" "oppoint" "out" "output" "overlap"
 "override" "p" "parent" "pnp" "pnpl" "pnpv" "pointlocal" "poly" "process"
 "psfascii" "psfbin" "ptran" "pulse" "pwl" "quit" "rampup" "rawfile" "relative"
@@ -329,7 +446,7 @@ si: simSetDef().... hnlNetlistFileName is initialized to "netlist" .
 si: simSetDef().... hnlMapDirName is initialized to "map" .
 si: simSetDef().... hnlMapFileName is initialized to "current" .
 si: simSetDef().... hnlNamePrefix is initialized to "hnl_" .
-si: simSetDef().... hnlBusNamePrefix is initialized to "BUS" .
+si: simSetDef().... hnlBusNamePrefix is initialized to "cdsbus" .
 si: simSetDef().... hnlDriverWillPrint is initialized to "nil".
 si: simSetDef().... hnlLinePrefix is already set to "        ". Redefinition to
 nil is ignored.
@@ -392,18 +509,12 @@ si: simSetDef().... hnlFormatterUnbindFuncs is initialized to
 hnlPrintTopCellHeader hnlPrintTopCellFooter hnlPrintPorts hnlPrintDeviceHeader
 hnlPrintDeviceFooter hnlPrintInst) .
 Loading the file
-'/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools.lnx86/dfII/etc/skill/hnl/spectre.ile'.Loading the file
-'/eda/cadence/2018-19/RHELx86/IC_6.1.8.000/tools.lnx86/dfII/etc/skill/hnl/driver.ile'.Begin Incremental Netlisting Jan 30 11:46:56 2024
-End netlisting Jan 30 11:46:56 2024
-Begin Incremental Netlisting Jan 30 11:47:27 2024
-End netlisting Jan 30 11:47:27 2024
-Begin Incremental Netlisting Jan 30 11:48:25 2024
-End netlisting Jan 30 11:48:26 2024
-Begin Incremental Netlisting Jan 30 12:12:30 2024
-End netlisting Jan 30 12:12:30 2024
-Begin Incremental Netlisting Jan 30 12:12:41 2024
-End netlisting Jan 30 12:12:41 2024
-Begin Incremental Netlisting Jan 30 12:34:30 2024
-End netlisting Jan 30 12:34:30 2024
-Begin Incremental Netlisting Jan 30 12:34:41 2024
-End netlisting Jan 30 12:34:41 2024
+'/eda/cadence/2022-23/RHELx86/IC_6.1.8.320/tools.lnx86/dfII/etc/skill/hnl/spectre.ile'.Loading the file
+'/eda/cadence/2022-23/RHELx86/IC_6.1.8.320/tools.lnx86/dfII/etc/skill/hnl/driver.ile'.Begin Incremental Netlisting Jan 31 13:08:47 2024
+End netlisting Jan 31 13:08:47 2024
+Begin Incremental Netlisting Jan 31 13:14:49 2024
+End netlisting Jan 31 13:14:49 2024
+Begin Incremental Netlisting Jan 31 13:42:34 2024
+End netlisting Jan 31 13:42:34 2024
+Begin Incremental Netlisting Jan 31 14:22:22 2024
+End netlisting Jan 31 14:22:22 2024

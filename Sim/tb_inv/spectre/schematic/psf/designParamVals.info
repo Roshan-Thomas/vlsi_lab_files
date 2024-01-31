@@ -1,8 +1,8 @@
 HEADER
 "PSFversion" "1.00"
 "simulator" "spectre"
-"version" "18.1.0.077"
-"date" "12:34:42 PM, Tue Jan 30, 2024"
+"version" "21.1.0.751.isr19"
+"date" "2:22:24 PM, Wed Jan 31, 2024"
 "design" "// Generated for: spectre"
 "analysis type" "info"
 "analysis name" "designParamVals"
@@ -13,6 +13,7 @@ TYPE
 "top-level" STRUCT(
 "temp" FLOAT DOUBLE
 "tnom" FLOAT DOUBLE
+"temper" FLOAT DOUBLE
 "time" FLOAT DOUBLE
 "cj1" FLOAT DOUBLE
 "cjsw1" FLOAT DOUBLE
@@ -911,6 +912,7 @@ TYPE
 )
 VALUE
 "top-level" "top-level" (
+2.700000000000000e+01
 2.700000000000000e+01
 2.700000000000000e+01
 0.000000000000000e+00
