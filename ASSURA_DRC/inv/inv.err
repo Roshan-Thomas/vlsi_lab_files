@@ -1,0 +1,44 @@
+================================================================================
+Rule No. 391 : OD_C_2 Minimum NDIFF to NTUB spacing = 1.2
+
+Real Error Count : 1; Flat Error Count : 1
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : inv layout lab2024
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  2.567        5.250       5.033        6.200
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        2.567      5.250      5.033      6.200
+
+================================================================================
+Rule No. 392 : OD_C_3 Minimum NDIFF to HOT_NTUB spacing (no PTAP in between) = 2.6
+
+Real Error Count : 1; Flat Error Count : 1
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : inv layout lab2024
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  1.475        5.250       5.875        6.200
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        1.475      5.250      5.875      6.200
+

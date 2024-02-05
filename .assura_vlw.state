@@ -1,0 +1,38 @@
+;----------------------------------------------------------------------------
+; @(#)$CDS: assura version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/22 00:11 (sjfhw885) $
+; sub-version 4.1_USR6_EHF13
+;----------------------------------------------------------------------------
+
+
+;----------------------------------------------------------------------------
+; Assura VLW saved state
+;----------------------------------------------------------------------------
+
+vuiLayerListOrder  =  "Alphabetical"
+vuiLayerList  = '(
+		("MET1_pinshape" 111 "MET1_pinshape = geomOr( MET1_sympin T?110 )" 0 24 t "y0 (drawing)" t)
+		("MET1_pintext" 50 "MET1_pintext = textToPin( \"PIN\" type(\"metal1\") )" 0 0 t "y1 (drawing)" t)
+		("POLY1" 137 "POLY1 = geomOr( POLY1 )" 1 4 t "y2 (drawing)" t)
+		("gate_T?6623" 6623 "gate_T?6623 = geomCat( gate )" 0 12 t "y3 (drawing)" t)
+		("gate_T?6625" 6625 "gate_T?6625 = geomCat( gate_T?6623 )" 0 13 t "y4 (drawing)" t)
+		("gate_T?6627" 6627 "gate_T?6627 = geomCat( gate_T?6623 )" 0 15 t "y5 (drawing)" t)
+		("gate_T?6629" 6629 "gate_T?6629 = geomCat( gate_T?6623 )" 0 16 t "y6 (drawing)" t)
+		("gate_T?6631" 6631 "gate_T?6631 = geomCat( gate_T?6623 )" 0 17 t "y7 (drawing)" t)
+		("net_met1" 1472 "net_met1 = geomOr( net_met1 MET1_pinshape )" 1 3 t "y8 (drawing)" t)
+		("net_ndiff" 255 "net_ndiff = geomAndNot( ndiff_2 RDIFFN_device )" 0 6 t "y9 (drawing)" t)
+		("net_ndiffcon" 548 "net_ndiffcon = geomAndNot( T?547 net_poly1con )" 0 22 t "y0 (drawing)" t)
+		("net_nsd" 762 "net_nsd = geomOverlap( net_ndiff T?761 )" 0 20 t "y1 (drawing)" t)
+		("net_nwell" 253 "net_nwell = geomOr( T?252 nmos30_ntub_clos )" 0 5 t "y2 (drawing)" t)
+		("net_pdiff" 257 "net_pdiff = geomAndNot( pdiff_2 RDIFFP_device )" 0 7 t "y3 (drawing)" t)
+		("net_pdiffcon" 550 "net_pdiffcon = geomAndNot( T?549 net_poly1con )" 0 23 t "y4 (drawing)" t)
+		("net_poly1" 1471 "net_poly1 = geomOr( net_poly1 POLY1_pinshape )" 1 2 t "y5 (drawing)" t)
+		("net_poly1con" 145 "net_poly1con = geomAnd( CONT poly1_n_poly2 )" 0 8 t "y6 (drawing)" t)
+		("net_psd" 763 "net_psd = geomAndNot( net_pdiff net_subtap )" 0 21 t "y7 (drawing)" t)
+		("net_subtap" 760 "net_subtap = geomAndNot( net_pdiff net_nwell )" 0 19 t "y8 (drawing)" t)
+		("net_welltap" 759 "net_welltap = geomAnd( net_ndiff net_nwell )" 0 18 t "y9 (drawing)" t)
+		("poa_trans_lv_ndiff_sd" 5359 "poa_trans_lv_ndiff_sd = geomButtOrOver( poa_trans_lv_diff_sd net_ndiff )" 0 9 t "y0 (drawing)" t)
+		("poa_trans_lv_pdiff_sd" 5360 "poa_trans_lv_pdiff_sd = geomButtOrOver( poa_trans_lv_diff_sd net_pdiff )" 0 10 t "y1 (drawing)" t)
+		("poly1_copy1" 6669 "poly1_copy1 = groupVias(  via(poly1_copy1) conn1(net_poly1) conn2(poly1_copy2) )" 1 1 t "y2 (drawing)" t)
+		("poly1_copy2" 6622 "poly1_copy2 = geomCat( poly1_copy1 )" 0 11 t "y3 (drawing)" t)
+		("routingnwell_check" 4479 "routingnwell_check = geomAvoiding( net_nwell routingnwell_nocheck )" 0 14 t "y4 (drawing)" t)
+)
