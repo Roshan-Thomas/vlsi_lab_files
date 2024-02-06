@@ -1,7 +1,7 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 02/10/2023 14:05 (cpgsrv13) $
 \o Sub version:		sub-version  s312 
-\o Arguments:		-mpssession virtuoso14820 -mpshost it075832.wks.bris.ac.uk 
-\o Working Directory:	it075832.wks.bris.ac.uk:/home/oj23092/VLSI_Design_Lab
+\o Arguments:		-mpssession virtuoso1099940 -mpshost it075721.wks.bris.ac.uk 
+\o Working Directory:	it075721.wks.bris.ac.uk:/home/oj23092/VLSI_Design_Lab
 \o 64-bit offsets
 \o Qt version: 		5.9.1
 \o Log file is "/home/oj23092/VLSI_Design_Lab/libManager.log".
@@ -18,7 +18,6 @@
 \w Warning: The directory: '/home/oj23092/VLSI_Design_Lab/lab202x' does not exist
 \w 	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
 \o Library Manager customization server connected.
-\a nrSetCurrentWindow(cdsLibManager)
 \w Warning: LIB A_CELLS from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 51 redefines
 \w LIB A_CELLS from the same file (defined earlier.)
 \w Warning: LIB PRIMLIBRF from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 52 redefines
@@ -31,57 +30,3 @@
 \w LIB PRIMLIBRF from the same file (defined earlier.)
 \w Warning: The directory: '/home/oj23092/VLSI_Design_Lab/lab202x' does not exist
 \w 	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
-\w Warning: LIB A_CELLS from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 51 redefines
-\w LIB A_CELLS from the same file (defined earlier.)
-\w Warning: LIB PRIMLIBRF from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 52 redefines
-\w LIB PRIMLIBRF from the same file (defined earlier.)
-\w Warning: The directory: '/home/oj23092/VLSI_Design_Lab/lab202x' does not exist
-\w 	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
-\w Warning: LIB A_CELLS from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 51 redefines
-\w LIB A_CELLS from the same file (defined earlier.)
-\w Warning: LIB PRIMLIBRF from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 52 redefines
-\w LIB PRIMLIBRF from the same file (defined earlier.)
-\w Warning: The directory: '/home/oj23092/VLSI_Design_Lab/lab202x' does not exist
-\w 	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "ncinternal"
-\a cdsLibManager->libLineEdit->value = "ncinternal"
-\a cdsLibManager->libListBox->value = "lab2024"
-\a cdsLibManager->libLineEdit->value = "lab2024"
-\a cdsLibManager->cellListBox->value = "inv"
-\a cdsLibManager->cellLineEdit->value = "inv"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a lmgrLogShowPopup("mainListPopup2" 51 5 2 "layout")
-\a cdsLibManager->fileOpenWithButton->value = t
-\o MPS request: edit design
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: LIB A_CELLS from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 51 redefines
-\w LIB A_CELLS from the same file (defined earlier.)
-\w Warning: LIB PRIMLIBRF from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 52 redefines
-\w LIB PRIMLIBRF from the same file (defined earlier.)
-\w Warning: The directory: '/home/oj23092/VLSI_Design_Lab/lab202x' does not exist
-\w 	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
-\a cdsLibManager->libListBox->value = "lab2024"
-\a cdsLibManager->libLineEdit->value = "lab2024"
-\a cdsLibManager->cellListBox->value = "inv"
-\a cdsLibManager->cellLineEdit->value = "inv"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\o MPS service: shutdown
-\o libManager is exiting.
-\a exit(0)

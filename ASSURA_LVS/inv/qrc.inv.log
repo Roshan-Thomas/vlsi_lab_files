@@ -1,0 +1,102 @@
+
+
+  Cadence Quantus Extraction - 64-bit Parasitic Extractor - Version
+21.1.1-s329 Fri Aug 27 18:14:20 PDT 2021
+---------------------------------------------------------------------------------------------------------------
+                                  Copyright 2021 Cadence Design Systems,
+Inc.
+
+
+
+INFO (EXTQRCXOPT-243) : For Assura inputs, if the "output_setup -directory_name" option was not
+specified, it is automatically set to the input directory.
+INFO (LBRCXU-108): Starting
+
+ /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/rcxToDfII /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/inv/inv/__qrc.rcx_cmd -t -f /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/inv/inv/extview.tmp -w /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/inv/inv
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.07s.
+@(#)$CDS: rcxToDfII_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:42 (sjfhw885) $
+sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
+
+run on it075721.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/rcxToDfII on Tue Feb  6 11:35:27 2024
+
+
+Loading tech rule set file : /eda/cadence/ams/4.10/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* LIB A_CELLS from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 51 redefines
+LIB A_CELLS from the same file (defined earlier.)
+*WARNING* LIB PRIMLIBRF from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 52 redefines
+LIB PRIMLIBRF from the same file (defined earlier.)
+*WARNING* The directory: '/home/oj23092/VLSI_Design_Lab/lab202x' does not exist
+	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
+*WARNING* LIB A_CELLS from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 51 redefines
+LIB A_CELLS from the same file (defined earlier.)
+*WARNING* LIB PRIMLIBRF from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 52 redefines
+LIB PRIMLIBRF from the same file (defined earlier.)
+*WARNING* The directory: '/home/oj23092/VLSI_Design_Lab/lab202x' does not exist
+	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
+Loading all available p-cell functions
+AMS_DB set to cds
+*WARNING* (DB-270212): dbOpenCellViewByType: Cannot open cellview 'ESDLIB/esdpd12/auLvs' in 'r' mode because the cellview does not exist. Ensure that the cellview exists and then reopen it in 'r' mode.
+*WARNING* No library model for device "esdpd12 auLvs ESDLIB".
+*WARNING* (DB-270212): dbOpenCellViewByType: Cannot open cellview 'ESDLIB/esdpd18/auLvs' in 'r' mode because the cellview does not exist. Ensure that the cellview exists and then reopen it in 'r' mode.
+*WARNING* No library model for device "esdpd18 auLvs ESDLIB".
+*WARNING* (DB-270212): dbOpenCellViewByType: Cannot open cellview 'ESDLIB/esdpd26/auLvs' in 'r' mode because the cellview does not exist. Ensure that the cellview exists and then reopen it in 'r' mode.
+*WARNING* No library model for device "esdpd26 auLvs ESDLIB".
+*WARNING* (DB-270212): dbOpenCellViewByType: Cannot open cellview 'ESDLIB/esdpd30/auLvs' in 'r' mode because the cellview does not exist. Ensure that the cellview exists and then reopen it in 'r' mode.
+*WARNING* No library model for device "esdpd30 auLvs ESDLIB".
+INFO (LBRCXU-114): Finished /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/rcxToDfII
+
+INFO (LBRCXU-108): Starting
+
+ /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/avRCXxref /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/inv/inv/__qrc.rcx_cmd -useRunName
+@(#)$CDS: avRCXxref_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:35 (sjfhw885) $
+sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
+run on it075721.wks.bris.ac.uk at Tue Feb  6 11:35:28 2024
+Reading rsf
+INFO (LBRCXU-114): Finished /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/avRCXxref
+
+INFO (LBRCXM-642): Constructing the RCX run script
+
+Forking:  capgen -techdir /eda/cadence/ams/4.10/assura/c35b4/c35b4/RCX-typical -inc /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/inv/inv.elf -lvs /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/inv/inv.xcn -lvsvia -p2lvs /eda/cadence/ams/4.10/assura/c35b4/c35b4/RCX-typical/qrcTechFile -reseqn -sw3d -auto_reorder_off -length_units meters -cap_unit 1.0 -selected_paths_proper -p poly1,capgen_gate,pdiff -no_cap_correction -cap_ground_layer net_psub -dsub net_nwell,net_psub -lexclude poly2,poly1 -blocking cblock_met2cap_met2,met2cap,met2 -blocking cblock_met1_fox,met1,poly2,poly1,pdiff,fox -blocking cblock_poly2_poly1,poly2,poly1 -res_blocking rblock_poly1,net_poly1 -res_blocking rblock_poly2,net_poly2 -res_blocking rblock_met1,net_met1 -res_blocking rblock_met2,net_met2 -res_blocking rblock_met3,net_met3 -res_blocking rblock_met4,net_met4 /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/inv/inv
+
+INFO (LBMISC-215205): 
+*** Cadence Quantus Extraction Techgen -trans VERSION 21.1.1 Linux 64 bit - (Fri Aug 27 17:50:08 PDT 2021)  ***
+
+
+INFO (CAPGEN-41199): 
+
+
+Techgen -trans results will be written to directory: /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/inv/inv
+
+INFO (CAPGEN-41737): Lvs connect layers MET1_pinshape MET2_pinshape MET3_pinshape MET4_pinshape OPTDEF_pinshape PAD_pinshape POLY1_pinshape T?1498 T?1499 T?1500 T?1501 T?1502 T?1503 T?1504 net_bondpad net_ndiff net_optdef net_pdiff net_sbd_anode_diff nmosh_d_term rblock_met1 rblock_met2 rblock_met3 rblock_met4 rblock_metcap rblock_poly1 rblock_poly2 sbdcon spiral_term11 spiral_term22 are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by net_met1 layers rmet1_trm are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by net_met2 layers rmet2_trm are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by net_met3 layers rmet3_trm are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by net_met4 layers rmet4_trm are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by net_ndiff layers net_ndiff_d_sub net_ndiff_drain net_ndiff_source are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by net_nwell layers PMOSMW_2N_bulk PMOSMW_3N_bulk PMOSMW_4N_bulk PMOSM_WAFFLE_bulk PMOSW_2N_bulk PMOSW_3N_bulk PMOSW_4N_bulk PMOS_WAFFLE_bulk are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by net_pdiff layers net_pdiff_d_ntub are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by net_poly2 layers net_pres_trm net_presh_trm are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by net_psd layers pnplat2_c pnplat2_e pnpvert10_e are not mapped in layer_setup file
+
+INFO (CAPGEN-41804): Lvs stamped by net_psub layers NMOSMW_2N_bulk NMOSMW_3N_bulk NMOSMW_4N_bulk NMOSM_WAFFLE_bulk NMOSW_2N_bulk NMOSW_3N_bulk NMOSW_4N_bulk NMOS_WAFFLE_bulk are not mapped in layer_setup file
+
+Ambiguous output redirect.
+Ambiguous output redirect.
+Ambiguous output redirect.
+vdbToRcx:   ERROR: The OA2.2 library directory (/eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/share/oa/lib/Linux_64/opt) does not seem to exist.
+ERROR (RCXSPIC-27261): The Assura version is too old to be compatible with current Quantus version. Suggest to use IC618/ICADVM20.1 + sub-version 4.1_USR6_HF11 or newer
+
+ERROR (LBRCXM-644): Bad return status from RCX script generator. 0xff00
+
+ERROR (LBRCXM-709): *****  Quantus terminated abnormally  *****
+
+

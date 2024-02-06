@@ -1,0 +1,8 @@
+# 0
+PMOS4(MOS): PMOS4(MOS)
+# 0
+NMOS4(MOS): NMOS4(MOS)
+# 2
+inv schematic lab2024: inv layout lab2024
+D MN0 avD1_1
+S MP0 avD5_1

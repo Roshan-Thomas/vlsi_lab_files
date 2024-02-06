@@ -6,7 +6,7 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:35 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075832.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/assura on Mon Feb  5 20:20:43 2024
+run on it075721.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/assura on Tue Feb  6 10:53:38 2024
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -15,7 +15,7 @@ Starting /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/b
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075832.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/aveng on Mon Feb  5 20:20:43 2024
+run on it075721.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/aveng on Tue Feb  6 10:53:38 2024
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -36,8 +36,8 @@ Loading tech rule set file : /eda/cadence/ams/4.10/assura/c35b4/c35b4c3/techRule
  Work Directory: /home/oj23092/VLSI_Design_Lab/ASSURA_DRC/inv
  Operating Mode: Legacy Mode is Off
 
-2024/02/05 20:20:43 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/05 20:20:43 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/06 10:53:39 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/06 10:53:39 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_DRC
 *WARNING* Failed to obtain license for Assura_DRC
 No Assura license available.
@@ -45,21 +45,21 @@ Checking out license for Phys_Ver_Sys_DRC_XL
 Restarting with VDB Build 2 
 
 Building the VDB part 2 in background mode.
-2024/02/05 20:20:44 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/05 20:20:44 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/06 10:53:39 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/06 10:53:39 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Executing: substrate_all = cellBoundary(root)
 
 Building the VDB part 3 in background mode.
-2024/02/05 20:20:44 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/05 20:20:44 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/06 10:53:39 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/06 10:53:39 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 
 Running in restart mode.
 
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.11  elap: 1  pf: 0  in: 48  out: 40  virt: 167M  phys: 882M
+cpu: 0.13  elap: 1  pf: 0  in: 48  out: 40  virt: 167M  phys: 820M
 
 Running the Task Processor, 1 cells, 9533 steps...
 
@@ -4639,17 +4639,17 @@ Executing: ill_met4_met3_bondpad_cbr1 = geomOverlap(m4pad_st m3pad_st diffNet)
 	   errorLayer(ill_met4_met3_bondpad_cbr1 "CBR1 PAD met4 not connected to met3")
 
 Finished running rules. Task processor time in main process:
-cpu: 0.28  elap: 0  pf: 0  in: 0  out: 2240  virt: 194M  phys: 997M
+cpu: 0.28  elap: 0  pf: 0  in: 0  out: 2240  virt: 197M  phys: 916M
 
 Started output post-processing ...
 
 Nothing to postprocess: No grid cells in the design
 
 Finished output post-processing
-cpu: 0.10  elap: 0  pf: 0  in: 0  out: 0  virt: 341M  phys: 1331M
+cpu: 0.11  elap: 1  pf: 0  in: 0  out: 0  virt: 341M  phys: 1236M
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6432  virt: 346M  phys: 1348M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6432  virt: 346M  phys: 1248M
 
 
 *****  aveng terminated normally  *****
@@ -4667,14 +4667,14 @@ Loading tech rule set file : /eda/cadence/ams/4.10/assura/c35b4/c35b4c3/techRule
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075832.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/avrpt on Mon Feb  5 20:20:45 2024
+run on it075721.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/avrpt on Tue Feb  6 10:53:40 2024
 
 
    Creating Error Database 'inv'...
 
    Reading VDB ...
-2024/02/05 20:20:45 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/05 20:20:45 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/06 10:53:40 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/06 10:53:40 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 --------------------------------------------------------------------------------
 Rule      Message                                    FlatCount     RealCount
 --------------------------------------------------------------------------------
@@ -5068,8 +5068,8 @@ Rule      Message                                    FlatCount     RealCount
 (  388)  OD_S_1 Minimum DIFF spacing = 0.6                   0            0
 (  389)  OD_S_1 Minimum DIFF spacing = 0.6 notch             0            0
 (  390)  OD_C_1 Minimum NTUB enclosure of NDIFF =            0            0
-(  391)  OD_C_2 Minimum NDIFF to NTUB spacing = 1            1            1
-(  392)  OD_C_3 Minimum NDIFF to HOT_NTUB spacing            1            1
+(  391)  OD_C_2 Minimum NDIFF to NTUB spacing = 1            0            0
+(  392)  OD_C_3 Minimum NDIFF to HOT_NTUB spacing            0            0
 (  393)  OD_C_4 Minimum NTUB enclosure of PDIFF =            0            0
 (  394)  OD_C_5 Minimum PDIFF to NTUB spacing = 0            0            0
 (  395)  OD_C_6a Minimum PDIFF to NGATE spacing =            0            0
@@ -5387,16 +5387,14 @@ Rule      Message                                    FlatCount     RealCount
 (  707)  CBR1 PAD met3 not connected to met2                 0            0
 (  708)  CBR1 PAD met4 not connected to met3                 0            0
 --------------------------------------------------------------------------------
-Total  errors:                                               2            2
+Total  errors:                                               0            0
 --------------------------------------------------------------------------------
 
    Finished creating Error Database ...
 
    Writing Report into /home/oj23092/VLSI_Design_Lab/ASSURA_DRC/inv/inv.err ...
-   Rule 391 done.
-   Rule 392 done.
 
-avrpt cpu sec:    0.10  elapsed:     0  virtual:    93M
+avrpt cpu sec:    0.11  elapsed:     0  virtual:    93M
 
 Finished /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/bin/avrpt
 
@@ -5411,7 +5409,7 @@ Loading tech rule set file : /eda/cadence/ams/4.10/assura/c35b4/c35b4c3/techRule
 Finished /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/bin/avcallproc
 
 
-Run ended: Mon Feb  5 20:20:45 2024
+Run ended: Tue Feb  6 10:53:40 2024
 
 *****  Assura terminated normally  *****
 

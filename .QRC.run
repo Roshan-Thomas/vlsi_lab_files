@@ -1,0 +1,6 @@
+#!/bin/sh -f
+#--------------------------------------------------------------------------------------
+# THE RUN FILE created by Cadence Extraction Quantus UI Version 21.1.1-s329
+#--------------------------------------------------------------------------------------
+
+qrc  -log_file /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/inv/qrc.inv.log -cmd /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/inv/qrc.inv.ccl 

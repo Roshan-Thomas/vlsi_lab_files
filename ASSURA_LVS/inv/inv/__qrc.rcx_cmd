@@ -1,0 +1,50 @@
+avParameters(
+	?cellName "inv"
+	?viewName "layout"
+	?inputLayout ( "DFII" "lab2024" )
+	?runName "inv"
+	?workingDirectory "/home/oj23092/VLSI_Design_Lab/ASSURA_LVS/inv"
+	?techRuleSet ( "Typical" )
+	?techLib "/home/oj23092/VLSI_Design_Lab/assura_tech.lib"
+	?technology "c35b4c3"
+
+)
+rcxParameters(
+	?capCouplingFactor 1.0
+	?capGround "gnd!"
+	?arrayViasSpacing "auto"
+	?macroCellsType "default"
+	?maxFractureLength "infinite"
+	?fractureLengthUnits "MICRONS"
+	?maxMergedViaSize "auto"
+	?netNameSpace "schematic"
+	?minC 1e-17
+	?minCByPercentage 0.1
+	?mergeParallelR nil
+	?minR 0.001
+	?lvsSource "assura"
+	?capacitor "pcapacitor auLvs PRIMLIB"
+	?capPropName "c"
+	?checkCellView nil
+	?capModels "no"
+	?parasiticCapModels "no"
+	?parasiticResModels "comment"
+	?parasiticResWidth t
+	?resModels "no"
+	?resistor "presistor auLvs PRIMLIB"
+	?resPropName "r"
+	?outputFormat "dfii"
+	?lvsExtractedCellView nil
+	?extractedView "av_extracted"
+	?runName "inv"
+	?tempdir "/home/oj23092/VLSI_Design_Lab/ASSURA_LVS/inv/inv/rcx_temp"
+	?rcxSetupDir ( "/eda/cadence/ams/4.10/assura/c35b4/c35b4c3/RCX-typical" )
+	?temperature ( 25.0 )
+	?type "full"
+	?extract "both"
+	?capExtractMode "coupled"
+
+)
+(avRCX)
+
+
