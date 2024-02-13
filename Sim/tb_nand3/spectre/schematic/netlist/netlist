@@ -1,0 +1,32 @@
+
+// Library name: lab2024
+// Cell name: NAND3
+// View name: schematic
+subckt NAND3 a b c out
+    MN2 (net2 a 0 0) modn w=1u l=0.35u as=8.5e-13 ad=8.5e-13 ps=2.7u \
+        pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MN1 (net1 b net2 net2) modn w=1u l=0.35u as=8.5e-13 ad=8.5e-13 ps=2.7u \
+        pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MN0 (out c net1 net1) modn w=1u l=0.35u as=8.5e-13 ad=8.5e-13 ps=2.7u \
+        pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP2 (out c vdd! vdd!) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 ps=2.7u \
+        pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP1 (out b vdd! vdd!) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 ps=2.7u \
+        pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP0 (out a vdd! vdd!) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 ps=2.7u \
+        pd=2.7u nrd=0.5 nrs=0.5 ng=1
+ends NAND3
+// End of subcircuit definition.
+
+// Library name: lab2024
+// Cell name: tb_nand3
+// View name: schematic
+I0 (net3 net2 net1 net4) NAND3
+V0 (vdd! 0) vsource dc=3.3 type=dc
+V6 (net1 0) vsource type=pulse val0=0 val1=3.3 period=2n rise=10p fall=10p \
+        width=1n
+V4 (net2 0) vsource type=pulse val0=0 val1=3.3 period=2n rise=10p fall=10p \
+        width=1n
+V1 (net3 0) vsource type=pulse val0=0 val1=3.3 period=2n rise=10p fall=10p \
+        width=1n
+C0 (net4 0) capacitor c=12f

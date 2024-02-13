@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "tb_nand3"
+  repList "spectre cmos_sch schematic"
+  stopList "spectre"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/home/oj23092/VLSI_Design_Lab/Sim/tb_nand3/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "lab2024/tb_nand3/schematic" "tb_nand3" )
+( "lab2024/NAND3/schematic" "NAND3" )
+ )
+( "tb_nand3" "ihnl/cds1/map" )
+( "NAND3" "ihnl/cds0/map" )
+ )

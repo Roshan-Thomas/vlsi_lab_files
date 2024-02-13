@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+lab2024/NAND3/schematic NAND3
+lab2024/tb_nand3/schematic tb_nand3
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+$endparam

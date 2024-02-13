@@ -1,0 +1,5 @@
+
+// Library name: lab2024
+// Cell name: NAND3
+// View name: schematic
+subckt NAND3 a b c out

@@ -1,0 +1,13 @@
+
+// Library name: lab2024
+// Cell name: tb_nand3
+// View name: schematic
+I0 (net3 net2 net1 net4) NAND3
+V0 (vdd! 0) vsource dc=3.3 type=dc
+V6 (net1 0) vsource type=pulse val0=0 val1=3.3 period=2n rise=10p fall=10p \
+        width=1n
+V4 (net2 0) vsource type=pulse val0=0 val1=3.3 period=2n rise=10p fall=10p \
+        width=1n
+V1 (net3 0) vsource type=pulse val0=0 val1=3.3 period=2n rise=10p fall=10p \
+        width=1n
+C0 (net4 0) capacitor c=12f

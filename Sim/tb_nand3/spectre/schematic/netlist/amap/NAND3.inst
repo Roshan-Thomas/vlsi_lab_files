@@ -1,0 +1,8 @@
+HEADER
+"PSFversion" "1.00"
+"MN2n MN1n MN0n" "PRIMLIB_nmos4_spectre"
+"MP2n MP1n MP0n" "PRIMLIB_pmos4_spectre"
+"av" ":1v"
+"bv" ":2v"
+"cv" ":3v"
+"outv" ":4v"
