@@ -1,0 +1,27 @@
+C PMOS4(MOS) PMOS4(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C NMOS4(MOS) NMOS4(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "NAND3 schematic lab2024" "NAND3 layout lab2024"
+N net2 avC8
+N a a
+N b b
+N c c
+N out out
+N vdd! vdd!
+N gnd! gnd!
+I MN2 avD1_1
+I MN1 avD1_2
+I MN0 avD1_3
+I MP2 avD5_3
+I MP1 avD5_2
+I MP0 avD5_1
+

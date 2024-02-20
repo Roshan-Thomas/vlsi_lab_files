@@ -14,14 +14,14 @@ vuiLVSFormTable = '(
 	schematicSource  "DFII"
 	layoutSource  "DFII"
 	runName  ""
-	runDir  "ASSURA_LVS/inv"
+	runDir  "ASSURA_LVS/NAND3"
 	machineLoc  "local"
 	viewRules  t
 	technologyField  "c35b4c3"
 	runsetField  "Full"
 	extract  "/eda/cadence/ams/4.10/assura/c35b4/c35b4/extract.rul"
 	compare  "/eda/cadence/ams/4.10/assura/c35b4/c35b4/compare.rul"
-	switches  "resimulate_extracted no_info"
+	switches  "no_info resimulate_extracted"
 	bind  "/eda/cadence/ams/4.10/assura/c35b4/c35b4/bind.rul"
 	rsfInclude  "/eda/cadence/ams/4.10/assura/c35b4/c35b4c3/LVSinclude.rsf"
 	varTag  "None"
@@ -32,12 +32,12 @@ vuiLVSFormTable = '(
 	avCompareView  nil
 	additionalFunctionsButton  nil
 	schLibrary  "lab2024"
-	schCell  "inv"
+	schCell  "NAND3"
 	schView  "schematic"
 	existingSchNetlist  nil
 	useVerilogTopCell  nil
 	layLibrary  "lab2024"
-	layCell  "inv"
+	layCell  "NAND3"
 	layView  "layout"
 	layUseExistingNL  nil
 	extractButton  nil

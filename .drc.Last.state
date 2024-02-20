@@ -14,7 +14,7 @@ vuiDRCFormTable = '(
 	format  "DFII"
 	vui2dbxor  nil
 	runName  ""
-	runDir  "ASSURA_DRC/inv"
+	runDir  "ASSURA_DRC/NAND3"
 	machineLoc  "local"
 	viewRules  t
 	technologyField  "c35b4c3"
@@ -30,7 +30,7 @@ vuiDRCFormTable = '(
 	additionalFunctionsButton  nil
 	limitDRCswitcher  nil
 	library  "lab2024"
-	cell  "inv"
+	cell  "NAND3"
 	view  "layout"
 	saveExtracted  nil
 	extractedView  "drc_extracted"
