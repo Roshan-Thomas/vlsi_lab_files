@@ -2,4 +2,4 @@
 ; Do NOT rely on the content of this file, it may change.
 ;
 2 device net parameter pin rewire total
-1  5 (( ( S "NAND3 layout lab2024" )( L "NAND3 schematic lab2024" ) )(( 1 4 4 )( 4 2 0 )))
+1  5 (( ( S "NAND3 layout lab2024" )( L "NAND3 schematic lab2024" ) )(( 3 0 4 )))

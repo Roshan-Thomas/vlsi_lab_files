@@ -6,7 +6,7 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:35 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075665.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/assura on Tue Feb 20 12:19:11 2024
+run on it075801.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/assura on Thu Feb 22 14:07:36 2024
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -15,7 +15,7 @@ Starting /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/b
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075665.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/aveng on Tue Feb 20 12:19:11 2024
+run on it075801.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/aveng on Thu Feb 22 14:07:36 2024
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -36,15 +36,15 @@ Loading tech rule set file : /eda/cadence/ams/4.10/assura/c35b4/c35b4c3/techRule
  Work Directory: /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/NAND3
  Operating Mode: Legacy Mode is Off
 
-2024/02/20 12:19:11 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/20 12:19:11 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/22 14:07:36 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/22 14:07:36 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Starting dfIIToVdb...
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.07s.
 @(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:40 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075665.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/dfIIToVdb on Tue Feb 20 12:19:11 2024
+run on it075801.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/dfIIToVdb on Thu Feb 22 14:07:36 2024
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -82,8 +82,8 @@ If left unchanged, parameters may not be attached correctly.
   1473. attachParameter(pd ("pd" "D") NMOS18T_device)
 WARNING LVS Run detected.
 Non-legacy mode has been disabled for this LVS run
-2024/02/20 12:19:12 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/20 12:19:12 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/22 14:07:37 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/22 14:07:37 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_LVS
 *WARNING* Failed to obtain license for Assura_LVS
 No Assura license available.
@@ -96,8 +96,8 @@ Reading the design data...
 Finished dfIIToVdb.
 
 Building the VDB part 2 in background mode.
-2024/02/20 12:19:12 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/20 12:19:12 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/22 14:07:38 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/22 14:07:38 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Building tables for LVS Preprocessing in background mode.
 
@@ -113,16 +113,16 @@ Checking out license for Assura_LVS
 Checking out license for Phys_Ver_Sys_LVS_XL
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on it075665.wks.bris.ac.uk at Tue Feb 20 12:19:16 2024
+run on it075801.wks.bris.ac.uk at Thu Feb 22 14:07:38 2024
 Loading all available p-cell functions
 AMS_DB set to cds
 Reading schematic network
  running dfIIToVldb -cdslib /home/oj23092/VLSI_Design_Lab/cds.lib /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/NAND3/NAND3.vlr /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/NAND3/NAND3.rsf
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.08s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.07s.
 @(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:40 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075665.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/dfIIToVldb on Tue Feb 20 12:19:17 2024
+run on it075801.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/dfIIToVldb on Thu Feb 22 14:07:39 2024
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -180,18 +180,18 @@ Preprocessing layout network phase 1
 *WARNING* deleteCellPin - Unable to find cell 'PMOSD30M'
 Preprocessing schematic network phase 2
 Preprocessing layout network phase 2
-cpu=0.00m  wall=0.07m  mem=89.11mb
+cpu=0.00m  wall=0.02m  mem=89.11mb
 
 Finished /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/nvn
 
 Executing: substrate_all = cellBoundary(root)
 
 Building the VDB part 3 in background mode.
-2024/02/20 12:19:17 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/20 12:19:17 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/22 14:07:39 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/22 14:07:39 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.08  elap: 6  pf: 0  in: 48  out: 104  virt: 101M  phys: 628M
+cpu: 0.08  elap: 3  pf: 0  in: 32  out: 104  virt: 103M  phys: 616M
 
 Running the Task Processor, 1 cells, 4978 steps...
 
@@ -1347,8 +1347,6 @@ Executing: net_met4 = geomOr(net_met4 MET4_pinshape)
 Executing: net_optdef = geomOr(OPTDEF)
 
 Executing: geomConnect((label POLY1_pintext net_poly1 POLY1_pinshape) (label MET1_pintex...
- See the label report in "NAND3.erc" file for details.
-
 
 Executing: geomStamp(net_psub net_subtap)
 
@@ -2177,7 +2175,7 @@ Executing: nameParameter(perimeter "perimeter")
 Executing: nameParameter(perimeter "pj")
 
 Executing: extractDIODE("P_NWD" P_NWD_device (net_psub "PLUS") (net_nwell "MINUS") (targ...
-         1 'P_NWD' created in cell 'NAND3 layout lab2024'.
+         2 'P_NWD' created in cell 'NAND3 layout lab2024'.
 
 Executing: saveRecognition(P_NWD_device "device")
 
@@ -3016,12 +3014,12 @@ Executing: extractDevice("SP090S155D" SP090S155D_device (spiral_term11 "P1") (sp
 Executing: saveRecognition(SP090S155D_device "device")
 
 Finished running rules. Task processor time in main process:
-cpu: 0.23  elap: 0  pf: 0  in: 0  out: 1192  virt: 143M  phys: 771M
+cpu: 0.23  elap: 1  pf: 0  in: 0  out: 1160  virt: 143M  phys: 744M
 
 No output post-processing: This is not a DRC run
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6472  virt: 147M  phys: 783M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6480  virt: 147M  phys: 757M
 
 
 *****  aveng terminated normally  *****
@@ -3039,14 +3037,14 @@ Loading tech rule set file : /eda/cadence/ams/4.10/assura/c35b4/c35b4c3/techRule
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075665.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/avrpt on Tue Feb 20 12:19:18 2024
+run on it075801.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/avrpt on Thu Feb 22 14:07:40 2024
 
 
    Creating Error Database 'NAND3'...
 
    Reading VDB ...
-2024/02/20 12:19:18 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/20 12:19:18 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/22 14:07:40 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/22 14:07:40 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 --------------------------------------------------------------------------------
 Rule      Message                                    FlatCount     RealCount
 --------------------------------------------------------------------------------
@@ -3249,7 +3247,7 @@ Loading tech rule set file : /eda/cadence/ams/4.10/assura/c35b4/c35b4c3/techRule
 Finished /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/bin/avcallproc
 
 Starting /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/bin/avnx /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/NAND3/NAND3.rsf -exec1 -LVS -cdslib /home/oj23092/VLSI_Design_Lab/cds.lib
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.08s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.07s.
 Loading all available p-cell functions
 AMS_DB set to cds
 
@@ -3262,20 +3260,20 @@ Checking out license for Phys_Ver_Sys_LVS_XL
 @(#)$CDS: avnx_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075665.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/avnx on Tue Feb 20 12:19:19 2024
+run on it075801.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/avnx on Thu Feb 22 14:07:41 2024
 
 avnx started...
-2024/02/20 12:19:19 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/20 12:19:19 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
-cpu: 0.08  elap: 0  pf: 0  in: 0  out: 16  virt: 580M  phys: 1024M
+2024/02/22 14:07:41 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/22 14:07:41 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+cpu: 0.09  elap: 0  pf: 0  in: 0  out: 16  virt: 576M  phys: 1017M
 
 Run time =  0.00 seconds
-CPU time =  0.11 seconds
+CPU time =  0.12 seconds
 
                   End of Summary Report
 
 ************************************************************************
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 13008  virt: 511M  phys: 1024M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 13032  virt: 508M  phys: 1017M
 ***** avnx terminated normally ***** 
 
 
@@ -3286,7 +3284,7 @@ Checking out license for Assura_LVS
 Checking out license for Phys_Ver_Sys_LVS_XL
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on it075665.wks.bris.ac.uk at Tue Feb 20 12:19:20 2024
+run on it075801.wks.bris.ac.uk at Thu Feb 22 14:07:42 2024
 Loading all available p-cell functions
 AMS_DB set to cds
 Reading schematic network
@@ -3325,7 +3323,7 @@ Preprocessing schematic network phase 2
 Preprocessing layout network phase 2
 Top cell  NAND3 schematic lab2024 vs NAND3 layout lab2024
 Compare errors, please see /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/NAND3/NAND3.csm and /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/NAND3/NAND3.cls files.
-cpu=0.00m  wall=0.02m  mem=90.40mb
+cpu=0.00m  wall=0.00m  mem=90.40mb
 
 Finished /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/bin/nvn
 
@@ -3338,7 +3336,7 @@ Starting /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/b
 Finished /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/bin/vldbToRpa
 
 Starting /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/bin/ercChk /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/NAND3/NAND3.rsf
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.08s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.07s.
 Loading all available p-cell functions
 AMS_DB set to cds
 
@@ -3377,7 +3375,7 @@ Assura LVS terminated normally.
 
 
 
-Run ended: Tue Feb 20 12:19:21 2024
+Run ended: Thu Feb 22 14:07:43 2024
 
 *****  Assura terminated normally  *****
 

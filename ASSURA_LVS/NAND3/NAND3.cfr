@@ -8,6 +8,7 @@ Layout Cell NAND3 layout lab2024
 DeviceTyp  Device
 ---------  ------
       DIO  avD43_1
+      DIO  avD43_2
 
-1 devices filtered
+2 devices filtered
 

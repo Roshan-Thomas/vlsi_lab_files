@@ -60,3 +60,4 @@ DEFINE SFCLIB_C35B4C3 $AMS_DIR/cds/HK_C35/SFCLIB_C35B4C3
 DEFINE lab2024 /home/oj23092/VLSI_Design_Lab/lab2024
 DEFINE lab202x /home/oj23092/VLSI_Design_Lab/lab202x
 DEFINE avTech /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/etc/avtech/avTech
+DEFINE lab2024_streamin /home/oj23092/VLSI_Design_Lab/lab2024_streamin
