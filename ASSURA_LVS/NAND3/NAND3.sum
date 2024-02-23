@@ -5,7 +5,7 @@
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075801.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/aveng on Thu Feb 22 14:07:36 2024
+run on it075710.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/aveng on Fri Feb 23 16:05:57 2024
 
 Echoing run specific file...
     ;----------------------------------------------------------------------------
@@ -735,8 +735,8 @@ Echoing run specific file...
 
                   Time Summary - Database
 
-reading DFII data. . . .      0 cpu      0 elap  473.6M virt       0 pf
-LVS preprocessing. . . .      0 cpu      1 elap  103.2M virt       0 pf
+reading DFII data. . . .      0 cpu      0 elap  473.4M virt      46 pf
+LVS preprocessing. . . .      0 cpu      2 elap  103.2M virt       0 pf
 duplicate inst removal .      0 cpu      0 elap  103.2M virt       0 pf
 cell boundary layer. . .      0 cpu      0 elap  103.2M virt       0 pf
 small cell flattening. .      0 cpu      0 elap  103.2M virt       0 pf
@@ -759,7 +759,7 @@ duplicate inst removal .      0 cpu      0 elap  105.7M virt       0 pf
 duplicate cell removal .      0 cpu      0 elap  105.7M virt       0 pf
 final VDB processing . .      0 cpu      0 elap  105.7M virt       0 pf
 -----------------------------------------------------------------------
-TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
+TOTALS (secs). . . . . .      0 cpu      2 elap  473.4M virt      46 pf
 
 
 ************************************************************************
@@ -943,15 +943,15 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 45
     NTUB = geomOr( NTUB ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 46
  ;  region( NTUB )
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 47
     ntub_subdefcut = geomAndNot( NTUB subdef_ring ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 48
  ;  region( ntub_subdefcut )
@@ -1579,11 +1579,11 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 204
     T?246 = geomAndNot( ntub_subdefcut RNWELL_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 205
     net_nwell = geomOr( T?246 nmos30_ntub_clos ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 206
     dataReduction( net_nwell ) 
@@ -1591,7 +1591,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 207
  ;  region( net_nwell )
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 208
     ndiff_2 = geomAndNot( ndiff_1 net_poly1 ) 
@@ -1679,11 +1679,11 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 229
     T?260 = geomSize( NTUB 1.1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 230
     T?263 = geomOr( T?260 ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 231
     pnpvert_0 = geomAnd( net_pdiff T?263 ) 
@@ -4383,7 +4383,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 904
     p_nwd_1 = geomAndNot( net_nwell T?980 ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 905
  ;  region( p_nwd_1 )
@@ -4395,7 +4395,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 907
     p_nwd_2 = geomAndNot( p_nwd_1 T?982 ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 908
  ;  region( p_nwd_2 )
@@ -4407,7 +4407,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 910
     p_nwd_3 = geomAndNot( p_nwd_2 T?984 ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 911
     T?986 = geomOr( diodes_modeled ) 
@@ -4415,7 +4415,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 912
     p_nwd_4 = geomAndNot( p_nwd_3 T?986 ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 913
     T?988 = geomOr( cvar cvar_all_c35 ) 
@@ -4423,7 +4423,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 914
     p_nwd_5 = geomAndNot( p_nwd_4 T?988 ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 915
     T?990 = geomStraddle( p_nwd_2 ZD2SM24_device ) 
@@ -4431,7 +4431,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 916
     P_NWD_device = geomAndNot( p_nwd_5 T?990 ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 917
     dataReduction( P_NWD_device ) 
@@ -4439,7 +4439,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 918
  ;  region( P_NWD_device )
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 919
     p_pd_1 = geomAndNot( pdiode_1 DIODE ) 
@@ -13501,11 +13501,11 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 3170
     T?4091 = _geomPushDown( P_NWD_device net_nwell and ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 1
 
  ;# 3171
     T?3651 = _geomExtractMerge( T?4091 ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 1
 
  ;# 3172
     unstable_device_for_P_NWD_device_DIODE_43 = unstableDevices( "P_NWD" P_NWD_device_DIODE_43 T?3651)
@@ -13517,7 +13517,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 3174
  ;  region( T?3651 )
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 1
 
  ;# 3175
     T?4093 = _geomPushDown( net_psub T?3651 and ) 
@@ -13561,11 +13561,11 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 3185
  ;  region( P_NWD_device_DIODE_43_shape )
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 1
 
  ;# 3186
  ;  region( P_NWD_device_DIODE_43 )
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 1
 
  ;# 3187
    saveRecognition( P_NWD_device ("device" "drawing") )
@@ -13573,7 +13573,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 3188
     T?2514  = geomGetEdge( T?3651 coincident NTUB ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 4
 
  ;# 3189
     dataReduction( T?2514 ) 
@@ -13581,7 +13581,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 3190
  ;  region( T?2514 )
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 8
+    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 4
 
  ;# 3191
     area  = measureParameter( area ( P_NWD_device ) 1e-12 ) 
@@ -17385,7 +17385,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  473.6M virt       0 pf
 
  ;# 4141
     T?2992  = geomGetEdge( T?3738 butting rmet1_trm ) 
-    cpu: 0.0   elapsed: 1   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
 
  ;# 4142
     dataReduction( T?2992 ) 
@@ -20744,8 +20744,8 @@ Total cells checked = 1
 Total rules checked = 4978
 
 Run time =  4.00 seconds
-CPU time =  0.40 seconds
-VM HWM   =   474 Mbytes
+CPU time =  0.38 seconds
+VM HWM   =   473 Mbytes
 Disk HWM =     0 Mbytes
 Disk end =     0 Mbytes
 Eman HWM =     0 Mbytes

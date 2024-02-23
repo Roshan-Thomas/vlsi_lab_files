@@ -1,0 +1,27 @@
+
+*** Checking layout cellview 'lab2024/NAND3/layout' against source cellview 'lab2024/NAND3/schematic'. - Fri Feb 23 14:47:23 2024 ***
+
+INFO (LX-1027): Schematic global net 'vdd!' has no corresponding layout net.
+INFO (LX-1028): Global net 'gnd!' in the layout design has no pin or no pin figure.
+INFO (LX-1005): Parameter 'Substrate' is set to 'FALSE' on schematic instance 'MN2'
+but is 'TRUE' on layout instance 'MN2'.
+INFO (LX-1005): Parameter 'drainContact' is set to 'TRUE' on schematic instance 'MN1'
+but is 'FALSE' on layout instance 'MN1'.
+INFO (LX-1005): Parameter 'drainContact' is set to 'TRUE' on schematic instance 'MN2'
+but is 'FALSE' on layout instance 'MN2'.
+INFO (LX-1005): Parameter 'sourceContact' is set to 'TRUE' on schematic instance 'MN0'
+but is 'FALSE' on layout instance 'MN0'.
+INFO (LX-1005): Parameter 'sourceContact' is set to 'TRUE' on schematic instance 'MN1'
+but is 'FALSE' on layout instance 'MN1'.
+INFO (LX-1001): Schematic instance 'MP0' has no corresponding layout instance.
+INFO (LX-1001): Schematic instance 'MP1' has no corresponding layout instance.
+INFO (LX-1001): Schematic instance 'MP2' has no corresponding layout instance.
+INFO (LX-1001): Layout instance 'I__0' has no corresponding schematic instance.
+INFO (LX-1001): Layout instance 'I__1' has no corresponding schematic instance.
+INFO (LX-1001): Layout instance 'I__2' has no corresponding schematic instance.
+INFO (LX-1001): Layout instance 'I__3' has no corresponding schematic instance.
+INFO (LX-1001): Layout instance 'I__4' has no corresponding schematic instance.
+INFO (LX-1001): Layout instance 'I__5' has no corresponding schematic instance.
+
+*** Check Against Source complete. ***
+

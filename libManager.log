@@ -89,3 +89,7 @@
 \w LIB PRIMLIBRF from the same file (defined earlier.)
 \w Warning: The directory: '/home/oj23092/VLSI_Design_Lab/lab202x' does not exist
 \w 	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)

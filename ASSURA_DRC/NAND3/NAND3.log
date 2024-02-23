@@ -6,7 +6,7 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:35 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075801.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/assura on Thu Feb 22 14:24:30 2024
+run on it075710.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/assura on Fri Feb 23 16:05:38 2024
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -15,7 +15,7 @@ Starting /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/b
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075801.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/aveng on Thu Feb 22 14:24:30 2024
+run on it075710.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/aveng on Fri Feb 23 16:05:38 2024
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -36,8 +36,8 @@ Loading tech rule set file : /eda/cadence/ams/4.10/assura/c35b4/c35b4c3/techRule
  Work Directory: /home/oj23092/VLSI_Design_Lab/ASSURA_DRC/NAND3
  Operating Mode: Legacy Mode is Off
 
-2024/02/22 14:24:30 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/22 14:24:30 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/23 16:05:38 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/23 16:05:38 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_DRC
 *WARNING* Failed to obtain license for Assura_DRC
 No Assura license available.
@@ -45,21 +45,21 @@ Checking out license for Phys_Ver_Sys_DRC_XL
 Restarting with VDB Build 2 
 
 Building the VDB part 2 in background mode.
-2024/02/22 14:24:30 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/22 14:24:30 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/23 16:05:39 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/23 16:05:39 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Executing: substrate_all = cellBoundary(root)
 
 Building the VDB part 3 in background mode.
-2024/02/22 14:24:31 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/22 14:24:31 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/23 16:05:39 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/23 16:05:39 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 
 Running in restart mode.
 
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.11  elap: 1  pf: 0  in: 40  out: 40  virt: 167M  phys: 820M
+cpu: 0.11  elap: 1  pf: 0  in: 48  out: 40  virt: 167M  phys: 878M
 
 Running the Task Processor, 1 cells, 9533 steps...
 
@@ -4637,17 +4637,17 @@ Executing: ill_met4_met3_bondpad_cbr1 = geomOverlap(m4pad_st m3pad_st diffNet)
 	   errorLayer(ill_met4_met3_bondpad_cbr1 "CBR1 PAD met4 not connected to met3")
 
 Finished running rules. Task processor time in main process:
-cpu: 0.29  elap: 0  pf: 0  in: 0  out: 2224  virt: 194M  phys: 913M
+cpu: 0.28  elap: 0  pf: 0  in: 0  out: 2224  virt: 194M  phys: 958M
 
 Started output post-processing ...
 
 Nothing to postprocess: No grid cells in the design
 
 Finished output post-processing
-cpu: 0.11  elap: 0  pf: 0  in: 0  out: 0  virt: 341M  phys: 1234M
+cpu: 0.11  elap: 0  pf: 0  in: 0  out: 0  virt: 341M  phys: 1279M
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6448  virt: 346M  phys: 1246M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6448  virt: 346M  phys: 1296M
 
 
 *****  aveng terminated normally  *****
@@ -4665,14 +4665,14 @@ Loading tech rule set file : /eda/cadence/ams/4.10/assura/c35b4/c35b4c3/techRule
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075801.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/avrpt on Thu Feb 22 14:24:32 2024
+run on it075710.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/avrpt on Fri Feb 23 16:05:40 2024
 
 
    Creating Error Database 'NAND3'...
 
    Reading VDB ...
-2024/02/22 14:24:32 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/02/22 14:24:32 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/23 16:05:40 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/02/23 16:05:40 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 --------------------------------------------------------------------------------
 Rule      Message                                    FlatCount     RealCount
 --------------------------------------------------------------------------------
@@ -5407,7 +5407,7 @@ Loading tech rule set file : /eda/cadence/ams/4.10/assura/c35b4/c35b4c3/techRule
 Finished /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/bin/avcallproc
 
 
-Run ended: Thu Feb 22 14:24:32 2024
+Run ended: Fri Feb 23 16:05:40 2024
 
 *****  Assura terminated normally  *****
 
