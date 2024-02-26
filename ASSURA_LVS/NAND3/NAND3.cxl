@@ -13,12 +13,12 @@ N B B
 C "NAND3 schematic lab2024" "NAND3 layout lab2024"
 N net2 avC8
 N net1 avC7
-N a avC2
-N b avC3
-N c avC4
-N out avC6
-N vdd! avC5
-N gnd! avC1
+N a a
+N b b
+N c c
+N out out
+N vdd! avC6
+N gnd! avC5
 I MN2 avD1_1
 I MN1 avD1_2
 I MN0 avD1_3

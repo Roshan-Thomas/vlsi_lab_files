@@ -1,0 +1,11 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'NAND3 layout lab2024':
+  info: Assign pin label "a" at (2.350, 3.300) to layer `net_met1'.
+  info: Assign pin label "b" at (3.700, 4.000) to layer `net_met1'.
+  info: Assign pin label "c" at (5.350, 4.000) to layer `net_met1'.
+  info: Assign pin label "out" at (7.000, 4.100) to layer `net_met1'.
+
+***** End of Label Report *****
+
