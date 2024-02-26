@@ -510,71 +510,50 @@ hnlPrintTopCellHeader hnlPrintTopCellFooter hnlPrintPorts hnlPrintDeviceHeader
 hnlPrintDeviceFooter hnlPrintInst) .
 Loading the file
 '/eda/cadence/2022-23/RHELx86/IC_6.1.8.320/tools.lnx86/dfII/etc/skill/hnl/spectre.ile'.Loading the file
-'/eda/cadence/2022-23/RHELx86/IC_6.1.8.320/tools.lnx86/dfII/etc/skill/hnl/driver.ile'.Begin Incremental Netlisting Feb 13 11:17:37 2024
-End netlisting Feb 13 11:17:37 2024
-Begin Incremental Netlisting Feb 13 11:18:45 2024
-End netlisting Feb 13 11:18:45 2024
-Begin Incremental Netlisting Feb 13 11:20:21 2024
+'/eda/cadence/2022-23/RHELx86/IC_6.1.8.320/tools.lnx86/dfII/etc/skill/hnl/driver.ile'.Begin Incremental Netlisting Feb 26 12:08:46 2024
+End netlisting Feb 26 12:08:47 2024
+Begin Incremental Netlisting Feb 26 12:09:39 2024
 ERROR (OSSHNL-109): The cellview 'lab2024/tb_nand3/schematic' has been modified
 since the last extraction. Validate
 that the schematic is correct and run Check
 and Save to correct this error.
 
-End netlisting Feb 13 11:20:21 2024
-Begin Incremental Netlisting Feb 13 11:20:31 2024
+End netlisting Feb 26 12:09:39 2024
+Begin Incremental Netlisting Feb 26 12:09:50 2024
 ERROR (OSSHNL-109): The cellview 'lab2024/tb_nand3/schematic' has been modified
 since the last extraction. Validate
 that the schematic is correct and run Check
 and Save to correct this error.
 
-End netlisting Feb 13 11:20:31 2024
-Begin Incremental Netlisting Feb 13 11:20:48 2024
-End netlisting Feb 13 11:20:48 2024
-Begin Incremental Netlisting Feb 13 11:23:19 2024
-End netlisting Feb 13 11:23:19 2024
-Begin Incremental Netlisting Feb 13 11:23:36 2024
-End netlisting Feb 13 11:23:36 2024
-Begin Incremental Netlisting Feb 13 11:23:52 2024
-End netlisting Feb 13 11:23:52 2024
-Begin Incremental Netlisting Feb 13 11:24:27 2024
-End netlisting Feb 13 11:24:27 2024
-Begin Incremental Netlisting Feb 13 11:25:07 2024
-End netlisting Feb 13 11:25:07 2024
-Begin Incremental Netlisting Feb 13 11:26:01 2024
-End netlisting Feb 13 11:26:01 2024
-Begin Incremental Netlisting Feb 13 11:27:33 2024
-WARNING (OSSHNL-160): The primitive, 'analogLib/cap/spectre', was not used in
-the last netlisting session in this
-current run directory. Therefore,
-re-netlisting all cell views where this
-primitive is instantiated.
+End netlisting Feb 26 12:09:50 2024
+Begin Incremental Netlisting Feb 26 12:09:57 2024
+ERROR (OSSHNL-109): The cellview 'lab2024/tb_nand3/schematic' has been modified
+since the last extraction. Validate
+that the schematic is correct and run Check
+and Save to correct this error.
 
-End netlisting Feb 13 11:27:33 2024
-Begin Incremental Netlisting Feb 13 11:28:00 2024
-End netlisting Feb 13 11:28:00 2024
-Begin Incremental Netlisting Feb 13 11:29:19 2024
-End netlisting Feb 13 11:29:19 2024
-Begin Incremental Netlisting Feb 13 11:31:53 2024
-End netlisting Feb 13 11:31:53 2024
-Begin Incremental Netlisting Feb 13 11:32:12 2024
-End netlisting Feb 13 11:32:12 2024
-Begin Incremental Netlisting Feb 13 11:32:37 2024
-End netlisting Feb 13 11:32:37 2024
-Begin Incremental Netlisting Feb 13 11:33:00 2024
-End netlisting Feb 13 11:33:00 2024
-Begin Incremental Netlisting Feb 13 11:35:38 2024
-End netlisting Feb 13 11:35:38 2024
-Begin Incremental Netlisting Feb 13 11:37:48 2024
-End netlisting Feb 13 11:37:48 2024
-Begin Incremental Netlisting Feb 13 11:39:30 2024
-End netlisting Feb 13 11:39:30 2024
-Begin Incremental Netlisting Feb 13 11:39:46 2024
-End netlisting Feb 13 11:39:46 2024
-Begin Incremental Netlisting Feb 13 11:41:37 2024
-End netlisting Feb 13 11:41:37 2024
-Begin Incremental Netlisting Feb 13 11:46:32 2024
-End netlisting Feb 13 11:46:32 2024
-Begin Incremental Netlisting Feb 13 11:56:02 2024
-End netlisting Feb 13 11:56:03 2024
-Begin Incremental Netlisting Feb 13 11:56:29 2024
-End netlisting Feb 13 11:56:29 2024
+End netlisting Feb 26 12:09:57 2024
+Begin Incremental Netlisting Feb 26 12:10:22 2024
+End netlisting Feb 26 12:10:22 2024
+Begin Incremental Netlisting Feb 26 12:11:26 2024
+End netlisting Feb 26 12:11:26 2024
+Begin Incremental Netlisting Feb 26 12:12:33 2024
+ERROR (OSSHNL-109): The cellview 'lab2024/tb_nand3/schematic' has been modified
+since the last extraction. Validate
+that the schematic is correct and run Check
+and Save to correct this error.
+
+End netlisting Feb 26 12:12:33 2024
+Begin Incremental Netlisting Feb 26 12:12:45 2024
+ERROR (OSSHNL-109): The cellview 'lab2024/tb_nand3/schematic' has been modified
+since the last extraction. Validate
+that the schematic is correct and run Check
+and Save to correct this error.
+
+End netlisting Feb 26 12:12:45 2024
+Begin Incremental Netlisting Feb 26 12:12:59 2024
+End netlisting Feb 26 12:13:00 2024
+Begin Incremental Netlisting Feb 26 12:14:25 2024
+End netlisting Feb 26 12:14:25 2024
+Begin Incremental Netlisting Feb 26 12:17:18 2024
+End netlisting Feb 26 12:17:18 2024
