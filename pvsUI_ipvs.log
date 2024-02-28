@@ -1,2 +1,2 @@
-2024/02/26 12:07:24 WARNING The glibc version of this host does not appear to be a Cadence supported version.
-2024/02/26 12:07:24 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/02/28 15:14:16 WARNING The glibc version of this host does not appear to be a Cadence supported version.
+2024/02/28 15:14:16 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
