@@ -1,0 +1,13 @@
+CADENCE IHNL11140
+$model
+lab2024/tb_invParam/schematic tb_invParam
+lab2024/invParam/schematic invParam
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+wn wn
+wp wp
+$endparam
