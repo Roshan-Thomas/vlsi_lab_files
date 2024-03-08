@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      oj23092
+HostName                       it075722.wks.bris.ac.uk
+ProcessIdentifier              1221750
+ProcessCreationTime_UTC        1709905817
+ProcessCreationTime_Readable   Fri Mar  8 13:50:17 2024 GMT
+AppIdentifier                  /eda/cadence/2022-23/RHELx86/IC_6.1.8.320/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /home/oj23092/VLSI_Design_Lab/logs_oj23092/logs0/Job0.log
+TimeEditLocked                 Fri Mar  8 13:50:17 2024 GMT
