@@ -1,0 +1,7 @@
+include "/eda/cadence/ams/4.10/spectre/c35/soac/res.scs" section=restm
+include "/eda/cadence/ams/4.10/spectre/c35/soac/bip.scs" section=biptm
+include "/eda/cadence/ams/4.10/spectre/c35/soac/cap.scs" section=captm
+include "/eda/cadence/ams/4.10/spectre/c35/soac/esddiode.scs" section=esddiodetm
+include "/eda/cadence/ams/4.10/spectre/c35/soac/ind.scs" section=indtm
+include "/eda/cadence/ams/4.10/spectre/c35/soac/cmos53.scs" section=cmostm
+include "/eda/cadence/ams/4.10/spectre/c35/soac/processOption.scs"

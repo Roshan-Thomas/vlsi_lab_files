@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "tb_invParam"
+  repList "spectre cmos_sch schematic"
+  stopList "spectre"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_invParam/adexl/results/data/Interactive.1/9/lab2024:tb_invParam:1/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "lab2024/invParam/schematic" "invParam" )
+( "lab2024/tb_invParam/schematic" "tb_invParam" )
+ )
+( "tb_invParam" "ihnl/cds1/map" )
+( "invParam" "ihnl/cds0/map" )
+ )

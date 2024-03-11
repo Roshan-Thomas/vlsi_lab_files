@@ -1,0 +1,6 @@
+
+// Library name: lab2024
+// Cell name: invParam
+// View name: schematic
+subckt invParam in out
+parameters Wn=1u Wp=1u
