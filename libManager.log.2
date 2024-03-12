@@ -1,12 +1,12 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 02/10/2023 14:05 (cpgsrv13) $
 \o Sub version:		sub-version  s312 
-\o Arguments:		-mpssession virtuoso890241 -mpshost it075679.wks.bris.ac.uk 
-\o Working Directory:	it075679.wks.bris.ac.uk:/home/oj23092/VLSI_Design_Lab
+\o Arguments:		-mpssession virtuoso3131964 -mpshost it075651.wks.bris.ac.uk 
+\o Working Directory:	it075651.wks.bris.ac.uk:/home/oj23092/VLSI_Design_Lab
 \o 64-bit offsets
 \o Qt version: 		5.9.1
 \o Log file is "/home/oj23092/VLSI_Design_Lab/libManager.log.2".
 \o Opening libManager window.
-\a nrResizeWindow(cdsLibManager list(607 39 673 491))
+\a nrResizeWindow(cdsLibManager list(90 125 673 491))
 \a nrSetCurrentWindow(cdsLibManager)
 \o changeWorkingDir("/home/oj23092/VLSI_Design_Lab") unnecessary.
 \o ddSetForcedLib("") unnecessary.
@@ -20,22 +20,9 @@
 \w 	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
 \a cdsLibManager->libListBox->value = "lab2024"
 \a cdsLibManager->libLineEdit->value = "lab2024"
-\a cdsLibManager->cellListBox->value = "tb_invParam"
-\a cdsLibManager->cellLineEdit->value = "tb_invParam"
-\a cdsLibManager->cellListBox->value = "invParam"
-\a cdsLibManager->cellLineEdit->value = "invParam"
-\a cdsLibManager->cellListBox->value = "tb_invParam"
-\a cdsLibManager->cellLineEdit->value = "tb_invParam"
-\a cdsLibManager->viewListBox->value = "adexl"
-\a cdsLibManager->viewLineEdit->value = "adexl"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->FileNewCVButton->value = t
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
 \w Warning: LIB A_CELLS from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 51 redefines
 \w LIB A_CELLS from the same file (defined earlier.)
 \w Warning: LIB PRIMLIBRF from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 52 redefines
@@ -44,33 +31,22 @@
 \w 	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
 \a cdsLibManager->libListBox->value = "lab2024"
 \a cdsLibManager->libLineEdit->value = "lab2024"
-\a cdsLibManager->cellListBox->value = "tb_invParam"
-\a cdsLibManager->cellLineEdit->value = "tb_invParam"
-\a cdsLibManager->viewListBox->value = "adexl"
-\a cdsLibManager->viewLineEdit->value = "adexl"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "adexl"
-\a cdsLibManager->viewLineEdit->value = "adexl"
 \a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: LIB A_CELLS from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 51 redefines
+\w LIB A_CELLS from the same file (defined earlier.)
+\w Warning: LIB PRIMLIBRF from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 52 redefines
+\w LIB PRIMLIBRF from the same file (defined earlier.)
+\w Warning: The directory: '/home/oj23092/VLSI_Design_Lab/lab202x' does not exist
+\w 	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
+\a cdsLibManager->libListBox->value = "lab2024"
+\a cdsLibManager->libLineEdit->value = "lab2024"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "xorc"
+\a cdsLibManager->cellLineEdit->value = "xorc"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(90 125 673 491))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "adexl"
-\a cdsLibManager->viewLineEdit->value = "adexl"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "adexl"
-\a cdsLibManager->viewLineEdit->value = "adexl"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown
