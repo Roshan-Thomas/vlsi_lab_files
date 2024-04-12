@@ -9,5 +9,6 @@ vdd! vdd!
 $endnet
 $param
 wn wn
+s s
 wp wp
 $endparam

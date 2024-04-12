@@ -1,11 +1,11 @@
 HEADER
 "PSFversion" "1.00"
 "Log Generator" "drlLog rev. 1.0"
-"Log Time Stamp" "Fri Mar  1 13:42:32 2024"
+"Log Time Stamp" "Fri Apr 12 16:28:55 2024"
 "psfversion" "1.4.0"
 "simulator" "spectre"
 "version" "21.1.0.751.isr19"
-"date" "1:42:32 PM, Fri Mar 1, 2024"
+"date" "4:28:55 PM, Fri Apr 12, 2024"
 "design" "// Generated for: spectre"
 "signalNameType" "spectre"
 "simMode" "APS"
@@ -22,15 +22,26 @@ TYPE
 "description" STRING *
 )
 VALUE
-"dc-dc" "analysisInst" (
-"dc"
-"dc.dc"
+"tran-tran" "analysisInst" (
+"tran"
+"tran.tran.tran"
 "PSF"
 ""
-("dc")
-"DC Analysis `dc': V1:dc = (0 V -> 3.3 V)"
+("time")
+"Transient Analysis `tran': time = (0 s -> 10 ns)"
 ) PROP(
-"data_type" "scalar"
+"data_type" "swept_scalar"
+)
+
+"finalTimeOP-info" "analysisInst" (
+"info"
+"finalTimeOP.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
 )
 
 "modelParameter-info" "analysisInst" (

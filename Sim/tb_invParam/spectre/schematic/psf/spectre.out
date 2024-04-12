@@ -5,20 +5,20 @@ Copyright (C) 1989-2023 Cadence Design Systems, Inc. All rights reserved worldwi
 
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
 
-User: oj23092   Host: it075677.wks.bris.ac.uk   HostID: DE894887   PID: 1073735
-Memory  available: 6.8892 GB  physical: 16.2981 GB
+User: oj23092   Host: it075702.wks.bris.ac.uk   HostID: DE896A87   PID: 1111268
+Memory  available: 11.8722 GB  physical: 16.2980 GB
 Linux   : Rocky Linux release 8.9 (Green Obsidian)
 CPU Type: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
         Socket: Processors [Frequency] (Hyperthreaded Processor)
-        0:       0 [3200.0] (  6 ),  1 [3200.0] (  7 ),  2 [4299.2] (  8 )
+        0:       0 [3200.0] (  6 ),  1 [4300.5] (  7 ),  2 [3200.0] (  8 )
                  3 [3200.0] (  9 ),  4 [3200.0] ( 10 ),  5 [3200.0] ( 11 )
         
-System load averages (1min, 5min, 15min) : 0.2 %, 0.8 %, 0.8 %
+System load averages (1min, 5min, 15min) : 1.8 %, 1.3 %, 0.8 %
 Hyperthreading is enabled
 HPC is enabled
 
 
-Simulating `input.scs' on it075677.wks.bris.ac.uk at 1:42:31 PM, Fri Mar 1, 2024 (process id: 1073735).
+Simulating `input.scs' on it075702.wks.bris.ac.uk at 4:28:55 PM, Fri Apr 12, 2024 (process id: 1111268).
 Current working directory: /home/oj23092/VLSI_Design_Lab/Sim/tb_invParam/spectre/schematic/netlist
 Command line:
      \
@@ -28,10 +28,10 @@ Command line:
         +param /eda/cadence/ams/4.10/spectre/ams_range.lmts -env ade
 
 Licensing Information:
-[13:42:31.289650] Configured Lic search path (21.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+[16:28:55.289754] Configured Lic search path (21.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
 
 Licensing Information:
-[13:42:32.133034] Periodic Lic check successful
+[16:28:55.506160] Periodic Lic check successful
 
 Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
 Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
@@ -69,27 +69,27 @@ Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cap.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/bip.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/ind.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/esddiode.scs
-Time for NDB Parsing: CPU = 80.254 ms, elapsed = 324.417 ms.
-Time accumulated: CPU = 136.647 ms, elapsed = 324.419 ms.
-Peak resident memory used = 142 Mbytes.
+Time for NDB Parsing: CPU = 81.897 ms, elapsed = 512.901 ms.
+Time accumulated: CPU = 135.27 ms, elapsed = 512.903 ms.
+Peak resident memory used = 165 Mbytes.
 
-TCP: opening server port it075677.wks.bris.ac.uk:57243
+TCP: opening server port it075702.wks.bris.ac.uk:34013
 Existing shared object for module modn_ahdl is up to date.
 Installed compiled interface for modn_ahdl.
 Existing shared object for module modp_ahdl is up to date.
 Installed compiled interface for modp_ahdl.
-Time for Elaboration: CPU = 15.479 ms, elapsed = 20.936 ms.
-Time accumulated: CPU = 152.19 ms, elapsed = 345.418 ms.
-Peak resident memory used = 151 Mbytes.
+Time for Elaboration: CPU = 19.949 ms, elapsed = 23.838 ms.
+Time accumulated: CPU = 155.283 ms, elapsed = 536.805 ms.
+Peak resident memory used = 174 Mbytes.
 
 
 Notice from spectre during hierarchy flattening.
     The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
 
 
-Time for EDB Visiting: CPU = 1.03 ms, elapsed = 1.42694 ms.
-Time accumulated: CPU = 153.287 ms, elapsed = 346.911 ms.
-Peak resident memory used = 153 Mbytes.
+Time for EDB Visiting: CPU = 1.14 ms, elapsed = 1.82199 ms.
+Time accumulated: CPU = 156.503 ms, elapsed = 538.706 ms.
+Peak resident memory used = 176 Mbytes.
 
 Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
 
@@ -152,8 +152,8 @@ Circuit inventory:
             vsource 2     
 
 Analysis and control statement inventory:
-                 dc 1     
-               info 6     
+               info 7     
+               tran 1     
 
 Output statements:
              .probe 0     
@@ -169,9 +169,9 @@ Notice from spectre during initial setup.
     APS enabled.
     72 warnings suppressed.
 
-Time for parsing: CPU = 5.087 ms, elapsed = 306.784 ms.
-Time accumulated: CPU = 158.43 ms, elapsed = 653.75 ms.
-Peak resident memory used = 158 Mbytes.
+Time for parsing: CPU = 5.072 ms, elapsed = 306.401 ms.
+Time accumulated: CPU = 161.633 ms, elapsed = 845.169 ms.
+Peak resident memory used = 181 Mbytes.
 
 ~~~~~~~~~~~~~~~~~~~~~~
 Pre-Simulation Summary
@@ -179,90 +179,103 @@ Pre-Simulation Summary
    -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
 ~~~~~~~~~~~~~~~~~~~~~~
 
-****************************************
-DC Analysis `dc': V1:dc = (0 V -> 3.3 V)
-****************************************
-
-Notice from spectre during DC analysis `dc'.
+Notice from spectre during transient analysis `tran'.
     No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled.
 
 
-Opening the PSF file ../psf/dc.dc ...
+************************************************
+Transient Analysis `tran': time = (0 s -> 10 ns)
+************************************************
+
+Warning from spectre during check, during IC analysis, during transient analysis `tran'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'.
+
+DC simulation time: CPU = 277 us, elapsed = 281.096 us.
+
+Opening the PSF file ../psf/tran.tran.tran ...
 Important parameter values:
-    reltol = 100e-06
+    start = 0 s
+    outputstart = 0 s
+    stop = 10 ns
+    step = 10 ps
+    maxstep = 100 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 10e-06
     abstol(V) = 1 uV
     abstol(I) = 1 pA
     temp = 27 C
     tnom = 27 C
     tempeffects = all
-    gmindc = 1 pS
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
     rabsshort = 1 mOhm
-    dc: dc = 132 mV         (4 %), step = 66 mV           (2 %)
-    dc: dc = 198 mV         (6 %), step = 66 mV           (2 %)
-    dc: dc = 264 mV         (8 %), step = 66 mV           (2 %)
-    dc: dc = 330 mV        (10 %), step = 66 mV           (2 %)
-    dc: dc = 396 mV        (12 %), step = 66 mV           (2 %)
-    dc: dc = 462 mV        (14 %), step = 66 mV           (2 %)
-    dc: dc = 528 mV        (16 %), step = 66 mV           (2 %)
-    dc: dc = 594 mV        (18 %), step = 66 mV           (2 %)
-    dc: dc = 660 mV        (20 %), step = 66 mV           (2 %)
-    dc: dc = 726 mV        (22 %), step = 66 mV           (2 %)
-    dc: dc = 792 mV        (24 %), step = 66 mV           (2 %)
-    dc: dc = 858 mV        (26 %), step = 66 mV           (2 %)
-    dc: dc = 924 mV        (28 %), step = 66 mV           (2 %)
-    dc: dc = 990 mV        (30 %), step = 66 mV           (2 %)
-    dc: dc = 1.056 V       (32 %), step = 66 mV           (2 %)
-    dc: dc = 1.122 V       (34 %), step = 66 mV           (2 %)
-    dc: dc = 1.188 V       (36 %), step = 66 mV           (2 %)
-    dc: dc = 1.254 V       (38 %), step = 66 mV           (2 %)
-    dc: dc = 1.32 V        (40 %), step = 66 mV           (2 %)
-    dc: dc = 1.386 V       (42 %), step = 66 mV           (2 %)
-    dc: dc = 1.452 V       (44 %), step = 66 mV           (2 %)
-    dc: dc = 1.518 V       (46 %), step = 66 mV           (2 %)
-    dc: dc = 1.584 V       (48 %), step = 66 mV           (2 %)
-    dc: dc = 1.65 V        (50 %), step = 66 mV           (2 %)
-    dc: dc = 1.716 V       (52 %), step = 66 mV           (2 %)
-    dc: dc = 1.782 V       (54 %), step = 66 mV           (2 %)
-    dc: dc = 1.848 V       (56 %), step = 66 mV           (2 %)
-    dc: dc = 1.914 V       (58 %), step = 66 mV           (2 %)
-    dc: dc = 1.98 V        (60 %), step = 66 mV           (2 %)
-    dc: dc = 2.046 V       (62 %), step = 66 mV           (2 %)
-    dc: dc = 2.112 V       (64 %), step = 66 mV           (2 %)
-    dc: dc = 2.178 V       (66 %), step = 66 mV           (2 %)
-    dc: dc = 2.244 V       (68 %), step = 66 mV           (2 %)
-    dc: dc = 2.31 V        (70 %), step = 66 mV           (2 %)
-    dc: dc = 2.376 V       (72 %), step = 66 mV           (2 %)
-    dc: dc = 2.442 V       (74 %), step = 66 mV           (2 %)
-    dc: dc = 2.508 V       (76 %), step = 66 mV           (2 %)
-    dc: dc = 2.574 V       (78 %), step = 66 mV           (2 %)
-    dc: dc = 2.64 V        (80 %), step = 66 mV           (2 %)
-    dc: dc = 2.706 V       (82 %), step = 66 mV           (2 %)
-    dc: dc = 2.772 V       (84 %), step = 66 mV           (2 %)
-    dc: dc = 2.838 V       (86 %), step = 66 mV           (2 %)
-    dc: dc = 2.904 V       (88 %), step = 66 mV           (2 %)
-    dc: dc = 2.97 V        (90 %), step = 66 mV           (2 %)
-    dc: dc = 3.036 V       (92 %), step = 66 mV           (2 %)
-    dc: dc = 3.102 V       (94 %), step = 66 mV           (2 %)
-    dc: dc = 3.168 V       (96 %), step = 66 mV           (2 %)
-    dc: dc = 3.234 V       (98 %), step = 66 mV           (2 %)
-    dc: dc = 3.3 V        (100 %), step = 66 mV           (2 %)
+
+
+Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   2       (current)
+                 save   5       (voltage)
+
+    tran: time = 266.1 ps    (2.66 %), step = 16.29 ps     (163 m%)
+    tran: time = 842.6 ps    (8.43 %), step = 100 ps          (1 %)
+    tran: time = 1.251 ns    (12.5 %), step = 9.877 ps    (98.8 m%)
+    tran: time = 1.792 ns    (17.9 %), step = 46.87 ps     (469 m%)
+    tran: time = 2.25 ns     (22.5 %), step = 13.99 ps     (140 m%)
+    tran: time = 2.844 ns    (28.4 %), step = 100 ps          (1 %)
+    tran: time = 3.257 ns    (32.6 %), step = 9.432 ps    (94.3 m%)
+    tran: time = 3.775 ns    (37.7 %), step = 44.57 ps     (446 m%)
+    tran: time = 4.25 ns     (42.5 %), step = 13.98 ps     (140 m%)
+    tran: time = 4.844 ns    (48.4 %), step = 100 ps          (1 %)
+    tran: time = 5.257 ns    (52.6 %), step = 9.432 ps    (94.3 m%)
+    tran: time = 5.775 ns    (57.7 %), step = 44.57 ps     (446 m%)
+    tran: time = 6.25 ns     (62.5 %), step = 13.98 ps     (140 m%)
+    tran: time = 6.844 ns    (68.4 %), step = 100 ps          (1 %)
+    tran: time = 7.257 ns    (72.6 %), step = 9.432 ps    (94.3 m%)
+    tran: time = 7.775 ns    (77.7 %), step = 44.57 ps     (446 m%)
+    tran: time = 8.25 ns     (82.5 %), step = 13.98 ps     (140 m%)
+    tran: time = 8.844 ns    (88.4 %), step = 100 ps          (1 %)
+    tran: time = 9.257 ns    (92.6 %), step = 9.432 ps    (94.3 m%)
+    tran: time = 9.775 ns    (97.7 %), step = 44.57 ps     (446 m%)
+Number of accepted tran steps =             827
 
 Maximum value achieved for any signal of each quantity: 
-V: V(net2) = 3.3 V
-I: I(V0:p) = 3.326 pA
+V: V(net3) = 3.408 V
+I: I(V1:p) = 1.026 mA
 
-Warning from spectre at dc = 3.3 V during check, during DC analysis `dc'.
-    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+          reltol = 10e-06, default 100e-06 (conservative)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-DC simulation time: CPU = 42.836 ms, elapsed = 63.6721 ms.
 
-Notice from spectre at dc = 3.3 V during DC analysis `dc'.
-    The value of parameter 'dc' has been reset to the original value 0.
+During simulation, the CPU load for active processors is :
+         0 (11.5 %)      1 (5.7 %)       2 (1.2 %)       3 (2.3 %)
+         4 (4.6 %)       5 (2.3 %)       6 (9.4 %)       7 (4.6 %)
+         8 (2.3 %)       9 (8.0 %)      10 (16.5 %)     11 (9.2 %)
+        Total: 77.6%
+Initial condition solution time: CPU = 300 us, elapsed = 303.984 us.
+Intrinsic tran analysis time:    CPU = 43.159 ms, elapsed = 46.164 ms.
+Total time required for tran analysis `tran': CPU = 82.33 ms, elapsed = 105.795 ms, util. = 77.8%.
+Time accumulated: CPU = 248.124 ms, elapsed = 956.757 ms.
+Peak resident memory used = 190 Mbytes.
 
-Total time required for dc analysis `dc': CPU = 42.888 ms, elapsed = 63.7221 ms, util. = 67.3%.
-Time accumulated: CPU = 206.106 ms, elapsed = 723.37 ms.
-Peak resident memory used = 165 Mbytes.
+finalTimeOP: writing operating point information to rawfile.
 
+Opening the PSF file ../psf/finalTimeOP.info ...
 modelParameter: writing model parameter values to rawfile.
 
 Opening the PSF file ../psf/modelParameter.info ...
@@ -283,14 +296,14 @@ subckts: writing subcircuits to rawfile.
 Opening the PSFASCII file ../psf/subckts.info.subckts ...
 Licensing Information:
 Lic Summary:
-[13:42:32.126912] Cdslmd servers:5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
-[13:42:32.126936] Feature usage summary:
-[13:42:32.126936] Virtuoso_Multi_mode_Simulation
+[16:28:56.072689] Cdslmd servers:5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+[16:28:56.072712] Feature usage summary:
+[16:28:56.072713] Virtuoso_Multi_mode_Simulation
 
 
-Aggregate audit (1:42:32 PM, Fri Mar 1, 2024):
-Time used: CPU = 215 ms, elapsed = 749 ms, util. = 28.8%.
-Time spent in licensing: elapsed = 154 ms, percentage of total = 20.5%.
-Peak memory used = 168 Mbytes.
-Simulation started at: 1:42:31 PM, Fri Mar 1, 2024, ended at: 1:42:32 PM, Fri Mar 1, 2024, with elapsed time (wall clock): 749 ms.
+Aggregate audit (4:28:56 PM, Fri Apr 12, 2024):
+Time used: CPU = 259 ms, elapsed = 984 ms, util. = 26.3%.
+Time spent in licensing: elapsed = 559 ms, percentage of total = 56.8%.
+Peak memory used = 192 Mbytes.
+Simulation started at: 4:28:55 PM, Fri Apr 12, 2024, ended at: 4:28:56 PM, Fri Apr 12, 2024, with elapsed time (wall clock): 984 ms.
 spectre completes with 0 errors, 17 warnings, and 9 notices.

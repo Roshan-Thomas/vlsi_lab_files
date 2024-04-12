@@ -1,0 +1,12 @@
+CADENCE IHNL11140
+$model
+lab2024/ycircuit/schematic ycircuit
+lab2024/tb_ycircuitcustom/schematic tb_ycircuitcustom
+lab2024/ycircuitcustom/schematic ycircuitcustom
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+$endparam

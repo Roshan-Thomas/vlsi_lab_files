@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Apr 12 16:34:34 2024
+// Design library name: lab2024
+// Design cell name: tb_ycircuitcustom
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!
