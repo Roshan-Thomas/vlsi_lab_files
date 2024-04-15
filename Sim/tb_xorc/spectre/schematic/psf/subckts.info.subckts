@@ -1,0 +1,721 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "21.1.0.751.isr19"
+"date" "7:26:29 PM, Mon Apr 15, 2024"
+"design" "// Generated for: spectre"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 0.000100000
+TYPE
+"subckt" STRUCT(
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+"subckt_instances" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"modnl" "subckt" (
+""
+""
+""
+)
+"modn30mnwd" "subckt" (
+""
+""
+""
+)
+"SP015S250T" "subckt" (
+""
+""
+""
+)
+"cmim" "subckt" (
+""
+""
+""
+)
+"SP028S300C" "subckt" (
+""
+""
+""
+)
+"SP030C200C" "subckt" (
+""
+""
+""
+)
+"rdiffp3" "subckt" (
+""
+""
+""
+)
+"rpolyh" "subckt" (
+""
+""
+""
+)
+"SP018S300C" "subckt" (
+""
+""
+""
+)
+"SP026S200D" "subckt" (
+""
+""
+""
+)
+"modpd30mnwd" "subckt" (
+""
+""
+""
+)
+"SP028C200C" "subckt" (
+""
+""
+""
+)
+"padvss" "subckt" (
+""
+""
+""
+)
+"phdnwa850" "subckt" (
+""
+""
+""
+)
+"pmosmw_4n" "subckt" (
+""
+""
+""
+)
+"DI15PT" "subckt" (
+""
+""
+""
+)
+"esdfdn5" "subckt" (
+""
+""
+""
+)
+"modp" "subckt" (
+"ls ng ad nrs as pd w ws ps shk l nrd"
+"d g s b"
+"I0.I1.MP0 I0.I0.MP0 I0.MP3 I0.MP2 I0.MP1 I0.MP0"
+)
+"SP200C200C" "subckt" (
+""
+""
+""
+)
+"DI30PT" "subckt" (
+""
+""
+""
+)
+"DI60PT" "subckt" (
+""
+""
+""
+)
+"rdiffp" "subckt" (
+""
+""
+""
+)
+"SP021S200T" "subckt" (
+""
+""
+""
+)
+"SP090C200C" "subckt" (
+""
+""
+""
+)
+"xorc" "subckt" (
+"Wn Wp"
+"A B out 0 vdd!"
+"I0"
+)
+"esdpd18" "subckt" (
+""
+""
+""
+)
+"rnwell" "subckt" (
+""
+""
+""
+)
+"invParam" "subckt" (
+"Wn Wp"
+"in out 0 vdd!"
+"I0.I1 I0.I0"
+)
+"rpoly1" "subckt" (
+""
+""
+""
+)
+"modn18tjfet2" "subckt" (
+""
+""
+""
+)
+"SP073S250T" "subckt" (
+""
+""
+""
+)
+"cpolyrf" "subckt" (
+""
+""
+""
+)
+"modp30m" "subckt" (
+""
+""
+""
+)
+"SP038S300C" "subckt" (
+""
+""
+""
+)
+"SY016C180C" "subckt" (
+""
+""
+""
+)
+"modn" "subckt" (
+"ls ng ad nrs as pd w ws ps shk l nrd"
+"d g s b"
+"I0.I1.MN0 I0.I0.MN0 I0.MN3 I0.MN2 I0.MN1 I0.MN0"
+)
+"sbd5" "subckt" (
+""
+""
+""
+)
+"SP033S150T" "subckt" (
+""
+""
+""
+)
+"modnmhl" "subckt" (
+""
+""
+""
+)
+"esdgcn5" "subckt" (
+""
+""
+""
+)
+"SP040C200C" "subckt" (
+""
+""
+""
+)
+"SP040C300C" "subckt" (
+""
+""
+""
+)
+"DI50PT" "subckt" (
+""
+""
+""
+)
+"nmosmw_4n" "subckt" (
+""
+""
+""
+)
+"SY014C165C" "subckt" (
+""
+""
+""
+)
+"modpml" "subckt" (
+""
+""
+""
+)
+"SP090S155D" "subckt" (
+""
+""
+""
+)
+"cvar" "subckt" (
+""
+""
+""
+)
+"SY015C200C" "subckt" (
+""
+""
+""
+)
+"pmosw_4n" "subckt" (
+""
+""
+""
+)
+"cpoly" "subckt" (
+""
+""
+""
+)
+"modp30mnwd" "subckt" (
+""
+""
+""
+)
+"SP047S250T" "subckt" (
+""
+""
+""
+)
+"SP026S200C" "subckt" (
+""
+""
+""
+)
+"padvdd" "subckt" (
+""
+""
+""
+)
+"modpd30mpd" "subckt" (
+""
+""
+""
+)
+"DI25PT" "subckt" (
+""
+""
+""
+)
+"modnh" "subckt" (
+""
+""
+""
+)
+"SP047S180D" "subckt" (
+""
+""
+""
+)
+"pmosmw_2n" "subckt" (
+""
+""
+""
+)
+"SP112C300C" "subckt" (
+""
+""
+""
+)
+"pd" "subckt" (
+""
+""
+""
+)
+"SY028C160C" "subckt" (
+""
+""
+""
+)
+"nd" "subckt" (
+""
+""
+""
+)
+"SP014S300C" "subckt" (
+""
+""
+""
+)
+"SP068C300C" "subckt" (
+""
+""
+""
+)
+"SP020S180D" "subckt" (
+""
+""
+""
+)
+"SP050S155D" "subckt" (
+""
+""
+""
+)
+"modn18tjfet1" "subckt" (
+""
+""
+""
+)
+"SP050S155C" "subckt" (
+""
+""
+""
+)
+"cpmim" "subckt" (
+""
+""
+""
+)
+"SP020S180C" "subckt" (
+""
+""
+""
+)
+"modprf" "subckt" (
+""
+""
+""
+)
+"pmosw_3n" "subckt" (
+""
+""
+""
+)
+"rpoly2rf" "subckt" (
+""
+""
+""
+)
+"rpoly2p" "subckt" (
+""
+""
+""
+)
+"SP047S180C" "subckt" (
+""
+""
+""
+)
+"SP024S250T" "subckt" (
+""
+""
+""
+)
+"modnm" "subckt" (
+""
+""
+""
+)
+"SY019C180C" "subckt" (
+""
+""
+""
+)
+"nmosw_4n" "subckt" (
+""
+""
+""
+)
+"ngatecap" "subckt" (
+""
+""
+""
+)
+"SP051C300C" "subckt" (
+""
+""
+""
+)
+"SP011S200T" "subckt" (
+""
+""
+""
+)
+"DI45PT" "subckt" (
+""
+""
+""
+)
+"SP020S250T" "subckt" (
+""
+""
+""
+)
+"modnml" "subckt" (
+""
+""
+""
+)
+"SP090S155C" "subckt" (
+""
+""
+""
+)
+"nmosmw_2n" "subckt" (
+""
+""
+""
+)
+"rdiffn3" "subckt" (
+""
+""
+""
+)
+"modnmh" "subckt" (
+""
+""
+""
+)
+"SP045C200C" "subckt" (
+""
+""
+""
+)
+"DI55PT" "subckt" (
+""
+""
+""
+)
+"modpd30m" "subckt" (
+""
+""
+""
+)
+"rpoly2" "subckt" (
+""
+""
+""
+)
+"SP037S180C" "subckt" (
+""
+""
+""
+)
+"rdiffn" "subckt" (
+""
+""
+""
+)
+"modpm" "subckt" (
+""
+""
+""
+)
+"modn30m" "subckt" (
+""
+""
+""
+)
+"modn30mjfet1" "subckt" (
+""
+""
+""
+)
+"nmosw_2n" "subckt" (
+""
+""
+""
+)
+"SY017C165C" "subckt" (
+""
+""
+""
+)
+"nwd" "subckt" (
+""
+""
+""
+)
+"modp30mpd" "subckt" (
+""
+""
+""
+)
+"modpl" "subckt" (
+""
+""
+""
+)
+"modnhl" "subckt" (
+""
+""
+""
+)
+"esdpd30" "subckt" (
+""
+""
+""
+)
+"SP031S250T" "subckt" (
+""
+""
+""
+)
+"vert10" "subckt" (
+""
+""
+""
+)
+"lat2" "subckt" (
+""
+""
+""
+)
+"modn30mjfet2" "subckt" (
+""
+""
+""
+)
+"DI35PT" "subckt" (
+""
+""
+""
+)
+"SP037S250T" "subckt" (
+""
+""
+""
+)
+"cmimrf" "subckt" (
+""
+""
+""
+)
+"esdgcp5" "subckt" (
+""
+""
+""
+)
+"SP100S250T" "subckt" (
+""
+""
+""
+)
+"SP140C200C" "subckt" (
+""
+""
+""
+)
+"SP025C200C" "subckt" (
+""
+""
+""
+)
+"esdfdp5" "subckt" (
+""
+""
+""
+)
+"pmosmw_3n" "subckt" (
+""
+""
+""
+)
+"rpolyz" "subckt" (
+""
+""
+""
+)
+"SP023S200C" "subckt" (
+""
+""
+""
+)
+"DI20PT" "subckt" (
+""
+""
+""
+)
+"esdpd26" "subckt" (
+""
+""
+""
+)
+"rpoly2ph" "subckt" (
+""
+""
+""
+)
+"nmosmw_3n" "subckt" (
+""
+""
+""
+)
+"rpolyhrf" "subckt" (
+""
+""
+""
+)
+"zd2sm24" "subckt" (
+""
+""
+""
+)
+"modn18t" "subckt" (
+""
+""
+""
+)
+"modnrf" "subckt" (
+""
+""
+""
+)
+"pmosw_2n" "subckt" (
+""
+""
+""
+)
+"SP060S300T" "subckt" (
+""
+""
+""
+)
+"SP133S300T" "subckt" (
+""
+""
+""
+)
+"modn18tnwd" "subckt" (
+""
+""
+""
+)
+"SP037S180D" "subckt" (
+""
+""
+""
+)
+"nmosw_3n" "subckt" (
+""
+""
+""
+)
+"phdnwb850" "subckt" (
+""
+""
+""
+)
+"SP014S300D" "subckt" (
+""
+""
+""
+)
+"SP049S300T" "subckt" (
+""
+""
+""
+)
+"DI40PT" "subckt" (
+""
+""
+""
+)
+END

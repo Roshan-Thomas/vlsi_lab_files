@@ -1,0 +1,6 @@
+HEADER
+"PSFversion" "1.00"
+"I4n" "ycircuitcustom"
+"VDn VCn VBn VAn" "analogLib_vpulse_spectre"
+"C0n" "analogLib_cap_spectre"
+"Vn" "analogLib_vdc_spectre"

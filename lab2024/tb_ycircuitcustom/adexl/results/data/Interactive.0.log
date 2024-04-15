@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Apr 15 14:43:33 2024 
+Best design point: 1
+Design specs: 
+	lab2024:tb_ycircuitcustom:1	corner	C35B4_corner001 - 
+	lab2024:tb_ycircuitcustom:1	corner	C35B4_corner002 - 
+	lab2024:tb_ycircuitcustom:1	corner	C35B4_corner003 - 
+	lab2024:tb_ycircuitcustom:1	corner	C35B4_corner004 - 
+	lab2024:tb_ycircuitcustom:1	corner	C35B4_corner005 - 
+Design parameters: 
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Mon Apr 15 14:43:48 2024 

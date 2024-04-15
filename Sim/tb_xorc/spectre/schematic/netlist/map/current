@@ -1,0 +1,22 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "tb_xorc"
+  repList "spectre cmos_sch schematic"
+  stopList "spectre"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/home/oj23092/VLSI_Design_Lab/Sim/tb_xorc/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "lab2024/invParam/schematic" "invParam" )
+( "lab2024/tb_xorc/schematic" "tb_xorc" )
+( "lab2024/xorc/schematic" "xorc" )
+ )
+( "xorc" "ihnl/cds1/map" )
+( "invParam" "ihnl/cds0/map" )
+( "tb_xorc" "ihnl/cds2/map" )
+ )

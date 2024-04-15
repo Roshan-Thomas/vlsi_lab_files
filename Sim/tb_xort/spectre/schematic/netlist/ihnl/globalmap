@@ -1,0 +1,12 @@
+CADENCE IHNL11140
+$model
+lab2024/xort/schematic xort
+lab2024/tb_xort/schematic tb_xort
+lab2024/invParam/schematic invParam
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+$endparam

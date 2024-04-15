@@ -24,6 +24,6 @@ ends invParam
 // View name: schematic
 V0 (vdd! 0) vsource dc=3.3 type=dc
 C0 (net3 0) capacitor c=10f
-V1 (net2 0) vsource type=pulse val0=0 val1=3.3 period=2n rise=10p fall=10p \
-        width=1n
-I0 (net2 net3) invParam Wn=1u Wp=1u
+V1 (net2 0) vsource type=pulse val0=0 val1=3.3 period=2n rise=100p \
+        fall=100p width=1n
+I0 (net2 net3) invParam Wn=wn Wp=wp

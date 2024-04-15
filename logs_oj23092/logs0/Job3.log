@@ -1,0 +1,1250 @@
+\# Program start time:     UTC 2024.04.15 15:41:12.763
+\# Local time: BST (UTC+01:00) 2024.04.15 16:41:12.763
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 05/03/2023 09:48 (sjfhw317) $
+\o Hierarchy:		/eda/cadence/2022-23/RHELx86/IC_6.1.8.320/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.32  (64-bit addresses)
+\# Command line:	/eda/cadence/2022-23/RHELx86/IC_6.1.8.320/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso2035296 -mpshost it075805.wks.bris.ac.uk -davinciService DaVinciService_2035296_1713187866 -log /home/oj23092/VLSI_Design_Lab/logs_oj23092/logs0/Job3.log -licenseLockFileName /home/oj23092/VLSI_Design_Lab/.tmp_oj23092/.it075805.wks.bris.ac.uk_2035296 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 3
+\# Host name (type):	it075805.wks.bris.ac.uk (x86_64)
+\# Operating system:	Linux 4.18.0-513.18.1.el8_9.x86_64 #1 SMP Wed Feb 21 21:34:36 UTC 2024
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:3640 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        639 MB
+\# Available memory:	     16,771 MB
+\# System memory:	     23,507 MB
+\# Maximum memory size:	     22,986 MB
+\# Max mem available:	     16,889 MB
+\# Initial memory used:	        119 MB
+\#        process size:	      1,690 MB
+\# Thread usage limits (effective/default):	maxthreads 61986/61986 maxload 12.00/12.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		oj23092
+\o Working Directory:	it075805.wks.bris.ac.uk:/home/oj23092/VLSI_Design_Lab
+\# Process Id:		2147236
+\o 
+\o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Load shared object file /eda/cadence/2022-23/RHELx86/MVS_21.12.000/tools.lnx86/ret/lib/64bit/libretboot.so
+\o Load shared object file /eda/cadence/2022-23/RHELx86/MVS_21.12.000/tools.lnx86/lpa/lib/64bit/libretclef.so
+\o 
+\o Load shared object file /eda/cadence/2022-23/RHELx86/MVS_21.12.000/tools.lnx86/lpa/lib/64bit/libretmb.so
+\o 
+\o Hotspot Browser 1.0.0 (May  5 2016 12:15:38)
+\o Loading /eda/cadence/2022-23/RHELx86/MVS_21.12.000/tools.lnx86/mmg/bin/64bit/etc/context/6.1.0/64bit/ccp.cxt
+\w *WARNING* _ivPprInit: pvstdb did not respond so PVS is not installed.
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\# Memory report: using         232 MB, process size 1,929 MB at UTC 2024.04.15 15:41:14.116
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso2035296, host=it075805.wks.bris.ac.uk). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 2147236 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [16:41:12.189306] Configured Lic search path (22.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+\w *WARNING* LIB A_CELLS from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 51 redefines
+\w LIB A_CELLS from the same file (defined earlier.)
+\w *WARNING* LIB PRIMLIBRF from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 52 redefines
+\w LIB PRIMLIBRF from the same file (defined earlier.)
+\w *WARNING* The directory: '/home/oj23092/VLSI_Design_Lab/lab202x' does not exist
+\w 	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
+\o ......................................................................................
+\o            ams AG HIT-Kit v.ams_4.10
+\o ......................................................................................
+\o COPYRIGHT (c) 2012 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This HIT-Kit and attached documentation are confidential information and may 
+\o only be used as authorized by the HIT-Kit license agreement.
+\o ......................................................................................
+\o Loading simulator default settings.
+\o HitKit On-Line Documentation not enabled - does ~/data.reg exist?
+\o function ams_ResCallback redefined
+\o function ams_ResCapCallback redefined
+\o function ams_CapCallback redefined
+\o function ams_MosCallback redefined
+\o function ams_HvmosCB redefined
+\o function ams_check_DPTUB redefined
+\o function ams_isoCB redefined
+\o Loading simulator default settings.
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p hitkit: ams_4.10  Tech: c35b4c3  User: oj23092 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 2147236' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = lab2024
+\o 	Cell         = tb_ycircuitcustom
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = lab2024:tb_ycircuitcustom:1_none_MonteCarlo.1
+\o 	Results DB   = /home/oj23092/VLSI_Design_Lab/lab2024/tb_ycircuitcustom/adexl/results/data/MonteCarlo.1.rdb
+\o 	Results Dir  = /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuitcustom/adexl/results/data/MonteCarlo.1/1/lab2024:tb_ycircuitcustom:1
+\o 	Results Loc  = /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuitcustom/adexl/results/data
+\o 	Project Dir  = /home/oj23092/VLSI_Design_Lab/Sim
+\o 	Setup DB loc = /home/oj23092/VLSI_Design_Lab/lab2024/tb_ycircuitcustom/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* LIB A_CELLS from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 51 redefines
+\w LIB A_CELLS from the same file (defined earlier.)
+\w *WARNING* LIB PRIMLIBRF from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 52 redefines
+\w LIB PRIMLIBRF from the same file (defined earlier.)
+\w *WARNING* The directory: '/home/oj23092/VLSI_Design_Lab/lab202x' does not exist
+\w 	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
+\o Loading spectrei.cxt 
+\# Memory report: using         350 MB, process size 2,057 MB at UTC 2024.04.15 15:41:16.223
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 1) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuitcustom/adexl/results/data/MonteCarlo.1/1/lab2024:tb_ycircuitcustom:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuitcustom/adexl/results/data/MonteCarlo.1/1/lab2024:tb_ycircuitcustom:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 1)
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\# [16:41:17.405888] Periodic Lic check successful
+\# [16:41:17.405889] Feature usage summary:
+\o Begin Incremental Netlisting Apr 15 16:41:17 2024
+\o End netlisting Apr 15 16:41:17 2024
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ] for Point ID (3 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuitcustom/adexl/results/data/MonteCarlo.1/1/lab2024:tb_ycircuitcustom:1/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Apr 15 16:41:18 2024
+\o End netlisting Apr 15 16:41:18 2024
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o Loading paraplot.cxt 
+\o Loading stats.cxt 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 1) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 2) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 3) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 4) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 5) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 6) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Available memory:         16,762 MB at UTC 2024.04.15 15:41:23.057
+\# Memory report: Maximum memory size now 17,211 MB at UTC 2024.04.15 15:41:23.057
+\# Thread usage report: 18 active threads, active load 1.40 at UTC 2024.04.15 15:41:23.057
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 7) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 8) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 9) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 10) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 11) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 12) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 13) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 14) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 15) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 16) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 17) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 18) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 19) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         450 MB, process size 2,271 MB at UTC 2024.04.15 15:41:27.071
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 20) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 21) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 22) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 23) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 24) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 25) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 26) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 27) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 28) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 29) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 30) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 31) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 32) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 33) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 34) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 35) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 36) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 37) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 38) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 39) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 40) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 41) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 42) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 43) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 44) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 45) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 46) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 47) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 48) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 49) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 50) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 51) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 52) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 53) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 54) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 55) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 56) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 57) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 58) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 59) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 60) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 61) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 62) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 63) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 64) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 65) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 66) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 67) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 68) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 69) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 70) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 71) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 72) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 73) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 74) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 75) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 76) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 77) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 78) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 79) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 80) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 81) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 82) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 83) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 84) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 85) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 86) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 87) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 88) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 89) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 90) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 91) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 92) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 93) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 94) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 95) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 96) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 97) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 98) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 99) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (3 100) on testbench [
+\o           lab2024:tb_ycircuitcustom:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o Job 3 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

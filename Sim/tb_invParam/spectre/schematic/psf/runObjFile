@@ -1,14 +1,9 @@
 HEADER
 "PSFversion" "1.00"
 "Run Generator" "drlRun rev. 1.0"
-"Run Time Stamp" "Apr 12 16:28:54 2024"
+"Run Time Stamp" "Apr 15 18:11:32 2024"
+"date" "Apr 15 18:11:32 2024"
 "simulator" "spectre"
-"date" "Apr 12 16:28:54 2024"
- "externalSweepVariableCount" 0
-"#maeTestName" ""
-"#maeHistoryName" ""
-"#maeCorner" "nom"
- "#maeDesignPoint" -1
 "netlistDir" "../netlist"
 TYPE
 "runObject" STRUCT(
@@ -17,12 +12,77 @@ TYPE
 "sweepVariable" ARRAY( * ) STRING *
 ) PROP( "key" "runObject" )
 VALUE
-"Run1" "runObject" (
-(
-"logFile"
-"artistLogFile"
-)
+"Root" "runObject" (
+("")
 ""
-()
+("wp")
 )
+"wp=1e-06" "runObject" (
+("")
+"Root"
+("wn")
+) PROP(
+ "wp" 1.000000e-06
+)
+
+"wp=1e-06,wn=1e-06/psf" "runObject" (
+(
+"../wp=1e-06,wn=1e-06/psf/logFile"
+"../wp=1e-06,wn=1e-06/psf/artistLogFile"
+)
+"wp=1e-06"
+()
+) PROP(
+"netlistDir" "../netlist"
+"dataDir" "../wp=1e-06,wn=1e-06"
+ "wn" 1.000000e-06
+)
+
+"wp=1e-06,wn=1e-05/psf" "runObject" (
+(
+"../wp=1e-06,wn=1e-05/psf/logFile"
+"../wp=1e-06,wn=1e-05/psf/artistLogFile"
+)
+"wp=1e-06"
+()
+) PROP(
+"netlistDir" "../netlist"
+"dataDir" "../wp=1e-06,wn=1e-05"
+ "wn" 1.000000e-05
+)
+
+"wp=9.999999999999999e-06" "runObject" (
+("")
+"Root"
+("wn")
+) PROP(
+ "wp" 1.000000e-05
+)
+
+"wp=1e-05,wn=1e-06/psf" "runObject" (
+(
+"../wp=1e-05,wn=1e-06/psf/logFile"
+"../wp=1e-05,wn=1e-06/psf/artistLogFile"
+)
+"wp=9.999999999999999e-06"
+()
+) PROP(
+"netlistDir" "../netlist"
+"dataDir" "../wp=1e-05,wn=1e-06"
+ "wn" 1.000000e-06
+)
+
+"wp=1e-05,wn=1e-05/psf" "runObject" (
+(
+"../wp=1e-05,wn=1e-05/psf/logFile"
+"../wp=1e-05,wn=1e-05/psf/artistLogFile"
+)
+"wp=9.999999999999999e-06"
+()
+) PROP(
+"netlistDir" "../netlist"
+"dataDir" "../wp=1e-05,wn=1e-05"
+ "wn" 1.000000e-05
+)
+
 END

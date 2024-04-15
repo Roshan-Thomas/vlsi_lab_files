@@ -5,20 +5,20 @@ Copyright (C) 1989-2023 Cadence Design Systems, Inc. All rights reserved worldwi
 
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
 
-User: oj23092   Host: it075702.wks.bris.ac.uk   HostID: DE896A87   PID: 1111826
-Memory  available: 11.8854 GB  physical: 16.2980 GB
+User: oj23092   Host: it075805.wks.bris.ac.uk   HostID: DE89579F   PID: 2125964
+Memory  available: 8.4169 GB  physical: 16.2980 GB
 Linux   : Rocky Linux release 8.9 (Green Obsidian)
 CPU Type: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
         Socket: Processors [Frequency] (Hyperthreaded Processor)
-        0:       0 [3200.0] (  6 ),  1 [4395.1] (  7 ),  2 [3200.0] (  8 )
+        0:       0 [3200.0] (  6 ),  1 [3200.0] (  7 ),  2 [4298.6] (  8 )
                  3 [3200.0] (  9 ),  4 [3200.0] ( 10 ),  5 [3200.0] ( 11 )
         
-System load averages (1min, 5min, 15min) : 0.7 %, 1.1 %, 0.8 %
+System load averages (1min, 5min, 15min) : 3.2 %, 1.7 %, 1.2 %
 Hyperthreading is enabled
 HPC is enabled
 
 
-Simulating `input.scs' on it075702.wks.bris.ac.uk at 4:32:22 PM, Fri Apr 12, 2024 (process id: 1111826).
+Simulating `input.scs' on it075805.wks.bris.ac.uk at 4:07:04 PM, Mon Apr 15, 2024 (process id: 2125964).
 Current working directory: /home/oj23092/VLSI_Design_Lab/Sim/tb_ycircuit/spectre/schematic/netlist
 Command line:
      \
@@ -28,10 +28,10 @@ Command line:
         +param /eda/cadence/ams/4.10/spectre/ams_range.lmts -env ade
 
 Licensing Information:
-[16:32:22.289666] Configured Lic search path (21.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+[16:07:04.289682] Configured Lic search path (21.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
 
 Licensing Information:
-[16:32:22.510280] Periodic Lic check successful
+[16:07:04.216210] Periodic Lic check successful
 
 Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
 Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
@@ -69,27 +69,27 @@ Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cap.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/bip.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/ind.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/esddiode.scs
-Time for NDB Parsing: CPU = 78.213 ms, elapsed = 430.282 ms.
-Time accumulated: CPU = 133.064 ms, elapsed = 430.284 ms.
-Peak resident memory used = 159 Mbytes.
+Time for NDB Parsing: CPU = 81.101 ms, elapsed = 317.079 ms.
+Time accumulated: CPU = 144.785 ms, elapsed = 317.081 ms.
+Peak resident memory used = 146 Mbytes.
 
-TCP: opening server port it075702.wks.bris.ac.uk:51993
+TCP: opening server port it075805.wks.bris.ac.uk:57475
 Existing shared object for module modp_ahdl is up to date.
 Installed compiled interface for modp_ahdl.
 Existing shared object for module modn_ahdl is up to date.
 Installed compiled interface for modn_ahdl.
-Time for Elaboration: CPU = 16.201 ms, elapsed = 21.138 ms.
-Time accumulated: CPU = 149.33 ms, elapsed = 451.486 ms.
-Peak resident memory used = 168 Mbytes.
+Time for Elaboration: CPU = 16.504 ms, elapsed = 20.3302 ms.
+Time accumulated: CPU = 161.359 ms, elapsed = 337.479 ms.
+Peak resident memory used = 154 Mbytes.
 
 
 Notice from spectre during hierarchy flattening.
     The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
 
 
-Time for EDB Visiting: CPU = 1.328 ms, elapsed = 1.99819 ms.
-Time accumulated: CPU = 150.724 ms, elapsed = 453.549 ms.
-Peak resident memory used = 170 Mbytes.
+Time for EDB Visiting: CPU = 1.384 ms, elapsed = 1.75905 ms.
+Time accumulated: CPU = 162.818 ms, elapsed = 339.312 ms.
+Peak resident memory used = 156 Mbytes.
 
 Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
 
@@ -174,9 +174,9 @@ Notice from spectre during initial setup.
     1 notice suppressed.
     72 warnings suppressed.
 
-Time for parsing: CPU = 5.473 ms, elapsed = 297.064 ms.
-Time accumulated: CPU = 156.253 ms, elapsed = 750.668 ms.
-Peak resident memory used = 175 Mbytes.
+Time for parsing: CPU = 5.826 ms, elapsed = 288.7 ms.
+Time accumulated: CPU = 168.702 ms, elapsed = 628.069 ms.
+Peak resident memory used = 162 Mbytes.
 
 ~~~~~~~~~~~~~~~~~~~~~~
 Pre-Simulation Summary
@@ -199,7 +199,7 @@ Notice from spectre during IC analysis, during transient analysis `tran'.
 Warning from spectre during check, during IC analysis, during transient analysis `tran'.
     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'.
 
-DC simulation time: CPU = 600 us, elapsed = 602.961 us.
+DC simulation time: CPU = 527 us, elapsed = 566.006 us.
 
 Opening the PSF file ../psf/tran.tran.tran ...
 Important parameter values:
@@ -234,83 +234,45 @@ Output and IC/nodeset summary:
                  save   5       (current)
                  save   17      (voltage)
 
-    tran: time = 532.4 ps    (2.66 %), step = 50.17 ps     (251 m%)
-SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0us ;
-SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.00106375us duration:0.00106us ;
-    tran: time = 1.506 ns    (7.53 %), step = 39.36 ps     (197 m%)
-    tran: time = 2.628 ns    (13.1 %), step = 128.5 ps     (642 m%)
-
-Warning from spectre at time = 3.01891 ns during transient analysis `tran'.
-    WARNING (CMI-2139): I0.MNB: The bulk-drain junction current exceeds `imelt'.  The results computed by Spectre may be inaccurate because the junction current model has been linearized.
-    WARNING (CMI-2144): I0.MNB: The bulk-drain junction current exceeds `imax'.
-Notice from spectre at time = 3.02035 ns during transient analysis `tran'.
-    I0.MNB: The bulk-drain junction leaves the linearized region.
-    I0.MNB: The bulk-drain junction current no longer exceeds `imax'.
-
-    tran: time = 3.507 ns    (17.5 %), step = 41.31 ps     (207 m%)
-SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.00301011us ;
-    tran: time = 4.59 ns       (23 %), step = 90.82 ps     (454 m%)
-SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.00500259us duration:0.00199us ;
-    tran: time = 5.521 ns    (27.6 %), step = 32.8 ps      (164 m%)
-    tran: time = 6.518 ns    (32.6 %), step = 20.82 ps     (104 m%)
-
-Warning from spectre at time = 7.01893 ns during transient analysis `tran'.
-    WARNING (CMI-2139): I0.MNB: The bulk-drain junction current exceeds `imelt'.  The results computed by Spectre may be inaccurate because the junction current model has been linearized.
-    WARNING (CMI-2144): I0.MNB: The bulk-drain junction current exceeds `imax'.
-Notice from spectre at time = 7.02035 ns during transient analysis `tran'.
-    I0.MNB: The bulk-drain junction leaves the linearized region.
-    I0.MNB: The bulk-drain junction current no longer exceeds `imax'.
-
-    tran: time = 7.508 ns    (37.5 %), step = 41.34 ps     (207 m%)
-SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.00701011us ;
-    tran: time = 8.503 ns    (42.5 %), step = 73.45 ps     (367 m%)
-SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.00900501us duration:0.00199us ;
-    tran: time = 9.505 ns    (47.5 %), step = 58.29 ps     (291 m%)
-    tran: time = 10.52 ns    (52.6 %), step = 20.21 ps     (101 m%)
-
-Warning from spectre at time = 11.0184 ns during transient analysis `tran'.
-    WARNING (CMI-2139): I0.MNB: The bulk-drain junction current exceeds `imelt'.  The results computed by Spectre may be inaccurate because the junction current model has been linearized.
-    WARNING (CMI-2144): I0.MNB: The bulk-drain junction current exceeds `imax'.
-Warning from spectre at time = 11.0193 ns during transient analysis `tran'.
-    WARNING (CMI-2139): I0.MNC: The bulk-drain junction current exceeds `imelt'.  The results computed by Spectre may be inaccurate because the junction current model has been linearized.
-    WARNING (CMI-2144): I0.MNC: The bulk-drain junction current exceeds `imax'.
-Notice from spectre at time = 11.0203 ns during transient analysis `tran'.
-    I0.MNC: The bulk-drain junction leaves the linearized region.
-    I0.MNC: The bulk-drain junction current no longer exceeds `imax'.
-Notice from spectre at time = 11.0203 ns during transient analysis `tran'.
-    I0.MNB: The bulk-drain junction leaves the linearized region.
-    I0.MNB: The bulk-drain junction current no longer exceeds `imax'.
-
-    tran: time = 11.5 ns     (57.5 %), step = 25.12 ps     (126 m%)
-SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0115018us ;
-    tran: time = 12.5 ns     (62.5 %), step = 48.36 ps     (242 m%)
-SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0130376us duration:0.00154us ;
-    tran: time = 13.53 ns    (67.7 %), step = 51.39 ps     (257 m%)
-    tran: time = 14.63 ns    (73.1 %), step = 129.7 ps     (648 m%)
-    tran: time = 15.54 ns    (77.7 %), step = 40.42 ps     (202 m%)
-SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0150003us ;
-    tran: time = 16.56 ns    (82.8 %), step = 75.32 ps     (377 m%)
-SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0170634us duration:0.00206us ;
-    tran: time = 17.52 ns    (87.6 %), step = 41.12 ps     (206 m%)
-    tran: time = 18.51 ns    (92.5 %), step = 96.34 ps     (482 m%)
-
-Warning from spectre at time = 19.0189 ns during transient analysis `tran'.
-    WARNING (CMI-2139): I0.MNB: The bulk-drain junction current exceeds `imelt'.  The results computed by Spectre may be inaccurate because the junction current model has been linearized.
-        Further occurrences of this warning will be suppressed.
-    WARNING (CMI-2144): I0.MNB: The bulk-drain junction current exceeds `imax'.
-        Further occurrences of this warning will be suppressed.
-Notice from spectre at time = 19.0203 ns during transient analysis `tran'.
-    I0.MNB: The bulk-drain junction leaves the linearized region.
-        Further occurrences of this notice will be suppressed.
-    I0.MNB: The bulk-drain junction current no longer exceeds `imax'.
-        Further occurrences of this notice will be suppressed.
-
-    tran: time = 19.51 ns    (97.5 %), step = 41.41 ps     (207 m%)
-Number of accepted tran steps =             2643
+    tran: time = 525.5 ps    (2.63 %), step = 28.93 ps     (145 m%)
+    tran: time = 1.518 ns    (7.59 %), step = 37.77 ps     (189 m%)
+    tran: time = 2.513 ns    (12.6 %), step = 28.77 ps     (144 m%)
+    tran: time = 3.532 ns    (17.7 %), step = 41.65 ps     (208 m%)
+    tran: time = 4.504 ns    (22.5 %), step = 20.65 ps     (103 m%)
+    tran: time = 5.511 ns    (27.6 %), step = 18.99 ps      (95 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.00500272us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): LEAVING@  0.00500732us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): ENTERING@ 0.00618968us duration:0.00118us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.00619026us duration:0.00119us ;
+    tran: time = 6.515 ns    (32.6 %), step = 18.12 ps    (90.6 m%)
+    tran: time = 7.51 ns     (37.6 %), step = 26.42 ps     (132 m%)
+    tran: time = 8.509 ns    (42.5 %), step = 17.21 ps      (86 m%)
+    tran: time = 9.515 ns    (47.6 %), step = 20.86 ps     (104 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.00900268us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): LEAVING@  0.00900732us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): ENTERING@ 0.0101657us duration:0.00116us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0101831us duration:0.00118us ;
+    tran: time = 10.5 ns     (52.5 %), step = 13.15 ps    (65.7 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0102674us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0114158us duration:0.00115us ;
+    tran: time = 11.51 ns    (57.6 %), step = 21.7 ps      (108 m%)
+    tran: time = 12.51 ns    (62.6 %), step = 14.77 ps    (73.9 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0122439us ;
+    tran: time = 13.51 ns    (67.5 %), step = 24.81 ps     (124 m%)
+    tran: time = 14.52 ns    (72.6 %), step = 27.35 ps     (137 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.015425us duration:0.00318us ;
+    tran: time = 15.52 ns    (77.6 %), step = 22.69 ps     (113 m%)
+    tran: time = 16.51 ns    (82.6 %), step = 14.92 ps    (74.6 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0162439us ;
+    tran: time = 17.51 ns    (87.5 %), step = 24.9 ps      (125 m%)
+    tran: time = 18.52 ns    (92.6 %), step = 27.32 ps     (137 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.019425us duration:0.00318us ;
+    tran: time = 19.52 ns    (97.6 %), step = 22.68 ps     (113 m%)
+Number of accepted tran steps =             2619
 
 Maximum value achieved for any signal of each quantity: 
-V: V(I0.net1) = 3.923 V
-I: I(V:p) = 1.573 mA
+V: V(I0.net1) = 3.628 V
+I: I(V:p) = 326 uA
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Post-Transient Simulation Summary
@@ -321,20 +283,20 @@ Post-Transient Simulation Summary
           errpreset = conservative, default moderate
           reltol = 10e-06, default 100e-06 (conservative)
    -   Features that may significantly slowing down simulation
-          asserts = 56.7968 ms
+          asserts = 55.9082 ms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 During simulation, the CPU load for active processors is :
-         0 (2.9 %)       1 (10.8 %)      3 (2.0 %)       5 (2.0 %)
-         7 (2.9 %)       8 (16.7 %)      9 (4.9 %)      10 (37.9 %)
-        11 (5.8 %)      
-        Total: 87.8%
-Initial condition solution time: CPU = 621 us, elapsed = 622.988 us.
-Intrinsic tran analysis time:    CPU = 283.455 ms, elapsed = 293.378 ms.
-Total time required for tran analysis `tran': CPU = 286.539 ms, elapsed = 310.678 ms, util. = 92.2%.
-Time accumulated: CPU = 447.341 ms, elapsed = 1.07231 s.
-Peak resident memory used = 184 Mbytes.
+         0 (3.3 %)       1 (1.1 %)       2 (7.7 %)       3 (28.1 %)
+         4 (32.6 %)      5 (6.7 %)       6 (3.3 %)       7 (54.3 %)
+         8 (7.7 %)       9 (45.1 %)     10 (8.7 %)      11 (6.7 %)
+        Total: 205.3%
+Initial condition solution time: CPU = 547 us, elapsed = 586.987 us.
+Intrinsic tran analysis time:    CPU = 288.049 ms, elapsed = 301.342 ms.
+Total time required for tran analysis `tran': CPU = 290.827 ms, elapsed = 317.54 ms, util. = 91.6%.
+Time accumulated: CPU = 464.805 ms, elapsed = 956.801 ms.
+Peak resident memory used = 171 Mbytes.
 
 finalTimeOP: writing operating point information to rawfile.
 
@@ -359,14 +321,14 @@ subckts: writing subcircuits to rawfile.
 Opening the PSFASCII file ../psf/subckts.info.subckts ...
 Licensing Information:
 Lic Summary:
-[16:32:23.274832] Cdslmd servers:5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
-[16:32:23.274864] Feature usage summary:
-[16:32:23.274864] Virtuoso_Multi_mode_Simulation
+[16:07:05.491376] Cdslmd servers:5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+[16:07:05.491392] Feature usage summary:
+[16:07:05.491393] Virtuoso_Multi_mode_Simulation
 
 
-Aggregate audit (4:32:23 PM, Fri Apr 12, 2024):
-Time used: CPU = 459 ms, elapsed = 1.1 s, util. = 41.7%.
-Time spent in licensing: elapsed = 364 ms, percentage of total = 33%.
-Peak memory used = 187 Mbytes.
-Simulation started at: 4:32:22 PM, Fri Apr 12, 2024, ended at: 4:32:23 PM, Fri Apr 12, 2024, with elapsed time (wall clock): 1.1 s.
-spectre completes with 0 errors, 27 warnings, and 20 notices.
+Aggregate audit (4:07:05 PM, Mon Apr 15, 2024):
+Time used: CPU = 476 ms, elapsed = 984 ms, util. = 48.4%.
+Time spent in licensing: elapsed = 167 ms, percentage of total = 17%.
+Peak memory used = 173 Mbytes.
+Simulation started at: 4:07:04 PM, Mon Apr 15, 2024, ended at: 4:07:05 PM, Mon Apr 15, 2024, with elapsed time (wall clock): 984 ms.
+spectre completes with 0 errors, 17 warnings, and 10 notices.

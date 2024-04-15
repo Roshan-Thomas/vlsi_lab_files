@@ -1733,4 +1733,7 @@ hnlLastConstants = '(
                       "M_PI_4"
                       "M_LN2"
                     )
-hnlLastDesignVars = '( )
+hnlLastDesignVars = '(
+                      "wn"
+                      "wp"
+                    )

@@ -1,0 +1,85 @@
+; ====================================================================================
+; ams AG                                                                              
+; AMS_CORNERTOOL v2.46-160308                                                         
+; HITKIT develop                                                                      
+; TECH c35b4                                                                          
+; SIMULATOR spectre                                                                   
+; MODELPATH c35/soac                                                                  
+; ====================================================================================
+; Corner Name   temperature Vsupply  cmos                                             
+; corner001     27       3.3      tm                                                  
+; corner002     27       3.3      wp                                                  
+; corner003     27       3.3      ws                                                  
+; corner004     27       3.3      wo                                                  
+; corner005     27       3.3      wz                                                  
+; ====================================================================================
+
+
+corDeleteAllProcesses()
+corDeleteAllDesignVars()
+
+corAddProcess( "C35B4" "/eda/cadence/ams/4.10/spectre/c35/soac" "Multiple Model Library")
+corAddModelFileAndSectionChoices( "C35B4" "res.scs" '("restm" "reswp" "resws" "restmwn"))
+corAddModelFileAndSectionChoices( "C35B4" "bip.scs" '("biptm" "biphs" "biphb" "biplb" "biptmwn"))
+corAddModelFileAndSectionChoices( "C35B4" "cap.scs" '("captm" "capwp" "capws" "captmwn"))
+corAddModelFileAndSectionChoices( "C35B4" "esddiode.scs" '("esddiodetm" "esddiodelbv" "esddiodehbv"))
+corAddModelFileAndSectionChoices( "C35B4" "ind.scs" '("indtm" "indhq" "indlq"))
+corAddModelFileAndSectionChoices( "C35B4" "cmos53.scs" '("cmostm" "cmoswp" "cmosws" "cmoswo" "cmoswz" "cmostmwn"))
+corAddModelFileAndSectionChoices( "C35B4" "processOption.scs" '(""))
+corAddDesignVar( "temperature" )
+corAddDesignVar( "Vsupply" )
+
+corAddCorner( "C35B4" "corner001" )
+corSetCornerGroupVariant( "C35B4" "corner001" "cmos53.scs" "cmostm" )
+corSetCornerGroupVariant( "C35B4" "corner001" "res.scs" "restm" )
+corSetCornerGroupVariant( "C35B4" "corner001" "bip.scs" "biptm" )
+corSetCornerGroupVariant( "C35B4" "corner001" "cap.scs" "captm" )
+corSetCornerGroupVariant( "C35B4" "corner001" "esddiode.scs" "esddiodetm" )
+corSetCornerGroupVariant( "C35B4" "corner001" "ind.scs" "indtm" )
+corSetCornerGroupVariant( "C35B4" "corner001" "processOption.scs" "" )
+corSetCornerVarVal( "C35B4" "corner001" "temperature" "27" )
+corSetCornerVarVal( "C35B4" "corner001" "Vsupply" "3.3" )
+
+corAddCorner( "C35B4" "corner002" )
+corSetCornerGroupVariant( "C35B4" "corner002" "cmos53.scs" "cmoswp" )
+corSetCornerGroupVariant( "C35B4" "corner002" "res.scs" "restm" )
+corSetCornerGroupVariant( "C35B4" "corner002" "bip.scs" "biptm" )
+corSetCornerGroupVariant( "C35B4" "corner002" "cap.scs" "captm" )
+corSetCornerGroupVariant( "C35B4" "corner002" "esddiode.scs" "esddiodetm" )
+corSetCornerGroupVariant( "C35B4" "corner002" "ind.scs" "indtm" )
+corSetCornerGroupVariant( "C35B4" "corner002" "processOption.scs" "" )
+corSetCornerVarVal( "C35B4" "corner002" "temperature" "27" )
+corSetCornerVarVal( "C35B4" "corner002" "Vsupply" "3.3" )
+
+corAddCorner( "C35B4" "corner003" )
+corSetCornerGroupVariant( "C35B4" "corner003" "cmos53.scs" "cmosws" )
+corSetCornerGroupVariant( "C35B4" "corner003" "res.scs" "restm" )
+corSetCornerGroupVariant( "C35B4" "corner003" "bip.scs" "biptm" )
+corSetCornerGroupVariant( "C35B4" "corner003" "cap.scs" "captm" )
+corSetCornerGroupVariant( "C35B4" "corner003" "esddiode.scs" "esddiodetm" )
+corSetCornerGroupVariant( "C35B4" "corner003" "ind.scs" "indtm" )
+corSetCornerGroupVariant( "C35B4" "corner003" "processOption.scs" "" )
+corSetCornerVarVal( "C35B4" "corner003" "temperature" "27" )
+corSetCornerVarVal( "C35B4" "corner003" "Vsupply" "3.3" )
+
+corAddCorner( "C35B4" "corner004" )
+corSetCornerGroupVariant( "C35B4" "corner004" "cmos53.scs" "cmoswo" )
+corSetCornerGroupVariant( "C35B4" "corner004" "res.scs" "restm" )
+corSetCornerGroupVariant( "C35B4" "corner004" "bip.scs" "biptm" )
+corSetCornerGroupVariant( "C35B4" "corner004" "cap.scs" "captm" )
+corSetCornerGroupVariant( "C35B4" "corner004" "esddiode.scs" "esddiodetm" )
+corSetCornerGroupVariant( "C35B4" "corner004" "ind.scs" "indtm" )
+corSetCornerGroupVariant( "C35B4" "corner004" "processOption.scs" "" )
+corSetCornerVarVal( "C35B4" "corner004" "temperature" "27" )
+corSetCornerVarVal( "C35B4" "corner004" "Vsupply" "3.3" )
+
+corAddCorner( "C35B4" "corner005" )
+corSetCornerGroupVariant( "C35B4" "corner005" "cmos53.scs" "cmoswz" )
+corSetCornerGroupVariant( "C35B4" "corner005" "res.scs" "restm" )
+corSetCornerGroupVariant( "C35B4" "corner005" "bip.scs" "biptm" )
+corSetCornerGroupVariant( "C35B4" "corner005" "cap.scs" "captm" )
+corSetCornerGroupVariant( "C35B4" "corner005" "esddiode.scs" "esddiodetm" )
+corSetCornerGroupVariant( "C35B4" "corner005" "ind.scs" "indtm" )
+corSetCornerGroupVariant( "C35B4" "corner005" "processOption.scs" "" )
+corSetCornerVarVal( "C35B4" "corner005" "temperature" "27" )
+corSetCornerVarVal( "C35B4" "corner005" "Vsupply" "3.3" )

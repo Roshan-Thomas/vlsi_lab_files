@@ -1,0 +1,14 @@
+    MN0 (out in 0 0) modn w=Wn/1 l=0.35u \
+        as=(8.5e-07*Wn/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wn/1)/1 \
+        ad=(8.5e-07*Wn/1*fmod(1,2)+int(1/2)*2*5e-07*Wn/1)/1 \
+        ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
+        pd=((2*8.5e-07+Wn/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wn/1 \
+        nrs=5e-07/Wn/1 ng=1
+    MP0 (out in vdd! vdd!) modp w=Wp/1 l=0.35u \
+        as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
+        ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \
+        ps=((2*8.5e-07+Wp/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
+        pd=((2*8.5e-07+Wp/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wp/1 \
+        nrs=5e-07/Wp/1 ng=1
+ends invParam
+// End of subcircuit definition.

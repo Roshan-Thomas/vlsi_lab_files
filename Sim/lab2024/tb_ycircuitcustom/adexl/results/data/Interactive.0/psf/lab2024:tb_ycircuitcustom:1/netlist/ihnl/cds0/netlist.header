@@ -1,0 +1,6 @@
+
+// Library name: lab2024
+// Cell name: ycircuitcustom
+// View name: schematic
+subckt ycircuitcustom A B C D out
+parameters Wp=1u Wn=1u

@@ -1,0 +1,9 @@
+Begin Incremental Netlisting Apr 15 19:48:07 2024
+WARNING (OSSHNL-176): Property bag for the cell 'xort' in library 'lab2024', has
+been modified or added
+since the last netlisting session. Therefore,
+re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+End netlisting Apr 15 19:48:07 2024

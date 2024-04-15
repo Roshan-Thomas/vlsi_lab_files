@@ -1,0 +1,37 @@
+; ====================================================================================
+; ams AG                                                                              
+; AMS_CORNERTOOL v2.46-160308                                                         
+; HITKIT develop                                                                      
+; TECH c35b4                                                                          
+; SIMULATOR spectre                                                                   
+; MODELPATH c35/soac                                                                  
+; ====================================================================================
+; Corner Name   temperature Vsupply                                                   
+; corner001     27       3.3                                                          
+; ====================================================================================
+
+
+corDeleteAllProcesses()
+corDeleteAllDesignVars()
+
+corAddProcess( "C35B4" "/eda/cadence/ams/4.10/spectre/c35/soac" "Multiple Model Library")
+corAddModelFileAndSectionChoices( "C35B4" "res.scs" '("restm" "reswp" "resws" "restmwn"))
+corAddModelFileAndSectionChoices( "C35B4" "bip.scs" '("biptm" "biphs" "biphb" "biplb" "biptmwn"))
+corAddModelFileAndSectionChoices( "C35B4" "cap.scs" '("captm" "capwp" "capws" "captmwn"))
+corAddModelFileAndSectionChoices( "C35B4" "esddiode.scs" '("esddiodetm" "esddiodelbv" "esddiodehbv"))
+corAddModelFileAndSectionChoices( "C35B4" "ind.scs" '("indtm" "indhq" "indlq"))
+corAddModelFileAndSectionChoices( "C35B4" "cmos53.scs" '("cmostm" "cmoswp" "cmosws" "cmoswo" "cmoswz" "cmostmwn"))
+corAddModelFileAndSectionChoices( "C35B4" "processOption.scs" '(""))
+corAddDesignVar( "temperature" )
+corAddDesignVar( "Vsupply" )
+
+corAddCorner( "C35B4" "corner001" )
+corSetCornerGroupVariant( "C35B4" "corner001" "res.scs" "restm" )
+corSetCornerGroupVariant( "C35B4" "corner001" "bip.scs" "biptm" )
+corSetCornerGroupVariant( "C35B4" "corner001" "cap.scs" "captm" )
+corSetCornerGroupVariant( "C35B4" "corner001" "esddiode.scs" "esddiodetm" )
+corSetCornerGroupVariant( "C35B4" "corner001" "ind.scs" "indtm" )
+corSetCornerGroupVariant( "C35B4" "corner001" "cmos53.scs" "cmostm" )
+corSetCornerGroupVariant( "C35B4" "corner001" "processOption.scs" "" )
+corSetCornerVarVal( "C35B4" "corner001" "temperature" "27" )
+corSetCornerVarVal( "C35B4" "corner001" "Vsupply" "3.3" )

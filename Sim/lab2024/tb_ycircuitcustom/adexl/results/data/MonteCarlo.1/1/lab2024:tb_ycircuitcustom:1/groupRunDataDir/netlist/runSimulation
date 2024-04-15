@@ -1,0 +1,1 @@
+ spectre  > /dev/null 2>&1  input.scs  +escchars +log ../psf/spectre.out  -format psfbin +rtsf -raw ../psf   +aps +mt +lqtimeout 900 -maxw 5 -maxn 5 +param /eda/cadence/ams/4.10/spectre/ams_range.lmts -env ade  -ahdllibdir /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuitcustom/adexl/results/data/MonteCarlo.1/sharedData/Job3/ahdl/input.ahdlSimDB +logstatus  

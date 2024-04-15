@@ -1,0 +1,6 @@
+
+// Library name: lab2024
+// Cell name: xort
+// View name: schematic
+subckt xort A B out
+parameters Wp=1u Wn=1u

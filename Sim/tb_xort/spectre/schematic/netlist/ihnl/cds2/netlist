@@ -1,0 +1,11 @@
+
+// Library name: lab2024
+// Cell name: tb_xort
+// View name: schematic
+I0 (net2 net1 net3) xort Wp=1u Wn=1u
+C0 (net3 0) capacitor c=1f
+VB (net1 0) vsource type=pulse val0=3.3 val1=0 period=2n rise=100p \
+        fall=100p width=1n
+VA (net2 0) vsource type=pulse val0=3.3 val1=0 period=10n rise=100p \
+        fall=100p width=5n
+V (vdd! 0) vsource dc=3.3 type=dc

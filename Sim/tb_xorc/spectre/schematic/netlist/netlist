@@ -1,0 +1,89 @@
+
+// Library name: lab2024
+// Cell name: invParam
+// View name: schematic
+subckt invParam in out
+parameters Wn=1u Wp=1u
+    MN0 (out in 0 0) modn w=Wn/1 l=0.35u \
+        as=(8.5e-07*Wn/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wn/1)/1 \
+        ad=(8.5e-07*Wn/1*fmod(1,2)+int(1/2)*2*5e-07*Wn/1)/1 \
+        ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
+        pd=((2*8.5e-07+Wn/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wn/1 \
+        nrs=5e-07/Wn/1 ng=1
+    MP0 (out in vdd! vdd!) modp w=Wp/1 l=0.35u \
+        as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
+        ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \
+        ps=((2*8.5e-07+Wp/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
+        pd=((2*8.5e-07+Wp/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wp/1 \
+        nrs=5e-07/Wp/1 ng=1
+ends invParam
+// End of subcircuit definition.
+
+// Library name: lab2024
+// Cell name: xorc
+// View name: schematic
+subckt xorc A B out
+parameters Wp=1u Wn=1u
+    I1 (B net6) invParam Wn=1u Wp=2u
+    I0 (A net5) invParam Wn=1u Wp=2u
+    MP3 (out net6 net3 net3) modp w=Wp/1 l=0.35u \
+        as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
+        ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \
+        ps=((2*8.5e-07+Wp/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
+        pd=((2*8.5e-07+Wp/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wp/1 \
+        nrs=5e-07/Wp/1 ng=1
+    MP2 (out B net4 net4) modp w=Wp/1 l=0.35u \
+        as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
+        ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \
+        ps=((2*8.5e-07+Wp/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
+        pd=((2*8.5e-07+Wp/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wp/1 \
+        nrs=5e-07/Wp/1 ng=1
+    MP1 (net3 A vdd! vdd!) modp w=Wp/1 l=0.35u \
+        as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
+        ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \
+        ps=((2*8.5e-07+Wp/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
+        pd=((2*8.5e-07+Wp/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wp/1 \
+        nrs=5e-07/Wp/1 ng=1
+    MP0 (net4 net5 vdd! vdd!) modp w=Wp/1 l=0.35u \
+        as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
+        ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \
+        ps=((2*8.5e-07+Wp/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
+        pd=((2*8.5e-07+Wp/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wp/1 \
+        nrs=5e-07/Wp/1 ng=1
+    MN3 (net2 net6 0 0) modn w=Wn/1 l=0.35u \
+        as=(8.5e-07*Wn/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wn/1)/1 \
+        ad=(8.5e-07*Wn/1*fmod(1,2)+int(1/2)*2*5e-07*Wn/1)/1 \
+        ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
+        pd=((2*8.5e-07+Wn/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wn/1 \
+        nrs=5e-07/Wn/1 ng=1
+    MN2 (out B net2 net2) modn w=Wn/1 l=0.35u \
+        as=(8.5e-07*Wn/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wn/1)/1 \
+        ad=(8.5e-07*Wn/1*fmod(1,2)+int(1/2)*2*5e-07*Wn/1)/1 \
+        ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
+        pd=((2*8.5e-07+Wn/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wn/1 \
+        nrs=5e-07/Wn/1 ng=1
+    MN1 (net1 A 0 0) modn w=Wn/1 l=0.35u \
+        as=(8.5e-07*Wn/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wn/1)/1 \
+        ad=(8.5e-07*Wn/1*fmod(1,2)+int(1/2)*2*5e-07*Wn/1)/1 \
+        ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
+        pd=((2*8.5e-07+Wn/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wn/1 \
+        nrs=5e-07/Wn/1 ng=1
+    MN0 (out net5 net1 net1) modn w=Wn/1 l=0.35u \
+        as=(8.5e-07*Wn/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wn/1)/1 \
+        ad=(8.5e-07*Wn/1*fmod(1,2)+int(1/2)*2*5e-07*Wn/1)/1 \
+        ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
+        pd=((2*8.5e-07+Wn/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wn/1 \
+        nrs=5e-07/Wn/1 ng=1
+ends xorc
+// End of subcircuit definition.
+
+// Library name: lab2024
+// Cell name: tb_xorc
+// View name: schematic
+I0 (net2 net1 net3) xorc Wp=1u Wn=1u
+VB (net1 0) vsource type=pulse val0=3.3 val1=0 period=2n rise=100p \
+        fall=100p width=1n
+VA (net2 0) vsource type=pulse val0=3.3 val1=0 period=10n rise=100p \
+        fall=100p width=5n
+C0 (net3 0) capacitor c=1f
+V (vdd! 0) vsource dc=3.3 type=dc
