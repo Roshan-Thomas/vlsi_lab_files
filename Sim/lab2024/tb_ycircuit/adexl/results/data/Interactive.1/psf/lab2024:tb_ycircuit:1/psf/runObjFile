@@ -1,0 +1,106 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Apr 20 21:22:27 2024"
+"date" "Apr 20 21:22:27 2024"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+ "externalSweepVariableCount" 1
+"paramName" "#maeCorner"
+ "#maeCorner_num" 5
+"#maeCorner_name_1" "C35B4_corner001"
+"#maeCorner_name_2" "C35B4_corner002"
+"#maeCorner_name_3" "C35B4_corner003"
+"#maeCorner_name_4" "C35B4_corner004"
+"#maeCorner_name_5" "C35B4_corner005"
+ "#maeCorner_param_set_num" 1
+"#maeCorner_param_name_1" "modelFiles"
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("modelFiles")
+)
+"modelFiles=res.scs:restm,bip.scs:biptm,cap.scs:captm,esddiode.scs:esddiodetm,ind.scs:indtm,cmos53.scs:cmoswz,processOption.scs" "runObject" (
+(
+"../../../5/lab2024:tb_ycircuit:1/psf/logFile"
+"../../../5/lab2024:tb_ycircuit:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "C35B4_corner005"
+ "#pointID" 5
+"netlistDir" "../../../5/lab2024:tb_ycircuit:1/netlist"
+"dataDir" "../../../5/lab2024:tb_ycircuit:1"
+"modelFiles" "res.scs:restm,bip.scs:biptm,cap.scs:captm,esddiode.scs:esddiodetm,ind.scs:indtm,cmos53.scs:cmoswz,processOption.scs"
+)
+
+"modelFiles=res.scs:restm,bip.scs:biptm,cap.scs:captm,esddiode.scs:esddiodetm,ind.scs:indtm,cmos53.scs:cmoswo,processOption.scs" "runObject" (
+(
+"../../../4/lab2024:tb_ycircuit:1/psf/logFile"
+"../../../4/lab2024:tb_ycircuit:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "C35B4_corner004"
+ "#pointID" 4
+"netlistDir" "../../../4/lab2024:tb_ycircuit:1/netlist"
+"dataDir" "../../../4/lab2024:tb_ycircuit:1"
+"modelFiles" "res.scs:restm,bip.scs:biptm,cap.scs:captm,esddiode.scs:esddiodetm,ind.scs:indtm,cmos53.scs:cmoswo,processOption.scs"
+)
+
+"modelFiles=res.scs:restm,bip.scs:biptm,cap.scs:captm,esddiode.scs:esddiodetm,ind.scs:indtm,cmos53.scs:cmosws,processOption.scs" "runObject" (
+(
+"../../../3/lab2024:tb_ycircuit:1/psf/logFile"
+"../../../3/lab2024:tb_ycircuit:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "C35B4_corner003"
+ "#pointID" 3
+"netlistDir" "../../../3/lab2024:tb_ycircuit:1/netlist"
+"dataDir" "../../../3/lab2024:tb_ycircuit:1"
+"modelFiles" "res.scs:restm,bip.scs:biptm,cap.scs:captm,esddiode.scs:esddiodetm,ind.scs:indtm,cmos53.scs:cmosws,processOption.scs"
+)
+
+"modelFiles=res.scs:restm,bip.scs:biptm,cap.scs:captm,esddiode.scs:esddiodetm,ind.scs:indtm,cmos53.scs:cmoswp,processOption.scs" "runObject" (
+(
+"../../../2/lab2024:tb_ycircuit:1/psf/logFile"
+"../../../2/lab2024:tb_ycircuit:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "C35B4_corner002"
+ "#pointID" 2
+"netlistDir" "../../../2/lab2024:tb_ycircuit:1/netlist"
+"dataDir" "../../../2/lab2024:tb_ycircuit:1"
+"modelFiles" "res.scs:restm,bip.scs:biptm,cap.scs:captm,esddiode.scs:esddiodetm,ind.scs:indtm,cmos53.scs:cmoswp,processOption.scs"
+)
+
+"modelFiles=res.scs:restm,bip.scs:biptm,cap.scs:captm,esddiode.scs:esddiodetm,ind.scs:indtm,cmos53.scs:cmostm,processOption.scs" "runObject" (
+(
+"../../../1/lab2024:tb_ycircuit:1/psf/logFile"
+"../../../1/lab2024:tb_ycircuit:1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"#maeCorner" "C35B4_corner001"
+ "#pointID" 1
+"netlistDir" "../../../1/lab2024:tb_ycircuit:1/netlist"
+"dataDir" "../../../1/lab2024:tb_ycircuit:1"
+"modelFiles" "res.scs:restm,bip.scs:biptm,cap.scs:captm,esddiode.scs:esddiodetm,ind.scs:indtm,cmos53.scs:cmostm,processOption.scs"
+)
+
+END

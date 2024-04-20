@@ -1,0 +1,507 @@
+\# Program start time:     UTC 2024.04.20 19:58:25.015
+\# Local time: BST (UTC+01:00) 2024.04.20 20:58:25.015
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 05/03/2023 09:48 (sjfhw317) $
+\o Hierarchy:		/eda/cadence/2022-23/RHELx86/IC_6.1.8.320/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.32  (64-bit addresses)
+\# Command line:	/eda/cadence/2022-23/RHELx86/IC_6.1.8.320/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso225598 -mpshost it075891.wks.bris.ac.uk -davinciService DaVinciService_225598_1713642962 -log /home/oj23092/VLSI_Design_Lab/logs_oj23092/logs0/Job0.log3 -licenseLockFileName /home/oj23092/VLSI_Design_Lab/.tmp_oj23092/.it075891.wks.bris.ac.uk_225598 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 0
+\# Host name (type):	it075891.wks.bris.ac.uk (x86_64)
+\# Operating system:	Linux 4.18.0-513.24.1.el8_9.x86_64 #1 SMP Thu Apr 4 18:13:02 UTC 2024
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:7860 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        624 MB
+\# Available memory:	     19,814 MB
+\# System memory:	     23,507 MB
+\# Maximum memory size:	     23,001 MB
+\# Max mem available:	     19,933 MB
+\# Initial memory used:	        119 MB
+\#        process size:	      1,690 MB
+\# Thread usage limits (effective/default):	maxthreads 61950/61950 maxload 12.00/12.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		oj23092
+\o Working Directory:	it075891.wks.bris.ac.uk:/home/oj23092/VLSI_Design_Lab
+\# Process Id:		227734
+\o 
+\o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Load shared object file /eda/cadence/2022-23/RHELx86/MVS_21.12.000/tools.lnx86/ret/lib/64bit/libretboot.so
+\o Load shared object file /eda/cadence/2022-23/RHELx86/MVS_21.12.000/tools.lnx86/lpa/lib/64bit/libretclef.so
+\o 
+\o Load shared object file /eda/cadence/2022-23/RHELx86/MVS_21.12.000/tools.lnx86/lpa/lib/64bit/libretmb.so
+\o 
+\o Hotspot Browser 1.0.0 (May  5 2016 12:15:38)
+\o Loading /eda/cadence/2022-23/RHELx86/MVS_21.12.000/tools.lnx86/mmg/bin/64bit/etc/context/6.1.0/64bit/ccp.cxt
+\w *WARNING* _ivPprInit: pvstdb did not respond so PVS is not installed.
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\# Memory report: using         252 MB, process size 1,950 MB at UTC 2024.04.20 19:58:27.086
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso225598, host=it075891.wks.bris.ac.uk). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 227734 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [20:58:25.189362] Configured Lic search path (22.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+\w *WARNING* LIB A_CELLS from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 51 redefines
+\w LIB A_CELLS from the same file (defined earlier.)
+\w *WARNING* LIB PRIMLIBRF from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 52 redefines
+\w LIB PRIMLIBRF from the same file (defined earlier.)
+\w *WARNING* The directory: '/home/oj23092/VLSI_Design_Lab/lab202x' does not exist
+\w 	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
+\o ......................................................................................
+\o            ams AG HIT-Kit v.ams_4.10
+\o ......................................................................................
+\o COPYRIGHT (c) 2012 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This HIT-Kit and attached documentation are confidential information and may 
+\o only be used as authorized by the HIT-Kit license agreement.
+\o ......................................................................................
+\o Loading simulator default settings.
+\o HitKit On-Line Documentation not enabled - does ~/data.reg exist?
+\o function ams_ResCallback redefined
+\o function ams_ResCapCallback redefined
+\o function ams_CapCallback redefined
+\o function ams_MosCallback redefined
+\o function ams_HvmosCB redefined
+\o function ams_check_DPTUB redefined
+\o function ams_isoCB redefined
+\o Loading simulator default settings.
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p hitkit: ams_4.10  Tech: c35b4c3  User: oj23092 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 227734' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\# Available memory:         19,725 MB at UTC 2024.04.20 19:58:35.400
+\# Memory report: Maximum memory size now 20,023 MB at UTC 2024.04.20 19:58:35.400
+\# Thread usage report: 18 active threads, active load 1.40 at UTC 2024.04.20 19:58:35.400
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = lab2024
+\o 	Cell         = tb_ycircuit
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = lab2024:tb_ycircuit:1_none_Interactive.0
+\o 	Results DB   = /home/oj23092/VLSI_Design_Lab/lab2024/tb_ycircuit/adexl/results/data/Interactive.0.rdb
+\o 	Results Dir  = /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/1/lab2024:tb_ycircuit:1
+\o 	Results Loc  = /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data
+\o 	Project Dir  = /home/oj23092/VLSI_Design_Lab/Sim
+\o 	Setup DB loc = /home/oj23092/VLSI_Design_Lab/lab2024/tb_ycircuit/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* LIB A_CELLS from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 51 redefines
+\w LIB A_CELLS from the same file (defined earlier.)
+\w *WARNING* LIB PRIMLIBRF from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 52 redefines
+\w LIB PRIMLIBRF from the same file (defined earlier.)
+\w *WARNING* The directory: '/home/oj23092/VLSI_Design_Lab/lab202x' does not exist
+\w 	but was defined in libFile '/home/oj23092/VLSI_Design_Lab/cds.lib' for Lib 'lab202x'.
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\# Memory report: using         381 MB, process size 2,088 MB at UTC 2024.04.20 20:00:25.024
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [
+\o           lab2024:tb_ycircuit:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vsupply = "3.3"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/1/lab2024:tb_ycircuit:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/1/lab2024:tb_ycircuit:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\# [21:00:25.150609] Periodic Lic check successful
+\# [21:00:25.150610] Feature usage summary:
+\o Initializing the control file using cp:
+\o     cp /eda/cadence/2022-23/RHELx86/IC_6.1.8.320/tools.lnx86/dfII/etc/si/control.spectre /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/1/lab2024:tb_ycircuit:1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Apr 20 21:00:25 2024
+\o Loading json.cxt 
+\o End netlisting Apr 20 21:00:25 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ lab2024:tb_ycircuit:1 ]
+\o           for Point ID (0 1).
+\o 
+\o Delete psf data in /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/1/lab2024:tb_ycircuit:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 1) on testbench [
+\o           lab2024:tb_ycircuit:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 2) on testbench [
+\o           lab2024:tb_ycircuit:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/2/lab2024:tb_ycircuit:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/2/lab2024:tb_ycircuit:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 2)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Apr 20 21:00:34 2024
+\o End netlisting Apr 20 21:00:34 2024
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ lab2024:tb_ycircuit:1 ]
+\o           for Point ID (0 2).
+\o 
+\o Delete psf data in /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/2/lab2024:tb_ycircuit:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 2) on testbench [
+\o           lab2024:tb_ycircuit:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 3) on testbench [
+\o           lab2024:tb_ycircuit:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/3/lab2024:tb_ycircuit:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/3/lab2024:tb_ycircuit:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 3)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Apr 20 21:00:36 2024
+\o End netlisting Apr 20 21:00:36 2024
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ lab2024:tb_ycircuit:1 ]
+\o           for Point ID (0 3).
+\o 
+\o Delete psf data in /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/3/lab2024:tb_ycircuit:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 3) on testbench [
+\o           lab2024:tb_ycircuit:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 4) on testbench [
+\o           lab2024:tb_ycircuit:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/4/lab2024:tb_ycircuit:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/4/lab2024:tb_ycircuit:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 4)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Apr 20 21:00:39 2024
+\o End netlisting Apr 20 21:00:39 2024
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ lab2024:tb_ycircuit:1 ]
+\o           for Point ID (0 4).
+\o 
+\o Delete psf data in /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/4/lab2024:tb_ycircuit:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 4) on testbench [
+\o           lab2024:tb_ycircuit:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 5) on testbench [
+\o           lab2024:tb_ycircuit:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/5/lab2024:tb_ycircuit:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/5/lab2024:tb_ycircuit:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 5)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Apr 20 21:00:41 2024
+\o End netlisting Apr 20 21:00:41 2024
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ lab2024:tb_ycircuit:1 ]
+\o           for Point ID (0 5).
+\o 
+\o Delete psf data in /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/5/lab2024:tb_ycircuit:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o WARNING (ADE-3080): Fast viewing extensions for PSF XL format (also known as RTSF) will be discontinued  
+\o        and Virtuoso Visualization and Analysis XL will not use RTSF data to plot waveforms from IC6.1.8 ISR7 onward. 
+\o        There will be no performance impact on data visualization due to this change.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 5) on testbench [
+\o           lab2024:tb_ycircuit:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Job 0 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

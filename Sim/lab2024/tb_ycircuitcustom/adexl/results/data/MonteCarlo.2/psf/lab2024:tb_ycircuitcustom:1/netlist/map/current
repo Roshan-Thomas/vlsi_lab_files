@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "tb_ycircuitcustom"
+  repList "spectre cmos_sch schematic"
+  stopList "spectre"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuitcustom/adexl/results/data/MonteCarlo.2/1/lab2024:tb_ycircuitcustom:1/groupRunDataDir/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "lab2024/ycircuitcustom/schematic" "ycircuitcustom" )
+( "lab2024/tb_ycircuitcustom/schematic" "tb_ycircuitcustom" )
+ )
+( "tb_ycircuitcustom" "ihnl/cds1/map" )
+( "ycircuitcustom" "ihnl/cds0/map" )
+ )

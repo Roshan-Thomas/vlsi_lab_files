@@ -1,0 +1,15 @@
+
+// Library name: lab2024
+// Cell name: tb_ycircuit
+// View name: schematic
+I0 (net4 net3 net2 net1 net5) ycircuit Wp=1u Wn=1u
+VD (net1 0) vsource type=pulse val0=0 val1=3.3 period=2n delay=5n \
+        rise=100p fall=100p width=1n
+VC (net2 0) vsource type=pulse val0=0 val1=3.3 period=4n delay=3n \
+        rise=100p fall=100p width=1n
+VB (net3 0) vsource type=pulse val0=0 val1=3.3 period=2n rise=100p \
+        fall=100p width=1n
+VA (net4 0) vsource type=pulse val0=0 val1=3.3 period=20n rise=100p \
+        fall=100p width=10n
+C0 (net5 0) capacitor c=10f
+V (vdd! 0) vsource dc=3.3 type=dc

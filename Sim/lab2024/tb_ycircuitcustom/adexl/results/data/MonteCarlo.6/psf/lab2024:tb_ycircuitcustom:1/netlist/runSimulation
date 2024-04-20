@@ -1,0 +1,1 @@
+ spectre  input.scs  +escchars +log ../../../../Interactive.1/psf/lab2024:tb_ycircuitcustom:1/psf/spectre.out  -format psfbin +rtsf -raw ../../../../Interactive.1/psf/lab2024:tb_ycircuitcustom:1/psf   +aps +mt +lqtimeout 900 -maxw 5 -maxn 5 +param /eda/cadence/ams/4.10/spectre/ams_range.lmts -env ade   

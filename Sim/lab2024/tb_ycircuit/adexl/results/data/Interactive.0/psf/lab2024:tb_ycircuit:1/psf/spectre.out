@@ -1,0 +1,1734 @@
+
+Spectre (R) Circuit Simulator
+Version 21.1.0.751.isr19 64bit -- 22 May 2023
+Copyright (C) 1989-2023 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: oj23092   Host: it075891.wks.bris.ac.uk   HostID: DE89A69F   PID: 229177
+Memory  available: 13.3089 GB  physical: 16.2980 GB
+Linux   : Rocky Linux release 8.9 (Green Obsidian)
+CPU Type: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [3200.0] (  6 ),  1 [3200.0] (  7 ),  2 [4307.5] (  8 )
+                 3 [3200.0] (  9 ),  4 [3200.0] ( 10 ),  5 [3548.5] ( 11 )
+        
+System load averages (1min, 5min, 15min) : 5.8 %, 2.6 %, 1.2 %
+Hyperthreading is enabled
+HPC is enabled
+
+
+Simulating `input.scs' on it075891.wks.bris.ac.uk at 9:00:41 PM, Sat Apr 20, 2024 (process id: 229177).
+Current working directory: /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/5/lab2024:tb_ycircuit:1/netlist
+Command line:
+     \
+        /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/bin/spectre  \
+        -64 input.scs +escchars +log ../psf/spectre.out -format psfbin  \
+        +rtsf -raw ../psf +aps +mt +lqtimeout 900 -maxw 5 -maxn 5  \
+        +param /eda/cadence/ams/4.10/spectre/ams_range.lmts -env ade  \
+        -ahdllibdir  \
+        /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Licensing Information:
+[21:00:42.289610] Configured Lic search path (21.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+
+Licensing Information:
+[21:00:42.511635] Periodic Lic check successful
+
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/5/lab2024:tb_ycircuit:1/netlist/input.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/ams_range.lmts
+
+Warning from spectre during read of parameter soft limits file `/eda/cadence/ams/4.10/spectre/ams_range.lmts', during circuit read-in.
+    WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed.
+
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/soac.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/res.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/bip.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cap.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/esddiode.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/ind.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cmos53.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/processOption.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/process.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/soac.va
+
+Warning from spectre during AHDL read-in.
+    WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow.
+
+Reading link:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/processOption/C35B4C3.scs
+Time for NDB Parsing: CPU = 81.249 ms, elapsed = 602.621 ms.
+Time accumulated: CPU = 137.596 ms, elapsed = 602.624 ms.
+Peak resident memory used = 160 Mbytes.
+
+TCP: opening server port it075891.wks.bris.ac.uk:51197
+Existing shared object for module modp_ahdl is up to date.
+Installed compiled interface for modp_ahdl.
+Existing shared object for module modn_ahdl is up to date.
+Installed compiled interface for modn_ahdl.
+Time for Elaboration: CPU = 16.39 ms, elapsed = 17.2541 ms.
+Time accumulated: CPU = 154.079 ms, elapsed = 619.97 ms.
+Peak resident memory used = 168 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+
+
+Time for EDB Visiting: CPU = 1.436 ms, elapsed = 1.75381 ms.
+Time accumulated: CPU = 155.609 ms, elapsed = 621.817 ms.
+Peak resident memory used = 170 Mbytes.
+
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
+
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed.
+Notice from spectre during initial setup.
+    Ignorevaref=yes is ignored since all nodes are connected to Verilog-A modules.
+Notice from spectre during topology check.
+    Only one connection to the following 8 nodes:
+        I0.MPD.psub!
+        I0.MPC.psub!
+        I0.MPB.psub!
+        I0.MPA.psub!
+        I0.MNC.psub!
+        Further occurrences of this notice will be suppressed.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+           homotopy = 5
+              limit = delta
+         compatible = spice2
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+     enable_pre_ver = yes
+      ignorezerovar = yes
+               save = allpub
+             reltol = 0.0001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 17
+            bsim3v3 8     
+          capacitor 1     
+          modn_ahdl 4     
+          modp_ahdl 4     
+            vsource 5     
+
+Analysis and control statement inventory:
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Design checks inventory:
+          paramtest 8     
+             assert 175   
+
+
+Notice from spectre during initial setup.
+    APS enabled.
+    1 notice suppressed.
+    72 warnings suppressed.
+
+Time for parsing: CPU = 6.26 ms, elapsed = 266.724 ms.
+Time accumulated: CPU = 161.953 ms, elapsed = 888.624 ms.
+Peak resident memory used = 176 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+Notice from spectre during transient analysis `tran'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled.
+
+
+************************************************
+Transient Analysis `tran': time = (0 s -> 20 ns)
+************************************************
+
+Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.net2) = 4.44237 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+Warning from spectre during check, during IC analysis, during transient analysis `tran'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'.
+
+DC simulation time: CPU = 641 us, elapsed = 643.969 us.
+
+Opening the PSF file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ns
+    step = 20 ps
+    maxstep = 200 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 10e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   5       (current)
+                 save   17      (voltage)
+
+    tran: time = 514 ps      (2.57 %), step = 41.86 ps     (209 m%)
+    tran: time = 1.53 ns     (7.65 %), step = 30.35 ps     (152 m%)
+    tran: time = 2.507 ns    (12.5 %), step = 29.47 ps     (147 m%)
+    tran: time = 3.518 ns    (17.6 %), step = 33.4 ps      (167 m%)
+    tran: time = 4.501 ns    (22.5 %), step = 18.95 ps    (94.8 m%)
+    tran: time = 5.514 ns    (27.6 %), step = 15.06 ps    (75.3 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0050026us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): LEAVING@  0.00500693us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): ENTERING@ 0.00619479us duration:0.00119us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.00619493us duration:0.00119us ;
+    tran: time = 6.511 ns    (32.6 %), step = 13.05 ps    (65.3 m%)
+    tran: time = 7.522 ns    (37.6 %), step = 22.94 ps     (115 m%)
+    tran: time = 8.516 ns    (42.6 %), step = 16.49 ps    (82.5 m%)
+    tran: time = 9.506 ns    (47.5 %), step = 12.92 ps    (64.6 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.00900262us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): LEAVING@  0.00900692us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): ENTERING@ 0.0101623us duration:0.00116us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0101865us duration:0.00118us ;
+    tran: time = 10.5 ns     (52.5 %), step = 22.35 ps     (112 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0102561us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0114823us duration:0.00123us ;
+    tran: time = 11.52 ns    (57.6 %), step = 20.91 ps     (105 m%)
+    tran: time = 12.52 ns    (62.6 %), step = 17.5 ps     (87.5 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0122277us ;
+    tran: time = 13.5 ns     (67.5 %), step = 22.37 ps     (112 m%)
+    tran: time = 14.5 ns     (72.5 %), step = 28 ps        (140 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0154952us duration:0.00327us ;
+    tran: time = 15.51 ns    (77.6 %), step = 18.77 ps    (93.8 m%)
+    tran: time = 16.51 ns    (82.6 %), step = 17.29 ps    (86.5 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0162277us ;
+    tran: time = 17.5 ns     (87.5 %), step = 22.37 ps     (112 m%)
+    tran: time = 18.5 ns     (92.5 %), step = 28.13 ps     (141 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0194952us duration:0.00327us ;
+    tran: time = 19.51 ns    (97.6 %), step = 18.75 ps    (93.8 m%)
+Number of accepted tran steps =             2549
+
+Maximum value achieved for any signal of each quantity: 
+V: V(I0.net1) = 3.598 V
+I: I(V:p) = 400.6 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+          reltol = 10e-06, default 100e-06 (conservative)
+   -   Features that may significantly slowing down simulation
+          asserts = 53.9563 ms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (2.6 %)       1 (6.1 %)       3 (1.7 %)       4 (1.7 %)
+         5 (14.7 %)      7 (2.6 %)       8 (4.3 %)       9 (9.6 %)
+        10 (3.4 %)      11 (22.4 %)     
+        Total: 70.9%
+Initial condition solution time: CPU = 672 us, elapsed = 674.009 us.
+Intrinsic tran analysis time:    CPU = 276.356 ms, elapsed = 285.368 ms.
+Total time required for tran analysis `tran': CPU = 279.695 ms, elapsed = 304.551 ms, util. = 91.8%.
+Time accumulated: CPU = 445.987 ms, elapsed = 1.20308 s.
+Peak resident memory used = 185 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[21:00:43.210536] Cdslmd servers:5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+[21:00:43.210555] Feature usage summary:
+[21:00:43.210560] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (9:00:43 PM, Sat Apr 20, 2024):
+Time used: CPU = 458 ms, elapsed = 1.23 s, util. = 37.2%.
+Time spent in licensing: elapsed = 761 ms, percentage of total = 61.8%.
+Peak memory used = 187 Mbytes.
+Simulation started at: 9:00:41 PM, Sat Apr 20, 2024, ended at: 9:00:43 PM, Sat Apr 20, 2024, with elapsed time (wall clock): 1.23 s.
+spectre completes with 0 errors, 17 warnings, and 10 notices.
+
+
+********* LOG ENDS **************
+**                             **
+**                             **
+********* LOG STARTS ************
+
+
+
+Spectre (R) Circuit Simulator
+Version 21.1.0.751.isr19 64bit -- 22 May 2023
+Copyright (C) 1989-2023 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: oj23092   Host: it075891.wks.bris.ac.uk   HostID: DE89A69F   PID: 228998
+Memory  available: 13.3108 GB  physical: 16.2980 GB
+Linux   : Rocky Linux release 8.9 (Green Obsidian)
+CPU Type: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [3200.0] (  6 ),  1 [3200.0] (  7 ),  2 [3200.0] (  8 )
+                 3 [3200.0] (  9 ),  4 [3200.0] ( 10 ),  5 [3200.0] ( 11 )
+        
+System load averages (1min, 5min, 15min) : 5.8 %, 2.6 %, 1.2 %
+Hyperthreading is enabled
+HPC is enabled
+
+
+Simulating `input.scs' on it075891.wks.bris.ac.uk at 9:00:39 PM, Sat Apr 20, 2024 (process id: 228998).
+Current working directory: /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/4/lab2024:tb_ycircuit:1/netlist
+Command line:
+     \
+        /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/bin/spectre  \
+        -64 input.scs +escchars +log ../psf/spectre.out -format psfbin  \
+        +rtsf -raw ../psf +aps +mt +lqtimeout 900 -maxw 5 -maxn 5  \
+        +param /eda/cadence/ams/4.10/spectre/ams_range.lmts -env ade  \
+        -ahdllibdir  \
+        /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Licensing Information:
+[21:00:39.289658] Configured Lic search path (21.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+
+Licensing Information:
+[21:00:39.139395] Periodic Lic check successful
+
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/4/lab2024:tb_ycircuit:1/netlist/input.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/ams_range.lmts
+
+Warning from spectre during read of parameter soft limits file `/eda/cadence/ams/4.10/spectre/ams_range.lmts', during circuit read-in.
+    WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed.
+
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/soac.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/res.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/bip.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cap.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/esddiode.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/ind.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cmos53.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/processOption.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/process.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/soac.va
+
+Warning from spectre during AHDL read-in.
+    WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow.
+
+Reading link:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/processOption/C35B4C3.scs
+Time for NDB Parsing: CPU = 78.482 ms, elapsed = 302.549 ms.
+Time accumulated: CPU = 135.38 ms, elapsed = 302.552 ms.
+Peak resident memory used = 159 Mbytes.
+
+TCP: opening server port it075891.wks.bris.ac.uk:50155
+Existing shared object for module modp_ahdl is up to date.
+Installed compiled interface for modp_ahdl.
+Existing shared object for module modn_ahdl is up to date.
+Installed compiled interface for modn_ahdl.
+Time for Elaboration: CPU = 15.999 ms, elapsed = 17.211 ms.
+Time accumulated: CPU = 151.441 ms, elapsed = 319.825 ms.
+Peak resident memory used = 167 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+
+
+Time for EDB Visiting: CPU = 1.429 ms, elapsed = 1.81198 ms.
+Time accumulated: CPU = 152.96 ms, elapsed = 321.729 ms.
+Peak resident memory used = 169 Mbytes.
+
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
+
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed.
+Notice from spectre during initial setup.
+    Ignorevaref=yes is ignored since all nodes are connected to Verilog-A modules.
+Notice from spectre during topology check.
+    Only one connection to the following 8 nodes:
+        I0.MPD.psub!
+        I0.MPC.psub!
+        I0.MPB.psub!
+        I0.MPA.psub!
+        I0.MNC.psub!
+        Further occurrences of this notice will be suppressed.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+           homotopy = 5
+              limit = delta
+         compatible = spice2
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+     enable_pre_ver = yes
+      ignorezerovar = yes
+               save = allpub
+             reltol = 0.0001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 17
+            bsim3v3 8     
+          capacitor 1     
+          modn_ahdl 4     
+          modp_ahdl 4     
+            vsource 5     
+
+Analysis and control statement inventory:
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Design checks inventory:
+          paramtest 8     
+             assert 175   
+
+
+Notice from spectre during initial setup.
+    APS enabled.
+    1 notice suppressed.
+    72 warnings suppressed.
+
+Time for parsing: CPU = 5.861 ms, elapsed = 258.871 ms.
+Time accumulated: CPU = 158.917 ms, elapsed = 580.696 ms.
+Peak resident memory used = 174 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+Notice from spectre during transient analysis `tran'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled.
+
+
+************************************************
+Transient Analysis `tran': time = (0 s -> 20 ns)
+************************************************
+
+Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.net3) = 2.77053 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+Warning from spectre during check, during IC analysis, during transient analysis `tran'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'.
+
+DC simulation time: CPU = 722 us, elapsed = 722.17 us.
+
+Opening the PSF file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ns
+    step = 20 ps
+    maxstep = 200 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 10e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   5       (current)
+                 save   17      (voltage)
+
+    tran: time = 518.8 ps    (2.59 %), step = 22.91 ps     (115 m%)
+    tran: time = 1.505 ns    (7.52 %), step = 19.14 ps    (95.7 m%)
+    tran: time = 2.503 ns    (12.5 %), step = 28.18 ps     (141 m%)
+    tran: time = 3.521 ns    (17.6 %), step = 36.55 ps     (183 m%)
+    tran: time = 4.513 ns    (22.6 %), step = 18.79 ps      (94 m%)
+    tran: time = 5.516 ns    (27.6 %), step = 16.38 ps    (81.9 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.00500324us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): LEAVING@  0.00500874us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): ENTERING@ 0.00619326us duration:0.00118us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.00619496us duration:0.00119us ;
+    tran: time = 6.503 ns    (32.5 %), step = 7.973 ps    (39.9 m%)
+    tran: time = 7.52 ns     (37.6 %), step = 20.48 ps     (102 m%)
+    tran: time = 8.51 ns     (42.5 %), step = 17.84 ps    (89.2 m%)
+    tran: time = 9.515 ns    (47.6 %), step = 24.17 ps     (121 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.00900314us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): LEAVING@  0.00900867us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): ENTERING@ 0.0101741us duration:0.00117us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0101997us duration:0.0012us ;
+    tran: time = 10.5 ns     (52.5 %), step = 8.764 ps    (43.8 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0102003us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0113503us duration:0.00115us ;
+    tran: time = 11.52 ns    (57.6 %), step = 26.96 ps     (135 m%)
+    tran: time = 12.51 ns    (62.6 %), step = 14.52 ps    (72.6 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0122379us ;
+    tran: time = 13.5 ns     (67.5 %), step = 27.39 ps     (137 m%)
+    tran: time = 14.51 ns    (72.6 %), step = 38.96 ps     (195 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0153569us duration:0.00312us ;
+    tran: time = 15.51 ns    (77.5 %), step = 25.94 ps     (130 m%)
+    tran: time = 16.51 ns    (82.6 %), step = 14.54 ps    (72.7 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.016238us ;
+    tran: time = 17.52 ns    (87.6 %), step = 28.2 ps      (141 m%)
+    tran: time = 18.51 ns    (92.6 %), step = 38.96 ps     (195 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0193569us duration:0.00312us ;
+    tran: time = 19.51 ns    (97.5 %), step = 25.94 ps     (130 m%)
+Number of accepted tran steps =             2732
+
+Maximum value achieved for any signal of each quantity: 
+V: V(I0.net1) = 3.658 V
+I: I(V:p) = 280.3 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+          reltol = 10e-06, default 100e-06 (conservative)
+   -   Features that may significantly slowing down simulation
+          asserts = 55.8162 ms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (36.0 %)      1 (1.2 %)       2 (3.5 %)       3 (1.2 %)
+         4 (5.8 %)       5 (2.3 %)       6 (12.8 %)      7 (19.8 %)
+         9 (3.4 %)      11 (2.4 %)      
+        Total: 88.4%
+Initial condition solution time: CPU = 748 us, elapsed = 750.065 us.
+Intrinsic tran analysis time:    CPU = 291.725 ms, elapsed = 301.539 ms.
+Total time required for tran analysis `tran': CPU = 295.16 ms, elapsed = 320.848 ms, util. = 92%.
+Time accumulated: CPU = 458.58 ms, elapsed = 913.001 ms.
+Peak resident memory used = 183 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[21:00:40.375944] Cdslmd servers:5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+[21:00:40.375960] Feature usage summary:
+[21:00:40.375961] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (9:00:40 PM, Sat Apr 20, 2024):
+Time used: CPU = 471 ms, elapsed = 944 ms, util. = 49.9%.
+Time spent in licensing: elapsed = 161 ms, percentage of total = 17.1%.
+Peak memory used = 185 Mbytes.
+Simulation started at: 9:00:39 PM, Sat Apr 20, 2024, ended at: 9:00:40 PM, Sat Apr 20, 2024, with elapsed time (wall clock): 944 ms.
+spectre completes with 0 errors, 17 warnings, and 10 notices.
+
+
+********* LOG ENDS **************
+**                             **
+**                             **
+********* LOG STARTS ************
+
+
+
+Spectre (R) Circuit Simulator
+Version 21.1.0.751.isr19 64bit -- 22 May 2023
+Copyright (C) 1989-2023 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: oj23092   Host: it075891.wks.bris.ac.uk   HostID: DE89A69F   PID: 228816
+Memory  available: 13.3128 GB  physical: 16.2980 GB
+Linux   : Rocky Linux release 8.9 (Green Obsidian)
+CPU Type: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [3200.0] (  6 ),  1 [3200.0] (  7 ),  2 [3200.0] (  8 )
+                 3 [3200.0] (  9 ),  4 [3200.0] ( 10 ),  5 [3200.0] ( 11 )
+        
+System load averages (1min, 5min, 15min) : 5.6 %, 2.5 %, 1.2 %
+Hyperthreading is enabled
+HPC is enabled
+
+
+Simulating `input.scs' on it075891.wks.bris.ac.uk at 9:00:36 PM, Sat Apr 20, 2024 (process id: 228816).
+Current working directory: /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/3/lab2024:tb_ycircuit:1/netlist
+Command line:
+     \
+        /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/bin/spectre  \
+        -64 input.scs +escchars +log ../psf/spectre.out -format psfbin  \
+        +rtsf -raw ../psf +aps +mt +lqtimeout 900 -maxw 5 -maxn 5  \
+        +param /eda/cadence/ams/4.10/spectre/ams_range.lmts -env ade  \
+        -ahdllibdir  \
+        /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Licensing Information:
+[21:00:36.289634] Configured Lic search path (21.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+
+Licensing Information:
+[21:00:37.147650] Periodic Lic check successful
+
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/3/lab2024:tb_ycircuit:1/netlist/input.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/ams_range.lmts
+
+Warning from spectre during read of parameter soft limits file `/eda/cadence/ams/4.10/spectre/ams_range.lmts', during circuit read-in.
+    WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed.
+
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/soac.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/res.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/bip.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cap.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/esddiode.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/ind.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cmos53.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/processOption.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/process.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/soac.va
+
+Warning from spectre during AHDL read-in.
+    WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow.
+
+Reading link:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/processOption/C35B4C3.scs
+Time for NDB Parsing: CPU = 75.302 ms, elapsed = 298.551 ms.
+Time accumulated: CPU = 133.858 ms, elapsed = 298.554 ms.
+Peak resident memory used = 158 Mbytes.
+
+TCP: opening server port it075891.wks.bris.ac.uk:59255
+Existing shared object for module modp_ahdl is up to date.
+Installed compiled interface for modp_ahdl.
+Existing shared object for module modn_ahdl is up to date.
+Installed compiled interface for modn_ahdl.
+Time for Elaboration: CPU = 15.899 ms, elapsed = 17.5309 ms.
+Time accumulated: CPU = 149.822 ms, elapsed = 316.149 ms.
+Peak resident memory used = 166 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+
+
+Time for EDB Visiting: CPU = 1.441 ms, elapsed = 2.14887 ms.
+Time accumulated: CPU = 151.328 ms, elapsed = 318.363 ms.
+Peak resident memory used = 168 Mbytes.
+
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
+
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed.
+Notice from spectre during initial setup.
+    Ignorevaref=yes is ignored since all nodes are connected to Verilog-A modules.
+Notice from spectre during topology check.
+    Only one connection to the following 8 nodes:
+        I0.MPD.psub!
+        I0.MPC.psub!
+        I0.MPB.psub!
+        I0.MPA.psub!
+        I0.MNC.psub!
+        Further occurrences of this notice will be suppressed.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+           homotopy = 5
+              limit = delta
+         compatible = spice2
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+     enable_pre_ver = yes
+      ignorezerovar = yes
+               save = allpub
+             reltol = 0.0001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 17
+            bsim3v3 8     
+          capacitor 1     
+          modn_ahdl 4     
+          modp_ahdl 4     
+            vsource 5     
+
+Analysis and control statement inventory:
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Design checks inventory:
+          paramtest 8     
+             assert 175   
+
+
+Notice from spectre during initial setup.
+    APS enabled.
+    1 notice suppressed.
+    72 warnings suppressed.
+
+Time for parsing: CPU = 5.639 ms, elapsed = 260.491 ms.
+Time accumulated: CPU = 157.023 ms, elapsed = 578.91 ms.
+Peak resident memory used = 173 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+Notice from spectre during transient analysis `tran'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled.
+
+
+************************************************
+Transient Analysis `tran': time = (0 s -> 20 ns)
+************************************************
+
+Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.net2) = 4.68711 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+Warning from spectre during check, during IC analysis, during transient analysis `tran'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'.
+
+DC simulation time: CPU = 415 us, elapsed = 416.04 us.
+
+Opening the PSF file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ns
+    step = 20 ps
+    maxstep = 200 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 10e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   5       (current)
+                 save   17      (voltage)
+
+    tran: time = 540.9 ps     (2.7 %), step = 41.79 ps     (209 m%)
+    tran: time = 1.512 ns    (7.56 %), step = 25.82 ps     (129 m%)
+    tran: time = 2.517 ns    (12.6 %), step = 32.96 ps     (165 m%)
+    tran: time = 3.509 ns    (17.5 %), step = 33.72 ps     (169 m%)
+    tran: time = 4.502 ns    (22.5 %), step = 20.05 ps     (100 m%)
+    tran: time = 5.502 ns    (27.5 %), step = 16.03 ps    (80.1 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.00500266us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): LEAVING@  0.00500701us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): ENTERING@ 0.00619647us duration:0.00119us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.00619667us duration:0.00119us ;
+    tran: time = 6.504 ns    (32.5 %), step = 13.19 ps      (66 m%)
+    tran: time = 7.503 ns    (37.5 %), step = 17.8 ps       (89 m%)
+    tran: time = 8.513 ns    (42.6 %), step = 16.21 ps    (81.1 m%)
+    tran: time = 9.509 ns    (47.5 %), step = 20.12 ps     (101 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0090023us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): LEAVING@  0.00900657us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): ENTERING@ 0.0101624us duration:0.00116us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.010195us duration:0.00119us ;
+    tran: time = 10.5 ns     (52.5 %), step = 12.71 ps    (63.6 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0102127us ;
+    tran: time = 11.51 ns    (57.5 %), step = 16.66 ps    (83.3 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0115431us duration:0.00133us ;
+    tran: time = 12.51 ns    (62.6 %), step = 14.6 ps       (73 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0122844us ;
+    tran: time = 13.51 ns    (67.5 %), step = 26.97 ps     (135 m%)
+    tran: time = 14.52 ns    (72.6 %), step = 23.64 ps     (118 m%)
+    tran: time = 15.51 ns    (77.6 %), step = 16.7 ps     (83.5 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0155583us duration:0.00327us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): LEAVING@  0.0150534us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): ENTERING@ 0.0160543us duration:0.001us ;
+    tran: time = 16.51 ns    (82.6 %), step = 14.68 ps    (73.4 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0162844us ;
+    tran: time = 17.51 ns    (87.5 %), step = 26.98 ps     (135 m%)
+    tran: time = 18.52 ns    (92.6 %), step = 23.64 ps     (118 m%)
+    tran: time = 19.51 ns    (97.6 %), step = 16.69 ps    (83.5 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0195583us duration:0.00327us ;
+Number of accepted tran steps =             2539
+
+Maximum value achieved for any signal of each quantity: 
+V: V(I0.net1) = 3.63 V
+I: I(V:p) = 252.3 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+          reltol = 10e-06, default 100e-06 (conservative)
+   -   Features that may significantly slowing down simulation
+          asserts = 53.9372 ms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (2.4 %)       1 (2.4 %)       2 (3.7 %)       4 (26.5 %)
+         5 (3.6 %)       6 (9.4 %)       7 (1.2 %)       8 (4.8 %)
+         9 (20.0 %)     10 (9.5 %)      11 (3.6 %)      
+        Total: 87.1%
+Initial condition solution time: CPU = 436 us, elapsed = 437.021 us.
+Intrinsic tran analysis time:    CPU = 270.898 ms, elapsed = 280.447 ms.
+Total time required for tran analysis `tran': CPU = 273.847 ms, elapsed = 299.004 ms, util. = 91.6%.
+Time accumulated: CPU = 435.14 ms, elapsed = 888.238 ms.
+Peak resident memory used = 182 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[21:00:37.312562] Cdslmd servers:5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+[21:00:37.312594] Feature usage summary:
+[21:00:37.312595] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (9:00:37 PM, Sat Apr 20, 2024):
+Time used: CPU = 448 ms, elapsed = 922 ms, util. = 48.6%.
+Time spent in licensing: elapsed = 159 ms, percentage of total = 17.3%.
+Peak memory used = 185 Mbytes.
+Simulation started at: 9:00:36 PM, Sat Apr 20, 2024, ended at: 9:00:37 PM, Sat Apr 20, 2024, with elapsed time (wall clock): 922 ms.
+spectre completes with 0 errors, 17 warnings, and 10 notices.
+
+
+********* LOG ENDS **************
+**                             **
+**                             **
+********* LOG STARTS ************
+
+
+
+Spectre (R) Circuit Simulator
+Version 21.1.0.751.isr19 64bit -- 22 May 2023
+Copyright (C) 1989-2023 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: oj23092   Host: it075891.wks.bris.ac.uk   HostID: DE89A69F   PID: 228637
+Memory  available: 13.3125 GB  physical: 16.2980 GB
+Linux   : Rocky Linux release 8.9 (Green Obsidian)
+CPU Type: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [3200.0] (  6 ),  1 [4299.9] (  7 ),  2 [3931.7] (  8 )
+                 3 [3200.0] (  9 ),  4 [3200.0] ( 10 ),  5 [3200.0] ( 11 )
+        
+System load averages (1min, 5min, 15min) : 5.6 %, 2.5 %, 1.2 %
+Hyperthreading is enabled
+HPC is enabled
+
+
+Simulating `input.scs' on it075891.wks.bris.ac.uk at 9:00:34 PM, Sat Apr 20, 2024 (process id: 228637).
+Current working directory: /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/2/lab2024:tb_ycircuit:1/netlist
+Command line:
+     \
+        /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/bin/spectre  \
+        -64 input.scs +escchars +log ../psf/spectre.out -format psfbin  \
+        +rtsf -raw ../psf +aps +mt +lqtimeout 900 -maxw 5 -maxn 5  \
+        +param /eda/cadence/ams/4.10/spectre/ams_range.lmts -env ade  \
+        -ahdllibdir  \
+        /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Licensing Information:
+[21:00:34.289618] Configured Lic search path (21.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+
+Licensing Information:
+[21:00:34.129993] Periodic Lic check successful
+
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/2/lab2024:tb_ycircuit:1/netlist/input.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/ams_range.lmts
+
+Warning from spectre during read of parameter soft limits file `/eda/cadence/ams/4.10/spectre/ams_range.lmts', during circuit read-in.
+    WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed.
+
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/soac.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/res.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/bip.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cap.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/esddiode.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/ind.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cmos53.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/processOption.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/process.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/soac.va
+
+Warning from spectre during AHDL read-in.
+    WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow.
+
+Reading link:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/processOption/C35B4C3.scs
+Time for NDB Parsing: CPU = 74.414 ms, elapsed = 299.884 ms.
+Time accumulated: CPU = 131.309 ms, elapsed = 299.886 ms.
+Peak resident memory used = 163 Mbytes.
+
+TCP: opening server port it075891.wks.bris.ac.uk:44633
+Existing shared object for module modp_ahdl is up to date.
+Installed compiled interface for modp_ahdl.
+Existing shared object for module modn_ahdl is up to date.
+Installed compiled interface for modn_ahdl.
+Time for Elaboration: CPU = 15.953 ms, elapsed = 17.292 ms.
+Time accumulated: CPU = 147.327 ms, elapsed = 317.242 ms.
+Peak resident memory used = 170 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+
+
+Time for EDB Visiting: CPU = 1.505 ms, elapsed = 1.87492 ms.
+Time accumulated: CPU = 148.898 ms, elapsed = 319.181 ms.
+Peak resident memory used = 173 Mbytes.
+
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
+
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed.
+Notice from spectre during initial setup.
+    Ignorevaref=yes is ignored since all nodes are connected to Verilog-A modules.
+Notice from spectre during topology check.
+    Only one connection to the following 8 nodes:
+        I0.MPD.psub!
+        I0.MPC.psub!
+        I0.MPB.psub!
+        I0.MPA.psub!
+        I0.MNC.psub!
+        Further occurrences of this notice will be suppressed.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+           homotopy = 5
+              limit = delta
+         compatible = spice2
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+     enable_pre_ver = yes
+      ignorezerovar = yes
+               save = allpub
+             reltol = 0.0001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 17
+            bsim3v3 8     
+          capacitor 1     
+          modn_ahdl 4     
+          modp_ahdl 4     
+            vsource 5     
+
+Analysis and control statement inventory:
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Design checks inventory:
+          paramtest 8     
+             assert 175   
+
+
+Notice from spectre during initial setup.
+    APS enabled.
+    1 notice suppressed.
+    72 warnings suppressed.
+
+Time for parsing: CPU = 5.582 ms, elapsed = 259.132 ms.
+Time accumulated: CPU = 154.554 ms, elapsed = 578.387 ms.
+Peak resident memory used = 178 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+Notice from spectre during transient analysis `tran'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled.
+
+
+************************************************
+Transient Analysis `tran': time = (0 s -> 20 ns)
+************************************************
+
+Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.net3) = 3.36395 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+Warning from spectre during check, during IC analysis, during transient analysis `tran'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'.
+
+DC simulation time: CPU = 456 us, elapsed = 459.194 us.
+
+Opening the PSF file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ns
+    step = 20 ps
+    maxstep = 200 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 10e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   5       (current)
+                 save   17      (voltage)
+
+    tran: time = 524.4 ps    (2.62 %), step = 25.76 ps     (129 m%)
+    tran: time = 1.522 ns    (7.61 %), step = 27.37 ps     (137 m%)
+    tran: time = 2.511 ns    (12.6 %), step = 28.9 ps      (144 m%)
+    tran: time = 3.515 ns    (17.6 %), step = 31.59 ps     (158 m%)
+    tran: time = 4.51 ns     (22.6 %), step = 17.82 ps    (89.1 m%)
+    tran: time = 5.503 ns    (27.5 %), step = 14.85 ps    (74.3 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.00500321us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): LEAVING@  0.00500882us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): ENTERING@ 0.00619451us duration:0.00119us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.00619684us duration:0.00119us ;
+    tran: time = 6.511 ns    (32.6 %), step = 15.98 ps    (79.9 m%)
+    tran: time = 7.512 ns    (37.6 %), step = 35.6 ps      (178 m%)
+    tran: time = 8.515 ns    (42.6 %), step = 15.97 ps    (79.9 m%)
+    tran: time = 9.509 ns    (47.5 %), step = 11.22 ps    (56.1 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.00900328us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): LEAVING@  0.00900896us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): ENTERING@ 0.0101746us duration:0.00117us ;
+    tran: time = 10.5 ns     (52.5 %), step = 16.54 ps    (82.7 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0113149us duration:0.00231us ;
+    tran: time = 11.53 ns    (57.6 %), step = 40.03 ps     (200 m%)
+    tran: time = 12.51 ns    (62.5 %), step = 18.02 ps    (90.1 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0122032us ;
+    tran: time = 13.51 ns    (67.5 %), step = 25.47 ps     (127 m%)
+    tran: time = 14.53 ns    (72.7 %), step = 35.47 ps     (177 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0153204us duration:0.00312us ;
+    tran: time = 15.53 ns    (77.7 %), step = 39.83 ps     (199 m%)
+    tran: time = 16.51 ns    (82.5 %), step = 18.19 ps    (90.9 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0162033us ;
+    tran: time = 17.51 ns    (87.6 %), step = 24.7 ps      (124 m%)
+    tran: time = 18.53 ns    (92.7 %), step = 35.47 ps     (177 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0193204us duration:0.00312us ;
+    tran: time = 19.53 ns    (97.7 %), step = 39.83 ps     (199 m%)
+Number of accepted tran steps =             2747
+
+Maximum value achieved for any signal of each quantity: 
+V: V(I0.net1) = 3.619 V
+I: I(V:p) = 435.4 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+          reltol = 10e-06, default 100e-06 (conservative)
+   -   Features that may significantly slowing down simulation
+          asserts = 55.6126 ms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (3.5 %)       1 (1.2 %)       2 (2.4 %)       3 (46.5 %)
+         4 (3.5 %)       5 (2.4 %)       6 (2.4 %)       7 (3.5 %)
+         8 (21.2 %)      9 (2.4 %)      10 (2.4 %)      11 (2.4 %)
+        Total: 93.5%
+Initial condition solution time: CPU = 475 us, elapsed = 479.937 us.
+Intrinsic tran analysis time:    CPU = 281.935 ms, elapsed = 293.254 ms.
+Total time required for tran analysis `tran': CPU = 284.759 ms, elapsed = 312.305 ms, util. = 91.2%.
+Time accumulated: CPU = 443.567 ms, elapsed = 901.571 ms.
+Peak resident memory used = 187 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[21:00:35.353338] Cdslmd servers:5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+[21:00:35.353361] Feature usage summary:
+[21:00:35.353361] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (9:00:35 PM, Sat Apr 20, 2024):
+Time used: CPU = 455 ms, elapsed = 933 ms, util. = 48.8%.
+Time spent in licensing: elapsed = 162 ms, percentage of total = 17.4%.
+Peak memory used = 189 Mbytes.
+Simulation started at: 9:00:34 PM, Sat Apr 20, 2024, ended at: 9:00:35 PM, Sat Apr 20, 2024, with elapsed time (wall clock): 933 ms.
+spectre completes with 0 errors, 17 warnings, and 10 notices.
+
+
+********* LOG ENDS **************
+**                             **
+**                             **
+********* LOG STARTS ************
+
+
+
+Spectre (R) Circuit Simulator
+Version 21.1.0.751.isr19 64bit -- 22 May 2023
+Copyright (C) 1989-2023 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: oj23092   Host: it075891.wks.bris.ac.uk   HostID: DE89A69F   PID: 228417
+Memory  available: 13.1372 GB  physical: 16.2980 GB
+Linux   : Rocky Linux release 8.9 (Green Obsidian)
+CPU Type: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [3200.0] (  6 ),  1 [3200.0] (  7 ),  2 [3200.0] (  8 )
+                 3 [3200.0] (  9 ),  4 [3200.0] ( 10 ),  5 [3200.0] ( 11 )
+        
+System load averages (1min, 5min, 15min) : 5.3 %, 2.3 %, 1.2 %
+Hyperthreading is enabled
+HPC is enabled
+
+
+Simulating `input.scs' on it075891.wks.bris.ac.uk at 9:00:29 PM, Sat Apr 20, 2024 (process id: 228417).
+Current working directory: /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/1/lab2024:tb_ycircuit:1/netlist
+Command line:
+     \
+        /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/bin/spectre  \
+        -64 input.scs +escchars +log ../psf/spectre.out -format psfbin  \
+        +rtsf -raw ../psf +aps +mt +lqtimeout 900 -maxw 5 -maxn 5  \
+        +param /eda/cadence/ams/4.10/spectre/ams_range.lmts -env ade  \
+        -ahdllibdir  \
+        /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Licensing Information:
+[21:00:29.289650] Configured Lic search path (21.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+
+Licensing Information:
+[21:00:29.239824] Periodic Lic check successful
+
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/1/lab2024:tb_ycircuit:1/netlist/input.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/ams_range.lmts
+
+Warning from spectre during read of parameter soft limits file `/eda/cadence/ams/4.10/spectre/ams_range.lmts', during circuit read-in.
+    WARNING (SPECTRE-8360): line 1511: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1512: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1513: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1514: `ac' is an undefined primitive device.
+    WARNING (SPECTRE-8360): line 1515: `ac' is an undefined primitive device.
+        Further occurrences of this warning will be suppressed.
+
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/soac.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/res.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/bip.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cap.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/esddiode.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/ind.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cmos53.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/processOption.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/process.scs
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/soac.va
+
+Warning from spectre during AHDL read-in.
+    WARNING (VACOMP-2435): The environment variable CDS_AHDLCMI_ENABLE is no longer supported. Therefore, the simulator will use the default compiled C code flow.
+
+Reading link:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /eda/cadence/ams/4.10/spectre/c35/processOption/C35B4C3.scs
+Time for NDB Parsing: CPU = 94.847 ms, elapsed = 1.20548 s.
+Time accumulated: CPU = 185.543 ms, elapsed = 1.20549 s.
+Peak resident memory used = 162 Mbytes.
+
+TCP: opening server port it075891.wks.bris.ac.uk:52745
+Created directory /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB/input.ahdlSimDB/ (775)
+Created directory /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB/input.ahdlSimDB//421d24576e48a3dc380c07f28ab19450.modp_ahdl.ahdlcmi/ (775)
+Reading file:  /home/oj23092/VLSI_Design_Lab/Sim/tb_inv/spectre/schematic/netlist/input.ahdlSimDB/421d24576e48a3dc380c07f28ab19450.modp_ahdl.ahdlcmi/Linux-64/obj/optimize/5.0/libahdlcmi_modp_ahdl.so
+Created directory /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB/input.ahdlSimDB//421d24576e48a3dc380c07f28ab19450.modp_ahdl.ahdlcmi/Linux-64/obj/optimize/5.0 
+Copying files from directory /home/oj23092/VLSI_Design_Lab/Sim/tb_inv/spectre/schematic/netlist/input.ahdlSimDB/421d24576e48a3dc380c07f28ab19450.modp_ahdl.ahdlcmi/Linux-64/ to directory /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB/input.ahdlSimDB//421d24576e48a3dc380c07f28ab19450.modp_ahdl.ahdlcmi/Linux-64/
+Finished copying files from /home/oj23092/VLSI_Design_Lab/Sim/tb_inv/spectre/schematic/netlist/input.ahdlSimDB/421d24576e48a3dc380c07f28ab19450.modp_ahdl.ahdlcmi/Linux-64/ to /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB/input.ahdlSimDB//421d24576e48a3dc380c07f28ab19450.modp_ahdl.ahdlcmi/Linux-64/.
+The simulator has reused the existing Verilog-A libraries for this simulation run. If you do not want to use these libraries, set the 'CDS_AHDL_REUSE_LIB' environment variable to 'NO' and rerun the simulation.
+Existing shared object for module modp_ahdl is up to date.
+Installed compiled interface for modp_ahdl.
+Opening directory /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB/input.ahdlSimDB/ (775)
+Created directory /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB/input.ahdlSimDB//421d24576e48a3dc380c07f28ab19450.modn_ahdl.ahdlcmi/ (775)
+Reading file:  /home/oj23092/VLSI_Design_Lab/Sim/tb_inv/spectre/schematic/netlist/input.ahdlSimDB/421d24576e48a3dc380c07f28ab19450.modn_ahdl.ahdlcmi/Linux-64/obj/optimize/5.0/libahdlcmi_modn_ahdl.so
+Created directory /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB/input.ahdlSimDB//421d24576e48a3dc380c07f28ab19450.modn_ahdl.ahdlcmi/Linux-64/obj/optimize/5.0 
+Copying files from directory /home/oj23092/VLSI_Design_Lab/Sim/tb_inv/spectre/schematic/netlist/input.ahdlSimDB/421d24576e48a3dc380c07f28ab19450.modn_ahdl.ahdlcmi/Linux-64/ to directory /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB/input.ahdlSimDB//421d24576e48a3dc380c07f28ab19450.modn_ahdl.ahdlcmi/Linux-64/
+Finished copying files from /home/oj23092/VLSI_Design_Lab/Sim/tb_inv/spectre/schematic/netlist/input.ahdlSimDB/421d24576e48a3dc380c07f28ab19450.modn_ahdl.ahdlcmi/Linux-64/ to /home/oj23092/VLSI_Design_Lab/Sim/lab2024/tb_ycircuit/adexl/results/data/Interactive.0/sharedData/Job0/ahdl/input.ahdlSimDB/input.ahdlSimDB//421d24576e48a3dc380c07f28ab19450.modn_ahdl.ahdlcmi/Linux-64/.
+Existing shared object for module modn_ahdl is up to date.
+Installed compiled interface for modn_ahdl.
+Time for Elaboration: CPU = 19.423 ms, elapsed = 158.142 ms.
+Time accumulated: CPU = 205.072 ms, elapsed = 1.36374 s.
+Peak resident memory used = 171 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
+
+
+Time for EDB Visiting: CPU = 2.101 ms, elapsed = 5.64003 ms.
+Time accumulated: CPU = 207.268 ms, elapsed = 1.36947 s.
+Peak resident memory used = 173 Mbytes.
+
+Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
+
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master `cvart' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart' was not found.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed.
+Notice from spectre during initial setup.
+    Ignorevaref=yes is ignored since all nodes are connected to Verilog-A modules.
+Notice from spectre during topology check.
+    Only one connection to the following 8 nodes:
+        I0.MPD.psub!
+        I0.MPC.psub!
+        I0.MPB.psub!
+        I0.MPA.psub!
+        I0.MNC.psub!
+        Further occurrences of this notice will be suppressed.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+           homotopy = 5
+              limit = delta
+         compatible = spice2
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+     enable_pre_ver = yes
+      ignorezerovar = yes
+               save = allpub
+             reltol = 0.0001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 17
+            bsim3v3 8     
+          capacitor 1     
+          modn_ahdl 4     
+          modp_ahdl 4     
+            vsource 5     
+
+Analysis and control statement inventory:
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Design checks inventory:
+          paramtest 8     
+             assert 175   
+
+
+Notice from spectre during initial setup.
+    APS enabled.
+    1 notice suppressed.
+    72 warnings suppressed.
+
+Time for parsing: CPU = 9.335 ms, elapsed = 840.366 ms.
+Time accumulated: CPU = 216.69 ms, elapsed = 2.20992 s.
+Peak resident memory used = 179 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+Notice from spectre during transient analysis `tran'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled.
+
+
+************************************************
+Transient Analysis `tran': time = (0 s -> 20 ns)
+************************************************
+
+Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.net2) = 62.8848 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+Warning from spectre during check, during IC analysis, during transient analysis `tran'.
+    WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'.
+
+DC simulation time: CPU = 704 us, elapsed = 708.103 us.
+
+Opening the PSF file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 ns
+    step = 20 ps
+    maxstep = 200 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 10e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   5       (current)
+                 save   17      (voltage)
+
+    tran: time = 525.5 ps    (2.63 %), step = 28.93 ps     (145 m%)
+    tran: time = 1.518 ns    (7.59 %), step = 37.77 ps     (189 m%)
+    tran: time = 2.513 ns    (12.6 %), step = 28.77 ps     (144 m%)
+    tran: time = 3.532 ns    (17.7 %), step = 41.65 ps     (208 m%)
+    tran: time = 4.504 ns    (22.5 %), step = 20.65 ps     (103 m%)
+    tran: time = 5.511 ns    (27.6 %), step = 18.99 ps      (95 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.00500272us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): LEAVING@  0.00500732us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): ENTERING@ 0.00618968us duration:0.00118us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.00619026us duration:0.00119us ;
+    tran: time = 6.515 ns    (32.6 %), step = 18.12 ps    (90.6 m%)
+    tran: time = 7.51 ns     (37.6 %), step = 26.42 ps     (132 m%)
+    tran: time = 8.509 ns    (42.5 %), step = 17.21 ps      (86 m%)
+    tran: time = 9.515 ns    (47.6 %), step = 20.86 ps     (104 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.00900268us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): LEAVING@  0.00900732us ;
+SOAC: I0.MNA.soac_m1       modn V(B,PSUB): ENTERING@ 0.0101657us duration:0.00116us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0101831us duration:0.00118us ;
+    tran: time = 10.5 ns     (52.5 %), step = 13.15 ps    (65.7 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0102674us ;
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.0114158us duration:0.00115us ;
+    tran: time = 11.51 ns    (57.6 %), step = 21.7 ps      (108 m%)
+    tran: time = 12.51 ns    (62.6 %), step = 14.77 ps    (73.9 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0122439us ;
+    tran: time = 13.51 ns    (67.5 %), step = 24.81 ps     (124 m%)
+    tran: time = 14.52 ns    (72.6 %), step = 27.35 ps     (137 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.015425us duration:0.00318us ;
+    tran: time = 15.52 ns    (77.6 %), step = 22.69 ps     (113 m%)
+    tran: time = 16.51 ns    (82.6 %), step = 14.92 ps    (74.6 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): LEAVING@  0.0162439us ;
+    tran: time = 17.51 ns    (87.5 %), step = 24.9 ps      (125 m%)
+    tran: time = 18.52 ns    (92.6 %), step = 27.32 ps     (137 m%)
+SOAC: I0.MND.soac_m1       modn V(B,PSUB): ENTERING@ 0.019425us duration:0.00318us ;
+    tran: time = 19.52 ns    (97.6 %), step = 22.68 ps     (113 m%)
+Number of accepted tran steps =             2619
+
+Maximum value achieved for any signal of each quantity: 
+V: V(I0.net1) = 3.628 V
+I: I(V:p) = 326 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+          reltol = 10e-06, default 100e-06 (conservative)
+   -   Features that may significantly slowing down simulation
+          asserts = 90.3978 ms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (3.3 %)       1 (2.0 %)       2 (4.9 %)       3 (5.3 %)
+         4 (9.4 %)       5 (23.5 %)      6 (2.0 %)       7 (2.8 %)
+         8 (2.0 %)       9 (4.5 %)      10 (36.9 %)     11 (9.9 %)
+        Total: 106.6%
+Initial condition solution time: CPU = 741 us, elapsed = 746.012 us.
+Intrinsic tran analysis time:    CPU = 401.672 ms, elapsed = 422.611 ms.
+Total time required for tran analysis `tran': CPU = 405.185 ms, elapsed = 440.819 ms, util. = 91.9%.
+Time accumulated: CPU = 627.281 ms, elapsed = 2.66268 s.
+Peak resident memory used = 188 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[21:00:31.435729] Cdslmd servers:5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+[21:00:31.435760] Feature usage summary:
+[21:00:31.435761] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (9:00:31 PM, Sat Apr 20, 2024):
+Time used: CPU = 647 ms, elapsed = 2.71 s, util. = 23.8%.
+Time spent in licensing: elapsed = 238 ms, percentage of total = 8.76%.
+Peak memory used = 190 Mbytes.
+Simulation started at: 9:00:29 PM, Sat Apr 20, 2024, ended at: 9:00:31 PM, Sat Apr 20, 2024, with elapsed time (wall clock): 2.71 s.
+spectre completes with 0 errors, 17 warnings, and 10 notices.
+
+
+********* LOG ENDS **************
+**                             **
