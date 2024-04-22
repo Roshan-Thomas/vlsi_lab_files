@@ -1,9 +1,21 @@
-Begin Incremental Netlisting Apr 15 19:48:07 2024
-WARNING (OSSHNL-176): Property bag for the cell 'xort' in library 'lab2024', has
-been modified or added
-since the last netlisting session. Therefore,
-re-netlisting this cell view and
-all cell views where this cell is
-instantiated.
+Begin Incremental Netlisting Apr 22 14:18:32 2024
+End netlisting Apr 22 14:18:33 2024
+Begin Incremental Netlisting Apr 22 14:19:06 2024
+End netlisting Apr 22 14:19:06 2024
+Begin Incremental Netlisting Apr 22 14:20:02 2024
+End netlisting Apr 22 14:20:02 2024
+Begin Incremental Netlisting Apr 22 14:21:27 2024
+ERROR (OSSHNL-109): The cellview 'lab2024/tb_xort/schematic' has been modified
+since the last extraction. Validate
+that the schematic is correct and run Check
+and Save to correct this error.
 
-End netlisting Apr 15 19:48:07 2024
+End netlisting Apr 22 14:21:27 2024
+Begin Incremental Netlisting Apr 22 14:21:31 2024
+End netlisting Apr 22 14:21:31 2024
+Begin Incremental Netlisting Apr 22 14:21:44 2024
+End netlisting Apr 22 14:21:44 2024
+Begin Incremental Netlisting Apr 22 14:22:46 2024
+End netlisting Apr 22 14:22:46 2024
+Begin Incremental Netlisting Apr 22 14:23:02 2024
+End netlisting Apr 22 14:23:02 2024

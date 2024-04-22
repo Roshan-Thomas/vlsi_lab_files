@@ -1,0 +1,10 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 bind match unmatched shorts opens
+1 0 ((L "vdd!")((4 "PMOS4" ( "D" "S"))(2 "PMOS4" ( "B")))(S "vdd!")((4 "PMOS4" ( "D" "S"))(4 "PMOS4" ( "B"))))
+1 0 ((L "gnd!")((4 "NMOS4" ( "D" "S"))(6 "NMOS4" ( "B")))(S "gnd!")((4 "NMOS4" ( "D" "S"))(4 "NMOS4" ( "B"))))
+1 2 ((S "net1")(S "net3")(S "net4")(L "avC6")(L "avC7")(L "avS65")(L "avC10")(L "avC12")(L "avC11"))
+1 1 ((L "avC8")((2 "NMOS4" ( "D" "S")))(S "net2")((2 "NMOS4" ( "D" "S"))(1 "NMOS4" ( "B"))))
+1 1 ((L "avC9")((1 "NMOS4" ( "D" "S"))(1 "PMOS4" ( "D" "S")))(S "net6")((1 "NMOS4" ( "D" "S"))(1 "NMOS4" ( "G"))(1 "PMOS4" ( "D" "S"))(1 "PMOS4" ( "G"))))
+1 1 ((L "avS63")((1 "NMOS4" ( "G"))(1 "PMOS4" ( "G")))(S "net5")((1 "NMOS4" ( "D" "S"))(1 "NMOS4" ( "G"))(1 "PMOS4" ( "D" "S"))(1 "PMOS4" ( "G"))))

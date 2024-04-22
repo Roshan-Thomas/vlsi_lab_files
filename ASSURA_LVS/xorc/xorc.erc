@@ -1,0 +1,17 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'xorc layout lab2024':
+  info: Assign pin label "A" at (2.325, 3.800) to layer `net_met1'.
+  info: Assign pin label "A" at (2.550, 3.725) to layer `net_met1'.
+  info: Assign pin label "gnd!" at (13.000, 0.250) to layer `net_met1'.
+  info: Assign pin label "gnd!" at (13.150, 0.400) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (4.950, 9.025) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (5.150, 9.050) to layer `net_met1'.
+  info: Assign pin label "out" at (16.500, 3.950) to layer `net_met1'.
+  info: Assign pin label "out" at (16.675, 3.800) to layer `net_met1'.
+  info: Assign pin label "B" at (21.500, 3.700) to layer `net_met1'.
+  info: Assign pin label "B" at (21.725, 3.775) to layer `net_met1'.
+
+***** End of Label Report *****
+

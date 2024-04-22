@@ -1,5 +1,5 @@
 // Generated for: spectre
-// Generated on: Apr 15 19:26:28 2024
+// Generated on: Apr 22 13:16:29 2024
 // Design library name: lab2024
 // Design cell name: tb_xorc
 // Design view name: schematic
@@ -39,8 +39,8 @@ ends invParam
 // View name: schematic
 subckt xorc A B out
 parameters Wp=1u Wn=1u
-    I1 (B net6) invParam Wn=1u Wp=2u
-    I0 (A net5) invParam Wn=1u Wp=2u
+    I0 (A net5) invParam Wn=1u Wp=1u
+    I1 (B net6) invParam Wn=1u Wp=1u
     MP3 (out net6 net3 net3) modp w=Wp/1 l=0.35u \
         as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
         ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \
@@ -96,10 +96,10 @@ ends xorc
 // Cell name: tb_xorc
 // View name: schematic
 I0 (net2 net1 net3) xorc Wp=1u Wn=1u
-VB (net1 0) vsource type=pulse val0=3.3 val1=0 period=2n rise=100p \
-        fall=100p width=1n
-VA (net2 0) vsource type=pulse val0=3.3 val1=0 period=10n rise=100p \
-        fall=100p width=5n
+VB (net1 0) vsource type=pulse val0=3.3 val1=0 period=4n rise=100p \
+        fall=100p width=2n
+VA (net2 0) vsource type=pulse val0=3.3 val1=0 period=8n rise=100p \
+        fall=100p width=4n
 C0 (net3 0) capacitor c=1f
 V (vdd! 0) vsource dc=3.3 type=dc
 simulatorOptions options psfversion="1.4.0" reltol=100e-6 vabstol=1e-6 \
@@ -107,7 +107,7 @@ simulatorOptions options psfversion="1.4.0" reltol=100e-6 vabstol=1e-6 \
     scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
     digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
     checklimitdest=psf enable_pre_ver=yes ignorezerovar=yes 
-tran tran stop=10n errpreset=conservative write="spectre.ic" \
+tran tran stop=8n errpreset=conservative write="spectre.ic" \
     writefinal="spectre.fc" annotate=status maxiters=5 
 finalTimeOP info what=oppoint where=rawfile
 modelParameter info what=models where=rawfile

@@ -24,31 +24,31 @@ ends invParam
 // View name: schematic
 subckt xort A B out
 parameters Wp=1u Wn=1u
-    MP1 (net3 net2 B B) modp w=Wp/1 l=0.35u \
+    MP1 (out A B out) modp w=Wp/1 l=0.35u \
         as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
         ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \
         ps=((2*8.5e-07+Wp/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
         pd=((2*8.5e-07+Wp/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wp/1 \
         nrs=5e-07/Wp/1 ng=1
-    MP0 (A B out A) modp w=Wp/1 l=0.35u \
+    MP0 (A B out out) modp w=Wp/1 l=0.35u \
         as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
         ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \
         ps=((2*8.5e-07+Wp/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
         pd=((2*8.5e-07+Wp/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wp/1 \
         nrs=5e-07/Wp/1 ng=1
-    MN1 (net3 net2 net1 net1) modn w=Wn/1 l=0.35u \
+    MN1 (out A net2 net2) modn w=Wn/1 l=0.35u \
         as=(8.5e-07*Wn/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wn/1)/1 \
         ad=(8.5e-07*Wn/1*fmod(1,2)+int(1/2)*2*5e-07*Wn/1)/1 \
         ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
         pd=((2*8.5e-07+Wn/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wn/1 \
         nrs=5e-07/Wn/1 ng=1
-    MN0 (A net1 out out) modn w=Wn/1 l=0.35u \
+    MN0 (A net2 out out) modn w=Wn/1 l=0.35u \
         as=(8.5e-07*Wn/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wn/1)/1 \
         ad=(8.5e-07*Wn/1*fmod(1,2)+int(1/2)*2*5e-07*Wn/1)/1 \
         ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
         pd=((2*8.5e-07+Wn/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wn/1 \
         nrs=5e-07/Wn/1 ng=1
-    I0 (B net1) invParam Wn=1u Wp=1u
+    I0 (B net2) invParam Wn=1u Wp=1u
 ends xort
 // End of subcircuit definition.
 
@@ -57,8 +57,8 @@ ends xort
 // View name: schematic
 I0 (net2 net1 net3) xort Wp=1u Wn=1u
 C0 (net3 0) capacitor c=1f
-VB (net1 0) vsource type=pulse val0=3.3 val1=0 period=2n rise=100p \
-        fall=100p width=1n
-VA (net2 0) vsource type=pulse val0=3.3 val1=0 period=10n rise=100p \
-        fall=100p width=5n
+VB (net1 0) vsource type=pulse val0=3.3 val1=0 period=4n rise=100p \
+        fall=100p width=2n
+VA (net2 0) vsource type=pulse val0=3.3 val1=0 period=8n rise=100p \
+        fall=100p width=4n
 V (vdd! 0) vsource dc=3.3 type=dc

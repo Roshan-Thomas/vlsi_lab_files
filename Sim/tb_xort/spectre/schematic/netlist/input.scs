@@ -1,5 +1,5 @@
 // Generated for: spectre
-// Generated on: Apr 15 19:48:07 2024
+// Generated on: Apr 22 14:22:46 2024
 // Design library name: lab2024
 // Design cell name: tb_xort
 // Design view name: schematic
@@ -39,31 +39,31 @@ ends invParam
 // View name: schematic
 subckt xort A B out
 parameters Wp=1u Wn=1u
-    MP1 (net3 net2 B B) modp w=Wp/1 l=0.35u \
+    MP1 (out A B out) modp w=Wp/1 l=0.35u \
         as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
         ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \
         ps=((2*8.5e-07+Wp/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
         pd=((2*8.5e-07+Wp/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wp/1 \
         nrs=5e-07/Wp/1 ng=1
-    MP0 (A B out A) modp w=Wp/1 l=0.35u \
+    MP0 (A B out out) modp w=Wp/1 l=0.35u \
         as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
         ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \
         ps=((2*8.5e-07+Wp/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
         pd=((2*8.5e-07+Wp/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wp/1 \
         nrs=5e-07/Wp/1 ng=1
-    MN1 (net3 net2 net1 net1) modn w=Wn/1 l=0.35u \
+    MN1 (out A net2 net2) modn w=Wn/1 l=0.35u \
         as=(8.5e-07*Wn/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wn/1)/1 \
         ad=(8.5e-07*Wn/1*fmod(1,2)+int(1/2)*2*5e-07*Wn/1)/1 \
         ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
         pd=((2*8.5e-07+Wn/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wn/1 \
         nrs=5e-07/Wn/1 ng=1
-    MN0 (A net1 out out) modn w=Wn/1 l=0.35u \
+    MN0 (A net2 out out) modn w=Wn/1 l=0.35u \
         as=(8.5e-07*Wn/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wn/1)/1 \
         ad=(8.5e-07*Wn/1*fmod(1,2)+int(1/2)*2*5e-07*Wn/1)/1 \
         ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
         pd=((2*8.5e-07+Wn/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wn/1 \
         nrs=5e-07/Wn/1 ng=1
-    I0 (B net1) invParam Wn=1u Wp=1u
+    I0 (B net2) invParam Wn=1u Wp=1u
 ends xort
 // End of subcircuit definition.
 
@@ -72,17 +72,17 @@ ends xort
 // View name: schematic
 I0 (net2 net1 net3) xort Wp=1u Wn=1u
 C0 (net3 0) capacitor c=1f
-VB (net1 0) vsource type=pulse val0=3.3 val1=0 period=2n rise=100p \
-        fall=100p width=1n
-VA (net2 0) vsource type=pulse val0=3.3 val1=0 period=10n rise=100p \
-        fall=100p width=5n
+VB (net1 0) vsource type=pulse val0=3.3 val1=0 period=4n rise=100p \
+        fall=100p width=2n
+VA (net2 0) vsource type=pulse val0=3.3 val1=0 period=8n rise=100p \
+        fall=100p width=4n
 V (vdd! 0) vsource dc=3.3 type=dc
 simulatorOptions options psfversion="1.4.0" reltol=100e-6 vabstol=1e-6 \
     iabstol=1e-12 temp=27 tnom=27 homotopy=all limit=delta scalem=1.0 \
     scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
     digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
     checklimitdest=psf enable_pre_ver=yes ignorezerovar=yes 
-tran tran stop=10n errpreset=conservative write="spectre.ic" \
+tran tran stop=8n errpreset=conservative write="spectre.ic" \
     writefinal="spectre.fc" annotate=status maxiters=5 
 finalTimeOP info what=oppoint where=rawfile
 modelParameter info what=models where=rawfile

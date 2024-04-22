@@ -1,0 +1,5 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 device net parameter pin rewire total
+1  5 (( ( S "xort layout lab2024" )( L "xort schematic lab2024" ) )(( 1 8 6 )( 0 3 3 )))

@@ -1,0 +1,94 @@
+;----------------------------------------------------------------------------
+; @(#)$CDS: assura version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/22 00:11 (sjfhw885) $
+; sub-version 4.1_USR6_EHF13
+;----------------------------------------------------------------------------
+
+
+;----------------------------------------------------------------------------
+; RSF include(/eda/cadence/ams/4.10/assura/c35b4/c35b4c3/DRCinclude.rsf) Section
+; Specified in the Assura UI
+;----------------------------------------------------------------------------
+
+; *********************************
+; Owner: austriamicrosystems AG
+; HIT-Kit: Digital
+;
+; File: DRCinclude.rsf
+;
+; Created: Nov  4 08:10:57 2014
+; *********************************
+
+
+AMS_LIB = strcat(getShellEnvVar("AMS_DIR") "/" getShellEnvVar("AMS_DB") "/HK_C35")
+printf( "Loading all available p-cell functions\n" )
+load(strcat(AMS_LIB "/skill/ams_sdl.il"))
+
+; **********************************
+; Switches for processOptions 
+; **********************************
+avParameters(
+;?set "no_layer_MIDOX"
+;?set "no_layer_POLY2"
+;?set "no_layer_HRES"
+?set "no_layer_METCAP"
+;?set "no_layer_METRES"
+?set "no_layer_PFIMP"
+;?set "no_layer_VIA2"
+;?set "no_layer_MET3"
+;?set "no_layer_VIA3"
+;?set "no_layer_MET4"
+;?set "module_DPMOSM"
+?set "no_layer_LVTDEF"
+;?set "element_RPOLYZ"
+;?set "element_SBD5"
+;?set "element_PHDNWA850"
+;?set "element_PHDNWB850"
+?set "no_layer_DEVDEF_opto"
+;?set "no_layer_BNTUB2"
+;?set "no_layer_COLL"
+;?set "no_layer_EMITT"
+;?set "no_layer_EPOLY"
+?set "no_library_SPIRALS_3M"
+;?set "no_library_SPIRALS_4M"
+;?set "no_library_SPIRALSD_4M"
+;?set "no_library_PRIMLIBRF"
+;?set "library_PRIMLIB_WIP"
+;?set "library_ESDLIB_WIP"
+;?set "no_layer_HVDEF"
+;?set "no_layer_FIDEF"
+;?set "layer_PPLUS_DPL"
+?widenZeroAreaErrorRegions t
+?labelPriority ( "*vdd*" "*gnd*" )
+)
+
+
+
+
+; **********************************
+; Load end user customizations
+; **********************************
+
+if( isFile("DRCinclude_local.rsf") then
+   load("DRCinclude_local.rsf")
+)
+
+
+;----------------------------------------------------------------------------
+; avParameter Section
+; Created by the Assura UI
+;----------------------------------------------------------------------------
+
+avParameters(
+  ?inputLayout ( "df2" "lab2024" )
+  ?cellName "xorc"
+  ?viewName "layout"
+  ?workingDirectory "ASSURA_DRC/xorc"
+  ?technology "c35b4c3"
+  ?techLib "./assura_tech.lib"
+  ?techRuleSet "dfII"
+  ?set ("no_coverage" "no_erc" "no_holes" "no_info")
+  ?avrpt t
+  ?legacyMode nil
+  ?overwrite t
+  ?verbose "hideOptimization"
+)

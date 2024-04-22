@@ -1,0 +1,36 @@
+@(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
+sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
+run on it075724.wks.bris.ac.uk at Mon Apr 22 19:00:14 2024
+
+Schematic                     | Layout                     | Status
+-------------------------------------------------------------------------------
+xort schematic lab2024        | xort layout lab2024        | errors          *
+
+Mismatch between Schematic and Layout
+   1 cell with errors
+
+Schematic:
+  Library:lab2024
+  Cell   :xort
+  View   :schematic
+
+Layout:
+  Library:lab2024
+  Cell   :xort
+  View   :layout
+
+
+
+Extraction  Information
+--------------------
+     0 cells have 0 mal-formed device problems
+     0 cells have 0 label short problems
+     0 cells have 0 label open problems
+
+Mismatch  Information
+--------------------
+     1 cells have 6 Net mismatches
+     1 cells have 7 Device mismatches
+     0 cells have 0 Pin mismatches
+     0 cells have 0 Parameter mismatches
+

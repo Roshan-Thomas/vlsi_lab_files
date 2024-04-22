@@ -1,0 +1,23 @@
+C PMOS4(MOS) PMOS4(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C NMOS4(MOS) NMOS4(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "xort schematic lab2024" "xort layout lab2024"
+N net2 avC6
+N A A
+N B B
+N out out
+N vdd! vdd!
+N gnd! gnd!
+I MP1 avD5_2
+I I0/MP0 avD5_1
+I I0/MN0 avD1_1
+

@@ -1,0 +1,17 @@
+Version 3
+4 net_via3 1 6664 41 0
+4 net_met4 1 1475 42 0
+4 net_met3 1 1474 39 0
+4 net_via2_metcap 1 153 38 0
+4 net_via2_met2 1 6662 38 0
+4 net_met2 1 1473 37 0
+4 net_via1 1 6661 36 0
+4 net_met1 1 1472 35 0
+4 net_poly2con 1 147 34 0
+4 net_poly2 1 238 30 0
+4 net_poly1con 1 145 34 0
+4 net_poly1 1 1471 20 0
+4 net_pdiffcon 1 550 34 0
+4 net_pdiff 1 257 124 0
+4 net_ndiffcon 1 548 34 0
+4 net_ndiff 1 255 123 0

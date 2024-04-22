@@ -1,5 +1,5 @@
-    I1 (B net6) invParam Wn=1u Wp=2u
-    I0 (A net5) invParam Wn=1u Wp=2u
+    I0 (A net5) invParam Wn=1u Wp=1u
+    I1 (B net6) invParam Wn=1u Wp=1u
     MP3 (out net6 net3 net3) modp w=Wp/1 l=0.35u \
         as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
         ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \

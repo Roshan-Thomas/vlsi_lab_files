@@ -2,7 +2,7 @@ HEADER
 "PSFversion" "1.00"
 "simulator" "spectre"
 "version" "21.1.0.751.isr19"
-"date" "7:26:29 PM, Mon Apr 15, 2024"
+"date" "1:48:55 PM, Mon Apr 22, 2024"
 "design" "// Generated for: spectre"
 "analysis type" "info.subckts"
 "analysis name" "subckts"
@@ -106,7 +106,7 @@ VALUE
 "modp" "subckt" (
 "ls ng ad nrs as pd w ws ps shk l nrd"
 "d g s b"
-"I0.I1.MP0 I0.I0.MP0 I0.MP3 I0.MP2 I0.MP1 I0.MP0"
+"I0.I0.MP0 I0.I1.MP0 I0.MP3 I0.MP2 I0.MP1 I0.MP0"
 )
 "SP200C200C" "subckt" (
 ""
@@ -156,7 +156,7 @@ VALUE
 "invParam" "subckt" (
 "Wn Wp"
 "in out 0 vdd!"
-"I0.I1 I0.I0"
+"I0.I0 I0.I1"
 )
 "rpoly1" "subckt" (
 ""
@@ -196,7 +196,7 @@ VALUE
 "modn" "subckt" (
 "ls ng ad nrs as pd w ws ps shk l nrd"
 "d g s b"
-"I0.I1.MN0 I0.I0.MN0 I0.MN3 I0.MN2 I0.MN1 I0.MN0"
+"I0.I0.MN0 I0.I1.MN0 I0.MN3 I0.MN2 I0.MN1 I0.MN0"
 )
 "sbd5" "subckt" (
 ""

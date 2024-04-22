@@ -1,0 +1,12 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 unmatched connect pin
+1 1 ((S "MN3" "NMOS4")(L "avD1_4" "NMOS4")(("G" "net6" "avS65")))
+1 1 ((S "MN2" "NMOS4")(L "avD1_5" "NMOS4")(("B" "net2" "gnd!")))
+1 1 ((S "MP3" "PMOS4")(L "avD5_4" "PMOS4")(("G" "net6" "avS65")))
+1 1 ((S "MP0" "PMOS4")(L "avD5_2" "PMOS4")(("B" "vdd!" "avC12")))
+1 0 ((S "I0/MN0" "NMOS4")(("D" "net5")("G" "A")("S" "gnd!")("B" "gnd!")))
+1 0 ((S "I0/MP0" "PMOS4")(("D" "net5")("G" "A")("S" "vdd!")("B" "vdd!")))
+1 0 ((L "avD1_3" "NMOS4")(("D" "gnd!")("G" "A")("S" "avC7")("B" "gnd!")))
+1 0 ((L "avD5_3" "PMOS4")(("D" "avC11")("G" "A")("S" "vdd!")("B" "avC12")))

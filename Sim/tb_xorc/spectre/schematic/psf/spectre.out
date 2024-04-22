@@ -5,20 +5,20 @@ Copyright (C) 1989-2023 Cadence Design Systems, Inc. All rights reserved worldwi
 
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
 
-User: oj23092   Host: it075805.wks.bris.ac.uk   HostID: DE89579F   PID: 2252913
-Memory  available: 7.1918 GB  physical: 16.2980 GB
+User: oj23092   Host: it075724.wks.bris.ac.uk   HostID: DE898787   PID: 71507
+Memory  available: 12.9390 GB  physical: 16.2980 GB
 Linux   : Rocky Linux release 8.9 (Green Obsidian)
 CPU Type: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
         Socket: Processors [Frequency] (Hyperthreaded Processor)
-        0:       0 [4300.0] (  6 ),  1 [3200.0] (  7 ),  2 [4300.0] (  8 )
-                 3 [3200.0] (  9 ),  4 [4300.0] ( 10 ),  5 [3200.0] ( 11 )
+        0:       0 [3200.0] (  6 ),  1 [3200.0] (  7 ),  2 [3200.0] (  8 )
+                 3 [3200.0] (  9 ),  4 [3200.0] ( 10 ),  5 [3200.0] ( 11 )
         
-System load averages (1min, 5min, 15min) : 1.2 %, 2.3 %, 1.9 %
+System load averages (1min, 5min, 15min) : 1.0 %, 1.0 %, 0.8 %
 Hyperthreading is enabled
 HPC is enabled
 
 
-Simulating `input.scs' on it075805.wks.bris.ac.uk at 7:26:29 PM, Mon Apr 15, 2024 (process id: 2252913).
+Simulating `input.scs' on it075724.wks.bris.ac.uk at 1:48:54 PM, Mon Apr 22, 2024 (process id: 71507).
 Current working directory: /home/oj23092/VLSI_Design_Lab/Sim/tb_xorc/spectre/schematic/netlist
 Command line:
      \
@@ -28,10 +28,10 @@ Command line:
         +param /eda/cadence/ams/4.10/spectre/ams_range.lmts -env ade
 
 Licensing Information:
-[19:26:29.289770] Configured Lic search path (21.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+[13:48:54.289738] Configured Lic search path (21.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
 
 Licensing Information:
-[19:26:29.506377] Periodic Lic check successful
+[13:48:54.398489] Periodic Lic check successful
 
 Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
 Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
@@ -69,27 +69,27 @@ Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cap.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/bip.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/ind.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/esddiode.scs
-Time for NDB Parsing: CPU = 80.532 ms, elapsed = 560.157 ms.
-Time accumulated: CPU = 134.848 ms, elapsed = 560.159 ms.
-Peak resident memory used = 155 Mbytes.
+Time for NDB Parsing: CPU = 80.255 ms, elapsed = 327.07 ms.
+Time accumulated: CPU = 133.832 ms, elapsed = 327.072 ms.
+Peak resident memory used = 161 Mbytes.
 
-TCP: opening server port it075805.wks.bris.ac.uk:48201
+TCP: opening server port it075724.wks.bris.ac.uk:60499
 Existing shared object for module modn_ahdl is up to date.
 Installed compiled interface for modn_ahdl.
 Existing shared object for module modp_ahdl is up to date.
 Installed compiled interface for modp_ahdl.
-Time for Elaboration: CPU = 16.529 ms, elapsed = 19.4991 ms.
-Time accumulated: CPU = 151.444 ms, elapsed = 579.723 ms.
-Peak resident memory used = 164 Mbytes.
+Time for Elaboration: CPU = 17.081 ms, elapsed = 21.0259 ms.
+Time accumulated: CPU = 151.009 ms, elapsed = 348.194 ms.
+Peak resident memory used = 170 Mbytes.
 
 
 Notice from spectre during hierarchy flattening.
     The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
 
 
-Time for EDB Visiting: CPU = 1.525 ms, elapsed = 1.92189 ms.
-Time accumulated: CPU = 153.036 ms, elapsed = 581.711 ms.
-Peak resident memory used = 166 Mbytes.
+Time for EDB Visiting: CPU = 1.477 ms, elapsed = 1.93691 ms.
+Time accumulated: CPU = 152.555 ms, elapsed = 350.2 ms.
+Peak resident memory used = 172 Mbytes.
 
 Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
 
@@ -110,10 +110,10 @@ Notice from spectre during initial setup.
     Ignorevaref=yes is ignored since all nodes are connected to Verilog-A modules.
 Notice from spectre during topology check.
     Only one connection to the following 12 nodes:
-        I0.I1.MN0.psub!
-        I0.I1.MP0.psub!
         I0.I0.MN0.psub!
         I0.I0.MP0.psub!
+        I0.I1.MN0.psub!
+        I0.I1.MP0.psub!
         I0.MP3.psub!
         Further occurrences of this notice will be suppressed.
 Notice from spectre during initial setup.
@@ -174,9 +174,9 @@ Notice from spectre during initial setup.
     1 notice suppressed.
     72 warnings suppressed.
 
-Time for parsing: CPU = 6.023 ms, elapsed = 234.329 ms.
-Time accumulated: CPU = 159.13 ms, elapsed = 816.11 ms.
-Peak resident memory used = 172 Mbytes.
+Time for parsing: CPU = 5.996 ms, elapsed = 302.612 ms.
+Time accumulated: CPU = 158.607 ms, elapsed = 652.868 ms.
+Peak resident memory used = 177 Mbytes.
 
 ~~~~~~~~~~~~~~~~~~~~~~
 Pre-Simulation Summary
@@ -188,9 +188,9 @@ Notice from spectre during transient analysis `tran'.
     No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled.
 
 
-************************************************
-Transient Analysis `tran': time = (0 s -> 10 ns)
-************************************************
+***********************************************
+Transient Analysis `tran': time = (0 s -> 8 ns)
+***********************************************
 
 Notice from spectre during IC analysis, during transient analysis `tran'.
     GminDC = 1 pS is large enough to noticeably affect the DC solution.
@@ -199,15 +199,15 @@ Notice from spectre during IC analysis, during transient analysis `tran'.
 Warning from spectre during check, during IC analysis, during transient analysis `tran'.
     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'.
 
-DC simulation time: CPU = 537 us, elapsed = 541.21 us.
+DC simulation time: CPU = 794 us, elapsed = 797.987 us.
 
 Opening the PSF file ../psf/tran.tran.tran ...
 Important parameter values:
     start = 0 s
     outputstart = 0 s
-    stop = 10 ns
-    step = 10 ps
-    maxstep = 100 ps
+    stop = 8 ns
+    step = 8 ps
+    maxstep = 80 ps
     ic = all
     useprevic = no
     skipdc = no
@@ -234,41 +234,37 @@ Output and IC/nodeset summary:
                  save   3       (current)
                  save   22      (voltage)
 
-    tran: time = 251.8 ps    (2.52 %), step = 8.036 ps    (80.4 m%)
-    tran: time = 779.8 ps     (7.8 %), step = 100 ps          (1 %)
-SOAC: I0.MN0.soac_m1       modn V(B,PSUB): LEAVING@  7.80804e-05us ;
-    tran: time = 1.252 ns    (12.5 %), step = 2.99 ps     (29.9 m%)
-    tran: time = 1.765 ns    (17.6 %), step = 26.74 ps     (267 m%)
-SOAC: I0.MN2.soac_m1       modn V(B,PSUB): LEAVING@  0.00110155us ;
-SOAC: I0.MN2.soac_m1       modn V(B,PSUB): ENTERING@ 0.00218265us duration:0.00108us ;
-    tran: time = 2.259 ns    (22.6 %), step = 9.405 ps    (94.1 m%)
-    tran: time = 2.779 ns    (27.8 %), step = 100 ps          (1 %)
-    tran: time = 3.252 ns    (32.5 %), step = 2.994 ps    (29.9 m%)
-    tran: time = 3.758 ns    (37.6 %), step = 28.9 ps      (289 m%)
-SOAC: I0.MN2.soac_m1       modn V(B,PSUB): LEAVING@  0.00310157us ;
-SOAC: I0.MN2.soac_m1       modn V(B,PSUB): ENTERING@ 0.00418308us duration:0.00108us ;
-    tran: time = 4.256 ns    (42.6 %), step = 9.133 ps    (91.3 m%)
-    tran: time = 4.836 ns    (48.4 %), step = 100 ps          (1 %)
-SOAC: I0.MN0.soac_m1       modn V(B,PSUB): ENTERING@ 0.00520151us duration:0.00512us ;
-    tran: time = 5.251 ns    (52.5 %), step = 2.994 ps    (29.9 m%)
-    tran: time = 5.761 ns    (57.6 %), step = 44.25 ps     (443 m%)
-SOAC: I0.MN2.soac_m1       modn V(B,PSUB): LEAVING@  0.00510148us ;
-SOAC: I0.MN2.soac_m1       modn V(B,PSUB): ENTERING@ 0.00624878us duration:0.00115us ;
-    tran: time = 6.258 ns    (62.6 %), step = 9.395 ps    (93.9 m%)
-    tran: time = 6.774 ns    (67.7 %), step = 45.67 ps     (457 m%)
-    tran: time = 7.253 ns    (72.5 %), step = 3.195 ps    (31.9 m%)
-    tran: time = 7.807 ns    (78.1 %), step = 78.09 ps     (781 m%)
-SOAC: I0.MN2.soac_m1       modn V(B,PSUB): LEAVING@  0.00710157us ;
-SOAC: I0.MN2.soac_m1       modn V(B,PSUB): ENTERING@ 0.00823189us duration:0.00113us ;
-    tran: time = 8.255 ns    (82.5 %), step = 6.375 ps    (63.7 m%)
-    tran: time = 8.763 ns    (87.6 %), step = 48.52 ps     (485 m%)
-    tran: time = 9.25 ns     (92.5 %), step = 3.009 ps    (30.1 m%)
-    tran: time = 9.819 ns    (98.2 %), step = 99.19 ps     (992 m%)
-Number of accepted tran steps =             1357
+    tran: time = 203.5 ps    (2.54 %), step = 4.799 ps      (60 m%)
+    tran: time = 643.7 ps    (8.05 %), step = 62.87 ps     (786 m%)
+    tran: time = 1 ns        (12.5 %), step = 58.16 ps     (727 m%)
+SOAC: I0.MN0.soac_m1       modn V(B,PSUB): LEAVING@  8.93337e-05us ;
+    tran: time = 1.409 ns    (17.6 %), step = 80 ps           (1 %)
+    tran: time = 1.809 ns    (22.6 %), step = 80 ps           (1 %)
+    tran: time = 2.2 ns      (27.5 %), step = 1.251 ps    (15.6 m%)
+    tran: time = 2.605 ns    (32.6 %), step = 14.82 ps     (185 m%)
+    tran: time = 3.013 ns    (37.7 %), step = 60.68 ps     (759 m%)
+SOAC: I0.MN2.soac_m1       modn V(B,PSUB): LEAVING@  0.00210164us ;
+    tran: time = 3.422 ns    (42.8 %), step = 80 ps           (1 %)
+    tran: time = 3.822 ns    (47.8 %), step = 80 ps           (1 %)
+    tran: time = 4.2 ns      (52.5 %), step = 1.365 ps    (17.1 m%)
+SOAC: I0.MN0.soac_m1       modn V(B,PSUB): ENTERING@ 0.0042043us duration:0.00411us ;
+SOAC: I0.MN2.soac_m1       modn V(B,PSUB): ENTERING@ 0.00428479us duration:0.00218us ;
+    tran: time = 4.621 ns    (57.8 %), step = 27.02 ps     (338 m%)
+    tran: time = 5.049 ns    (63.1 %), step = 80 ps           (1 %)
+SOAC: I0.MP1.soac_m1       modp V(D,B): FORWARD_DIODE@ 0.00435737us ;
+    tran: time = 5.437 ns      (68 %), step = 80 ps           (1 %)
+    tran: time = 5.837 ns      (73 %), step = 80 ps           (1 %)
+    tran: time = 6.2 ns      (77.5 %), step = 99.07 fs    (1.24 m%)
+    tran: time = 6.612 ns    (82.7 %), step = 49.58 ps     (620 m%)
+    tran: time = 7.049 ns    (88.1 %), step = 52.25 ps     (653 m%)
+SOAC: I0.MN2.soac_m1       modn V(B,PSUB): LEAVING@  0.00610164us ;
+    tran: time = 7.47 ns     (93.4 %), step = 80 ps           (1 %)
+    tran: time = 7.87 ns     (98.4 %), step = 80 ps           (1 %)
+Number of accepted tran steps =             713
 
 Maximum value achieved for any signal of each quantity: 
-V: V(I0.net4) = 3.484 V
-I: I(V:p) = 674.5 uA
+V: V(I0.net3) = 3.909 V
+I: I(V:p) = 469.2 uA
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Post-Transient Simulation Summary
@@ -279,20 +275,20 @@ Post-Transient Simulation Summary
           errpreset = conservative, default moderate
           reltol = 10e-06, default 100e-06 (conservative)
    -   Features that may significantly slowing down simulation
-          asserts = 48.4269 ms
+          asserts = 47.178 ms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 During simulation, the CPU load for active processors is :
-         0 (5.1 %)       1 (11.0 %)      2 (36.0 %)      3 (4.0 %)
-         4 (6.9 %)       5 (8.1 %)       6 (6.0 %)       7 (5.1 %)
-         8 (5.9 %)       9 (18.2 %)     10 (8.0 %)      11 (7.9 %)
-        Total: 122.2%
-Initial condition solution time: CPU = 559 us, elapsed = 562.906 us.
-Intrinsic tran analysis time:    CPU = 184.903 ms, elapsed = 194.157 ms.
-Total time required for tran analysis `tran': CPU = 187.785 ms, elapsed = 211.149 ms, util. = 88.9%.
-Time accumulated: CPU = 351.834 ms, elapsed = 1.03648 s.
-Peak resident memory used = 181 Mbytes.
+         0 (7.7 %)       1 (7.9 %)       2 (9.3 %)       3 (18.2 %)
+         4 (3.9 %)       5 (6.5 %)       6 (3.9 %)       7 (2.7 %)
+         8 (23.7 %)      9 (7.9 %)      10 (1.3 %)      11 (9.2 %)
+        Total: 102.3%
+Initial condition solution time: CPU = 815 us, elapsed = 818.968 us.
+Intrinsic tran analysis time:    CPU = 116.03 ms, elapsed = 126.094 ms.
+Total time required for tran analysis `tran': CPU = 119.089 ms, elapsed = 141.622 ms, util. = 84.1%.
+Time accumulated: CPU = 282.049 ms, elapsed = 801.661 ms.
+Peak resident memory used = 186 Mbytes.
 
 finalTimeOP: writing operating point information to rawfile.
 
@@ -317,14 +313,14 @@ subckts: writing subcircuits to rawfile.
 Opening the PSFASCII file ../psf/subckts.info.subckts ...
 Licensing Information:
 Lic Summary:
-[19:26:30.081616] Cdslmd servers:5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
-[19:26:30.081634] Feature usage summary:
-[19:26:30.081635] Virtuoso_Multi_mode_Simulation
+[13:48:55.515649] Cdslmd servers:5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+[13:48:55.515672] Feature usage summary:
+[13:48:55.515673] Virtuoso_Multi_mode_Simulation
 
 
-Aggregate audit (7:26:30 PM, Mon Apr 15, 2024):
-Time used: CPU = 363 ms, elapsed = 1.07 s, util. = 34.1%.
-Time spent in licensing: elapsed = 751 ms, percentage of total = 70.5%.
-Peak memory used = 183 Mbytes.
-Simulation started at: 7:26:29 PM, Mon Apr 15, 2024, ended at: 7:26:30 PM, Mon Apr 15, 2024, with elapsed time (wall clock): 1.07 s.
+Aggregate audit (1:48:55 PM, Mon Apr 22, 2024):
+Time used: CPU = 293 ms, elapsed = 829 ms, util. = 35.4%.
+Time spent in licensing: elapsed = 162 ms, percentage of total = 19.5%.
+Peak memory used = 189 Mbytes.
+Simulation started at: 1:48:54 PM, Mon Apr 22, 2024, ended at: 1:48:55 PM, Mon Apr 22, 2024, with elapsed time (wall clock): 829 ms.
 spectre completes with 0 errors, 17 warnings, and 10 notices.
