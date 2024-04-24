@@ -5,7 +5,7 @@
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075724.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/aveng on Mon Apr 22 18:57:09 2024
+run on it075661.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/aveng on Wed Apr 24 13:50:23 2024
 
 Echoing run specific file...
     ;----------------------------------------------------------------------------
@@ -108,7 +108,7 @@ Echoing run specific file...
 
                   Time Summary - Database
 
-reading DFII data. . . .      0 cpu      0 elap 4356.4M virt    3067 pf
+reading DFII data. . . .      0 cpu      0 elap 3916.5M virt    8059 pf
 duplicate inst removal .      0 cpu      0 elap  167.0M virt       0 pf
 cell boundary layer. . .      0 cpu      0 elap  167.0M virt       0 pf
 small cell flattening. .      0 cpu      0 elap  167.0M virt       0 pf
@@ -130,7 +130,7 @@ duplicate inst removal .      0 cpu      0 elap  169.5M virt       0 pf
 duplicate cell removal .      0 cpu      0 elap  169.5M virt       0 pf
 final VDB processing . .      0 cpu      0 elap  169.5M virt       0 pf
 -----------------------------------------------------------------------
-TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
+TOTALS (secs). . . . . .      0 cpu      0 elap 3916.5M virt    8059 pf
 
 
 ************************************************************************
@@ -223,171 +223,171 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 22
     MET1_sympin = geomOr( MET1_sympin ) 
-    cpu: 0.0   elapsed: 0   virtual: 172M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 5
 
  ;# 23
     dataReduction( MET1_sympin ) 
-    cpu: 0.0   elapsed: 0   virtual: 172M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
 
  ;# 24
     T?110 = geomTextShape( MET1_pintext ) 
-    cpu: 0.0   elapsed: 0   virtual: 172M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 5
 
  ;# 25
     dataReduction( T?110 ) 
-    cpu: 0.0   elapsed: 0   virtual: 172M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
 
  ;# 26
     MET1_pinshape = geomOr( MET1_sympin T?110 ) 
-    cpu: 0.0   elapsed: 0   virtual: 172M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 5
 
  ;# 27
     dataReduction( MET1_pinshape ) 
-    cpu: 0.0   elapsed: 0   virtual: 172M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 28
  ;  region( MET1_pinshape )
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 5
 
  ;# 29
     MET2_sympin = geomOr( MET2_sympin ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 30
     dataReduction( MET2_sympin ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 31
     T?113 = geomTextShape( MET2_pintext ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 32
     dataReduction( T?113 ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 33
     MET2_pinshape = geomOr( MET2_sympin T?113 ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 34
     dataReduction( MET2_pinshape ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 35
  ;  region( MET2_pinshape )
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 36
     MET3_sympin = geomOr( MET3_sympin ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 37
     dataReduction( MET3_sympin ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 38
     T?116 = geomTextShape( MET3_pintext ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 39
     dataReduction( T?116 ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 40
     MET3_pinshape = geomOr( MET3_sympin T?116 ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 41
     dataReduction( MET3_pinshape ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 42
  ;  region( MET3_pinshape )
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 43
     MET4_sympin = geomOr( MET4_sympin ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 44
     dataReduction( MET4_sympin ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 45
     T?119 = geomTextShape( MET4_pintext ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 46
     dataReduction( T?119 ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 47
     MET4_pinshape = geomOr( MET4_sympin T?119 ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 48
     dataReduction( MET4_pinshape ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 49
  ;  region( MET4_pinshape )
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 50
     PAD_pinshape = geomTextShape( PAD_pintext ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 51
     dataReduction( PAD_pinshape ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 52
  ;  region( PAD_pinshape )
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 53
     OPTDEF_pinshape = geomEmpty( ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 54
     dataReduction( OPTDEF_pinshape ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 55
  ;  region( OPTDEF_pinshape )
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 56
     SUBDEF = geomOr( SUBDEF ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 57
     dataReduction( SUBDEF ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 58
     T?124 = geomUnderSizePrep( SUBDEF -0.05 ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 59
     dataReduction( T?124 ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 60
     T?126 = geomSize( T?124 -0.05 ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 61
     dataReduction( T?126 ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 62
     subdef_ring = geomAndNot( SUBDEF T?126 ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 63
     dataReduction( subdef_ring ) 
-    cpu: 0.0   elapsed: 0   virtual: 174M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 194M   task sum: 0
 
  ;# 64
     NTUB = geomOr( NTUB ) 
@@ -3639,7 +3639,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 874
     MET1 = geomOr( MET1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 8
 
  ;# 875
     dataReduction( MET1 ) 
@@ -3647,7 +3647,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 876
  ;  region( MET1 )
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 8
 
  ;# 877
     T?590 = geomInside( PAD MET1 ) 
@@ -4987,7 +4987,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 1211
     met1_withslots = geomAndNot( MET1 M1HOLE ) 
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 8
 
  ;# 1212
     dataReduction( met1_withslots ) 
@@ -4995,7 +4995,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 1213
  ;  region( met1_withslots )
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 8
 
  ;# 1214
     M2HOLE = geomOr( M2HOLE ) 
@@ -8645,7 +8645,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 2123
     met1_withslots_trunc = geomAndNot( met1_withslots RMET1_device ) 
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 8
 
  ;# 2124
     dataReduction( met1_withslots_trunc ) 
@@ -9049,7 +9049,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 2224
     net_met1 = geomAndNot( met1_withslots spiral_body ) 
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 8
 
  ;# 2225
     dataReduction( net_met1 ) 
@@ -9057,7 +9057,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 2226
  ;  region( net_met1 )
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 8
 
  ;# 2227
     net_met2 = geomAndNot( met2_withslots spiral_body ) 
@@ -9203,7 +9203,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 2261
     net_met1 = geomOr( net_met1 MET1_pinshape ) 
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 8
 
  ;# 2262
     dataReduction( net_met1 ) 
@@ -9211,7 +9211,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 2263
  ;  region( net_met1 )
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 8
 
  ;# 2264
     net_met2 = geomOr( net_met2 MET2_pinshape ) 
@@ -9391,11 +9391,11 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 2308
  ;  via( net_met1 net_sbd_anode_diff )
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 8
 
  ;# 2309
  ;  via( net_met1 sbdcon )
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 8
 
  ;# 2310
  ;  via( spiral_term spiral_term11 )
@@ -26621,7 +26621,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 6538
     MET1_pinPurpose = geomOr( MET1_pinPurpose ) 
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 5
 
  ;# 6539
     dataReduction( MET1_pinPurpose ) 
@@ -28354,7 +28354,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 6960
     T?4793 = geomAndNot( met1_withslots T?4792 ) 
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 7
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 8
 
  ;# 6961
     dataReduction( T?4793 ) 
@@ -28462,7 +28462,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 6987
     met1_withslots_edges  = geomGetEdge( met1_withslots ) 
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 54
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 52
 
  ;# 6988
     dataReduction( met1_withslots_edges ) 
@@ -28470,7 +28470,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 
  ;# 6989
     met1small = geomAndNot( met1_withslots_edges met1wideext_edges ) 
-    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 54
+    cpu: 0.0   elapsed: 0   virtual: 197M   task sum: 52
 
  ;# 6990
     dataReduction( met1small ) 
@@ -38879,9 +38879,9 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 4356.4M virt    3067 pf
 Total cells checked = 1
 Total rules checked = 9533
 
-Run time =  1.00 seconds
-CPU time =  0.50 seconds
-VM HWM   =  4356 Mbytes
+Run time =  2.00 seconds
+CPU time =  0.51 seconds
+VM HWM   =  3917 Mbytes
 Disk HWM =     0 Mbytes
 Disk end =     0 Mbytes
 Eman HWM =     0 Mbytes

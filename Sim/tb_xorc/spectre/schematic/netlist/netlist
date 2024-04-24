@@ -26,13 +26,13 @@ subckt xorc A B out
 parameters Wp=1u Wn=1u
     I0 (A net5) invParam Wn=1u Wp=1u
     I1 (B net6) invParam Wn=1u Wp=1u
-    MP3 (out net6 net3 net3) modp w=Wp/1 l=0.35u \
+    MP3 (out net6 net3 vdd!) modp w=Wp/1 l=0.35u \
         as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
         ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \
         ps=((2*8.5e-07+Wp/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
         pd=((2*8.5e-07+Wp/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wp/1 \
         nrs=5e-07/Wp/1 ng=1
-    MP2 (out B net4 net4) modp w=Wp/1 l=0.35u \
+    MP2 (out B net4 vdd!) modp w=Wp/1 l=0.35u \
         as=(8.5e-07*Wp/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wp/1)/1 \
         ad=(8.5e-07*Wp/1*fmod(1,2)+int(1/2)*2*5e-07*Wp/1)/1 \
         ps=((2*8.5e-07+Wp/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
@@ -56,7 +56,7 @@ parameters Wp=1u Wn=1u
         ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
         pd=((2*8.5e-07+Wn/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wn/1 \
         nrs=5e-07/Wn/1 ng=1
-    MN2 (out B net2 net2) modn w=Wn/1 l=0.35u \
+    MN2 (out B net2 0) modn w=Wn/1 l=0.35u \
         as=(8.5e-07*Wn/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wn/1)/1 \
         ad=(8.5e-07*Wn/1*fmod(1,2)+int(1/2)*2*5e-07*Wn/1)/1 \
         ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
@@ -68,7 +68,7 @@ parameters Wp=1u Wn=1u
         ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \
         pd=((2*8.5e-07+Wn/1)*fmod(1,2)+int(1/2)*4*5e-07)/1 nrd=5e-07/Wn/1 \
         nrs=5e-07/Wn/1 ng=1
-    MN0 (out net5 net1 net1) modn w=Wn/1 l=0.35u \
+    MN0 (out net5 net1 0) modn w=Wn/1 l=0.35u \
         as=(8.5e-07*Wn/1*(2-fmod(1,2))+int((1-1)/2)*2*5e-07*Wn/1)/1 \
         ad=(8.5e-07*Wn/1*fmod(1,2)+int(1/2)*2*5e-07*Wn/1)/1 \
         ps=((2*8.5e-07+Wn/1)*(2-fmod(1,2))+int((1-1)/2)*4*5e-07)/1 \

@@ -2,7 +2,7 @@ HEADER
 "PSFversion" "1.00"
 "simulator" "spectre"
 "version" "21.1.0.751.isr19"
-"date" "2:23:02 PM, Mon Apr 22, 2024"
+"date" "12:19:14 PM, Wed Apr 24, 2024"
 "design" "// Generated for: spectre"
 "analysis type" "info.subckts"
 "analysis name" "subckts"
@@ -690,7 +690,7 @@ VALUE
 )
 "xort" "subckt" (
 "Wn Wp"
-"A B out 0 vdd!"
+"A B out vdd! 0"
 "I0"
 )
 "nmosw_3n" "subckt" (

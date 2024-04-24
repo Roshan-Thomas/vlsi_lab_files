@@ -2,12 +2,12 @@
 ; Do NOT rely on the content of this file, it may change.
 ;
 2 terminal shorts opens
-1 0 ( "B" "avD1_5" "avC8" "gnd!" "net2")
-1 0 ( "G" "avD5_4" "avC9" "avS65" "net6")
-1 0 ( "G" "avD1_4" "avC9" "avS65" "net6")
+1 0 ( "G" "avD5_4" "avC9" "avS59" "net6")
+1 0 ( "G" "avD1_4" "avC9" "avS59" "net6")
+1 0 ( "D" "avD1_1" "avS57" "avC6" "net5")
 1 0 ( "B" "avD5_2" "vdd!" "avC12" "vdd!")
-1 0 ( "B" "avD1_2" "avC7" "gnd!" "net1")
-1 0 ( "S" "avD5_4" "avC12" "avC11" "net3")
-1 0 ( "B" "avD5_5" "avC10" "avC12" "net4")
-1 2 ((L "avC6")(L "avS63"))
-1 2 ((L "avS65")(L "avC9"))
+1 0 ( "B" "avD5_3" "vdd!" "avC12" "vdd!")
+1 0 ( "B" "avD5_5" "vdd!" "avC12" "vdd!")
+1 0 ( "B" "avD5_4" "vdd!" "avC12" "vdd!")
+1 2 ((L "avC6")(L "avS57"))
+1 2 ((L "avS59")(L "avC9"))

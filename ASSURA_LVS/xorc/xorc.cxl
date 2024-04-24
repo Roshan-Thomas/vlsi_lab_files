@@ -13,7 +13,10 @@ N B B
 C "xorc schematic lab2024" "xorc layout lab2024"
 N net2 avC8
 N net6 avC9
-N net5 avS63
+N net1 avC7
+N net5 avS57
+N net3 avC11
+N net4 avC10
 N out out
 N A A
 N B B
@@ -21,12 +24,14 @@ N vdd! vdd!
 N gnd! gnd!
 I MN3 avD1_4
 I MN2 avD1_5
-I MN1 avD1_1
+I MN1 avD1_3
 I MN0 avD1_2
 I MP3 avD5_4
 I MP2 avD5_5
-I MP1 avD5_1
+I MP1 avD5_3
 I MP0 avD5_2
+I I0/MN0 avD1_1
+I I0/MP0 avD5_1
 I I1/MN0 avD1_6
 I I1/MP0 avD5_6
 

@@ -4,7 +4,6 @@
 2 bind match unmatched shorts opens
 1 0 ((L "A")((1 "PMOS4" ( "G"))(1 "NMOS4" ( "G")))(S "A")((1 "PMOS4" ( "D" "S"))(1 "PMOS4" ( "G"))(1 "NMOS4" ( "D" "S"))(1 "NMOS4" ( "G"))))
 1 0 ((L "B")((2 "PMOS4" ( "G"))(1 "NMOS4" ( "G")))(S "B")((1 "PMOS4" ( "D" "S"))(2 "PMOS4" ( "G"))(1 "NMOS4" ( "G"))))
-1 0 ((L "out")((3 "PMOS4" ( "D" "S"))(2 "PMOS4" ( "B"))(2 "NMOS4" ( "D" "S")))(S "out")((2 "PMOS4" ( "D" "S"))(2 "PMOS4" ( "B"))(2 "NMOS4" ( "D" "S"))(1 "NMOS4" ( "B"))))
-1 0 ((L "gnd!")((1 "NMOS4" ( "D" "S"))(3 "NMOS4" ( "B")))(S "gnd!")((1 "NMOS4" ( "D" "S"))(1 "NMOS4" ( "B"))))
-1 2 ((L "avC7")(L "avS43"))
-1 1 ((L "avC6")((1 "PMOS4" ( "D" "S"))(2 "NMOS4" ( "D" "S")))(S "net2")((1 "PMOS4" ( "D" "S"))(2 "NMOS4" ( "D" "S"))(1 "NMOS4" ( "G"))(1 "NMOS4" ( "B"))))
+1 0 ((L "vdd!")((1 "PMOS4" ( "D" "S"))(1 "PMOS4" ( "B")))(S "vdd!")((1 "PMOS4" ( "D" "S"))(3 "PMOS4" ( "B"))))
+1 2 ((L "avC8")(L "avS43")(L "avC6"))
+1 1 ((L "avC7")((1 "PMOS4" ( "D" "S"))(2 "NMOS4" ( "D" "S")))(S "net1")((1 "PMOS4" ( "D" "S"))(2 "NMOS4" ( "D" "S"))(1 "NMOS4" ( "G"))))

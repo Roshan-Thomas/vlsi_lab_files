@@ -5,20 +5,20 @@ Copyright (C) 1989-2023 Cadence Design Systems, Inc. All rights reserved worldwi
 
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
 
-User: oj23092   Host: it075724.wks.bris.ac.uk   HostID: DE898787   PID: 78118
-Memory  available: 12.8128 GB  physical: 16.2980 GB
+User: oj23092   Host: it075661.wks.bris.ac.uk   HostID: DE896587   PID: 1136453
+Memory  available: 8.2065 GB  physical: 16.2980 GB
 Linux   : Rocky Linux release 8.9 (Green Obsidian)
 CPU Type: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
         Socket: Processors [Frequency] (Hyperthreaded Processor)
-        0:       0 [3200.0] (  6 ),  1 [4356.5] (  7 ),  2 [4299.9] (  8 )
+        0:       0 [3200.0] (  6 ),  1 [3200.0] (  7 ),  2 [3200.0] (  8 )
                  3 [3200.0] (  9 ),  4 [3200.0] ( 10 ),  5 [3200.0] ( 11 )
         
-System load averages (1min, 5min, 15min) : 2.0 %, 0.8 %, 0.3 %
+System load averages (1min, 5min, 15min) : 1.1 %, 1.4 %, 1.4 %
 Hyperthreading is enabled
 HPC is enabled
 
 
-Simulating `input.scs' on it075724.wks.bris.ac.uk at 2:23:02 PM, Mon Apr 22, 2024 (process id: 78118).
+Simulating `input.scs' on it075661.wks.bris.ac.uk at 12:19:14 PM, Wed Apr 24, 2024 (process id: 1136453).
 Current working directory: /home/oj23092/VLSI_Design_Lab/Sim/tb_xort/spectre/schematic/netlist
 Command line:
      \
@@ -28,10 +28,10 @@ Command line:
         +param /eda/cadence/ams/4.10/spectre/ams_range.lmts -env ade
 
 Licensing Information:
-[14:23:02.289634] Configured Lic search path (21.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+[12:19:14.289682] Configured Lic search path (21.01-s002): 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
 
 Licensing Information:
-[14:23:02.084040] Periodic Lic check successful
+[12:19:14.515674] Periodic Lic check successful
 
 Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
 Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
@@ -69,27 +69,27 @@ Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/cap.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/bip.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/ind.scs
 Reading file:  /eda/cadence/ams/4.10/spectre/c35/soac/esddiode.scs
-Time for NDB Parsing: CPU = 74.81 ms, elapsed = 300.115 ms.
-Time accumulated: CPU = 130.504 ms, elapsed = 300.117 ms.
-Peak resident memory used = 155 Mbytes.
+Time for NDB Parsing: CPU = 82.234 ms, elapsed = 298.913 ms.
+Time accumulated: CPU = 138.551 ms, elapsed = 298.916 ms.
+Peak resident memory used = 143 Mbytes.
 
-TCP: opening server port it075724.wks.bris.ac.uk:40077
+TCP: opening server port it075661.wks.bris.ac.uk:55165
 Existing shared object for module modp_ahdl is up to date.
 Installed compiled interface for modp_ahdl.
 Existing shared object for module modn_ahdl is up to date.
 Installed compiled interface for modn_ahdl.
-Time for Elaboration: CPU = 16.059 ms, elapsed = 17.468 ms.
-Time accumulated: CPU = 146.629 ms, elapsed = 317.65 ms.
-Peak resident memory used = 164 Mbytes.
+Time for Elaboration: CPU = 16.537 ms, elapsed = 19.3801 ms.
+Time accumulated: CPU = 155.156 ms, elapsed = 318.363 ms.
+Peak resident memory used = 152 Mbytes.
 
 
 Notice from spectre during hierarchy flattening.
     The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
 
 
-Time for EDB Visiting: CPU = 1.295 ms, elapsed = 1.65296 ms.
-Time accumulated: CPU = 147.993 ms, elapsed = 319.371 ms.
-Peak resident memory used = 166 Mbytes.
+Time for EDB Visiting: CPU = 1.377 ms, elapsed = 1.95503 ms.
+Time accumulated: CPU = 156.599 ms, elapsed = 320.383 ms.
+Peak resident memory used = 153 Mbytes.
 
 Loading /eda/cadence/2022-23/RHELx86/SPECTRE_21.10.751/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
 
@@ -174,9 +174,9 @@ Notice from spectre during initial setup.
     1 notice suppressed.
     72 warnings suppressed.
 
-Time for parsing: CPU = 5.174 ms, elapsed = 222.969 ms.
-Time accumulated: CPU = 153.224 ms, elapsed = 542.397 ms.
-Peak resident memory used = 171 Mbytes.
+Time for parsing: CPU = 5.795 ms, elapsed = 235.415 ms.
+Time accumulated: CPU = 162.45 ms, elapsed = 555.854 ms.
+Peak resident memory used = 159 Mbytes.
 
 ~~~~~~~~~~~~~~~~~~~~~~
 Pre-Simulation Summary
@@ -195,7 +195,7 @@ Transient Analysis `tran': time = (0 s -> 8 ns)
 Warning from spectre during check, during IC analysis, during transient analysis `tran'.
     WARNING (CMI-2943): Parameter checks have been ignored because the valid value for parameter 'trise' could not be found in 'C0'.
 
-DC simulation time: CPU = 377 us, elapsed = 375.986 us.
+DC simulation time: CPU = 545 us, elapsed = 545.025 us.
 
 Opening the PSF file ../psf/tran.tran.tran ...
 Important parameter values:
@@ -230,59 +230,31 @@ Output and IC/nodeset summary:
                  save   3       (current)
                  save   11      (voltage)
 
-    tran: time = 206.5 ps    (2.58 %), step = 7.222 ps    (90.3 m%)
-    tran: time = 670.1 ps    (8.38 %), step = 80 ps           (1 %)
-SOAC: I0.MN1.soac_m1       modn V(B,PSUB): LEAVING@  0us ;
-NOTE: I0.MN1.soac_m1 V(S)>V(D) => Pins swapped. Electrical pins checked ;
-    tran: time = 1 ns        (12.5 %), step = 44.93 ps     (562 m%)
-SOAC: I0.MN1.soac_m1       modn V(D,B): FORWARD_DIODE@ 9.30903e-05us ;
-NOTE: I0.MN1.soac_m1 V(S)>V(D) => Pins swapped. Electrical pins checked ;
-SOAC: I0.MN0.soac_m1       modn V(B,PSUB): LEAVING@  0.000121791us ;
-NOTE: I0.MN0.soac_m1 V(S)>V(D) => Pins swapped. Electrical pins checked ;
-SOAC: I0.MN0.soac_m1       modn V(D,B): FORWARD_DIODE@ 0.000165264us ;
-NOTE: I0.MN0.soac_m1 V(S)>V(D) => Pins swapped. Electrical pins checked ;
-    tran: time = 1.405 ns    (17.6 %), step = 80 ps           (1 %)
-    tran: time = 1.805 ns    (22.6 %), step = 80 ps           (1 %)
-
-Warning from spectre at time = 2.15103 ns during transient analysis `tran'.
-    WARNING (CMI-2139): I0.MP1: The bulk-source junction current exceeds `imelt'.  The results computed by Spectre may be inaccurate because the junction current model has been linearized.
-    WARNING (CMI-2144): I0.MP1: The bulk-source junction current exceeds `imax'.
-Warning from spectre at time = 2.15334 ns during transient analysis `tran'.
-    WARNING (CMI-2139): I0.MN0: The bulk-drain junction current exceeds `imelt'.  The results computed by Spectre may be inaccurate because the junction current model has been linearized.
-    WARNING (CMI-2144): I0.MN0: The bulk-drain junction current exceeds `imax'.
-
-    tran: time = 2.2 ns      (27.5 %), step = 2.422 ps    (30.3 m%)
-SOAC: I0.MN1.soac_m1       modn V(B,PSUB): ENTERING@ 0.00223988us duration:0.00224us ;
-    tran: time = 2.655 ns    (33.2 %), step = 80 ps           (1 %)
-    tran: time = 3.055 ns    (38.2 %), step = 80 ps           (1 %)
-SOAC: I0.MP1.soac_m1       modp V(S,B): FORWARD_DIODE@ 0.00213925us ;
-    tran: time = 3.459 ns    (43.2 %), step = 80 ps           (1 %)
-    tran: time = 3.859 ns    (48.2 %), step = 80 ps           (1 %)
-
-Notice from spectre at time = 4.04977 ns during transient analysis `tran'.
-    I0.MN0: The bulk-drain junction leaves the linearized region.
-    I0.MN0: The bulk-drain junction current no longer exceeds `imax'.
-    I0.MP1: The bulk-source junction leaves the linearized region.
-    I0.MP1: The bulk-source junction current no longer exceeds `imax'.
-
-    tran: time = 4.2 ns      (52.5 %), step = 863.4 fs    (10.8 m%)
-    tran: time = 4.614 ns    (57.7 %), step = 39.54 ps     (494 m%)
-    tran: time = 5.005 ns    (62.6 %), step = 60.12 ps     (752 m%)
-SOAC: I0.MN1.soac_m1       modn V(B,PSUB): LEAVING@  0.00406494us ;
-    tran: time = 5.431 ns    (67.9 %), step = 80 ps           (1 %)
-    tran: time = 5.831 ns    (72.9 %), step = 80 ps           (1 %)
-    tran: time = 6.2 ns      (77.5 %), step = 153.8 fs    (1.92 m%)
-    tran: time = 6.653 ns    (83.2 %), step = 80 ps           (1 %)
-    tran: time = 7.053 ns    (88.2 %), step = 80 ps           (1 %)
-SOAC: I0.MP0.soac_m1       modp V(D,B): FORWARD_DIODE@ 0.00621339us ;
-SOAC: I0.MP1.soac_m1       modp V(S,B): FORWARD_DIODE@ 0.00621339us ;
-    tran: time = 7.453 ns    (93.2 %), step = 80 ps           (1 %)
-    tran: time = 7.853 ns    (98.2 %), step = 80 ps           (1 %)
-Number of accepted tran steps =             539
+    tran: time = 203.3 ps    (2.54 %), step = 4.71 ps     (58.9 m%)
+    tran: time = 660.7 ps    (8.26 %), step = 63.07 ps     (788 m%)
+    tran: time = 1 ns        (12.5 %), step = 49.64 ps     (621 m%)
+    tran: time = 1.48 ns     (18.5 %), step = 80 ps           (1 %)
+    tran: time = 1.88 ns     (23.5 %), step = 80 ps           (1 %)
+    tran: time = 2.2 ns      (27.5 %), step = 856.4 fs    (10.7 m%)
+    tran: time = 2.61 ns     (32.6 %), step = 18.84 ps     (235 m%)
+    tran: time = 3.079 ns    (38.5 %), step = 80 ps           (1 %)
+    tran: time = 3.479 ns    (43.5 %), step = 80 ps           (1 %)
+    tran: time = 3.879 ns    (48.5 %), step = 80 ps           (1 %)
+    tran: time = 4.2 ns      (52.5 %), step = 2.264 ps    (28.3 m%)
+    tran: time = 4.607 ns    (57.6 %), step = 29.43 ps     (368 m%)
+    tran: time = 5.07 ns     (63.4 %), step = 80 ps           (1 %)
+    tran: time = 5.47 ns     (68.4 %), step = 80 ps           (1 %)
+    tran: time = 5.87 ns     (73.4 %), step = 80 ps           (1 %)
+    tran: time = 6.2 ns      (77.5 %), step = 156.2 fs    (1.95 m%)
+    tran: time = 6.615 ns    (82.7 %), step = 44.65 ps     (558 m%)
+    tran: time = 7.076 ns    (88.5 %), step = 80 ps           (1 %)
+    tran: time = 7.476 ns    (93.5 %), step = 80 ps           (1 %)
+    tran: time = 7.876 ns    (98.5 %), step = 80 ps           (1 %)
+Number of accepted tran steps =             630
 
 Maximum value achieved for any signal of each quantity: 
-V: V(net3) = 3.56 V
-I: I(VB:p) = 7.656 mA
+V: V(net3) = 3.451 V
+I: I(VB:p) = 450.7 uA
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Post-Transient Simulation Summary
@@ -292,21 +264,19 @@ Post-Transient Simulation Summary
    -   Non-default settings that could significantly slow down simulation
           errpreset = conservative, default moderate
           reltol = 10e-06, default 100e-06 (conservative)
-   -   Features that may significantly slowing down simulation
-          asserts = 43.227 ms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 During simulation, the CPU load for active processors is :
-         0 (3.3 %)       1 (15.9 %)      2 (6.6 %)       3 (6.6 %)
-         4 (4.9 %)       5 (3.2 %)       6 (3.3 %)       7 (17.7 %)
-         8 (18.0 %)      9 (3.3 %)      10 (3.3 %)      11 (4.9 %)
-        Total: 91.0%
-Initial condition solution time: CPU = 399 us, elapsed = 400.066 us.
-Intrinsic tran analysis time:    CPU = 81.298 ms, elapsed = 89.0219 ms.
-Total time required for tran analysis `tran': CPU = 83.996 ms, elapsed = 105.033 ms, util. = 80%.
-Time accumulated: CPU = 241.412 ms, elapsed = 653.811 ms.
-Peak resident memory used = 180 Mbytes.
+         0 (3.4 %)       1 (10.0 %)      2 (3.4 %)       3 (3.5 %)
+         4 (5.1 %)       5 (15.3 %)      6 (15.3 %)      8 (1.7 %)
+         9 (1.7 %)      10 (19.0 %)     11 (3.4 %)      
+        Total: 81.7%
+Initial condition solution time: CPU = 573 us, elapsed = 574.112 us.
+Intrinsic tran analysis time:    CPU = 49.795 ms, elapsed = 52.587 ms.
+Total time required for tran analysis `tran': CPU = 90.354 ms, elapsed = 109.523 ms, util. = 82.5%.
+Time accumulated: CPU = 257.878 ms, elapsed = 675.669 ms.
+Peak resident memory used = 167 Mbytes.
 
 finalTimeOP: writing operating point information to rawfile.
 
@@ -331,14 +301,14 @@ subckts: writing subcircuits to rawfile.
 Opening the PSFASCII file ../psf/subckts.info.subckts ...
 Licensing Information:
 Lic Summary:
-[14:23:03.050328] Cdslmd servers:5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
-[14:23:03.050346] Feature usage summary:
-[14:23:03.050347] Virtuoso_Multi_mode_Simulation
+[12:19:15.050426] Cdslmd servers:5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk
+[12:19:15.050449] Feature usage summary:
+[12:19:15.050450] Virtuoso_Multi_mode_Simulation
 
 
-Aggregate audit (2:23:03 PM, Mon Apr 22, 2024):
-Time used: CPU = 252 ms, elapsed = 682 ms, util. = 37%.
-Time spent in licensing: elapsed = 169 ms, percentage of total = 24.8%.
-Peak memory used = 182 Mbytes.
-Simulation started at: 2:23:02 PM, Mon Apr 22, 2024, ended at: 2:23:03 PM, Mon Apr 22, 2024, with elapsed time (wall clock): 682 ms.
-spectre completes with 0 errors, 21 warnings, and 13 notices.
+Aggregate audit (12:19:15 PM, Wed Apr 24, 2024):
+Time used: CPU = 269 ms, elapsed = 764 ms, util. = 35.3%.
+Time spent in licensing: elapsed = 154 ms, percentage of total = 20.2%.
+Peak memory used = 169 Mbytes.
+Simulation started at: 12:19:14 PM, Wed Apr 24, 2024, ended at: 12:19:15 PM, Wed Apr 24, 2024, with elapsed time (wall clock): 764 ms.
+spectre completes with 0 errors, 17 warnings, and 9 notices.

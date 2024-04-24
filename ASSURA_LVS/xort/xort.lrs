@@ -1,6 +1,6 @@
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on it075724.wks.bris.ac.uk at Mon Apr 22 19:00:14 2024
+run on it075661.wks.bris.ac.uk at Wed Apr 24 13:51:14 2024
 
 Schematic                     | Layout                     | Status
 -------------------------------------------------------------------------------
@@ -29,8 +29,8 @@ Extraction  Information
 
 Mismatch  Information
 --------------------
-     1 cells have 6 Net mismatches
-     1 cells have 7 Device mismatches
+     1 cells have 5 Net mismatches
+     1 cells have 6 Device mismatches
      0 cells have 0 Pin mismatches
      0 cells have 0 Parameter mismatches
 

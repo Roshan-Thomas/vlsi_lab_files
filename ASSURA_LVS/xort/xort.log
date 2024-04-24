@@ -6,7 +6,7 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:35 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075724.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/assura on Mon Apr 22 19:00:08 2024
+run on it075661.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/assura on Wed Apr 24 13:51:02 2024
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -15,7 +15,7 @@ Starting /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/b
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075724.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/aveng on Mon Apr 22 19:00:08 2024
+run on it075661.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/aveng on Wed Apr 24 13:51:02 2024
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -36,15 +36,15 @@ Loading tech rule set file : /eda/cadence/ams/4.10/assura/c35b4/c35b4c3/techRule
  Work Directory: /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/xort
  Operating Mode: Legacy Mode is Off
 
-2024/04/22 19:00:08 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/04/22 19:00:08 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/04/24 13:51:03 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/04/24 13:51:03 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Starting dfIIToVdb...
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.06s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.07s.
 @(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:40 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075724.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/dfIIToVdb on Mon Apr 22 19:00:09 2024
+run on it075661.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/dfIIToVdb on Wed Apr 24 13:51:03 2024
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -82,8 +82,8 @@ If left unchanged, parameters may not be attached correctly.
   1473. attachParameter(pd ("pd" "D") NMOS18T_device)
 WARNING LVS Run detected.
 Non-legacy mode has been disabled for this LVS run
-2024/04/22 19:00:10 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/04/22 19:00:10 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/04/24 13:51:04 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/04/24 13:51:04 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_LVS
 *WARNING* Failed to obtain license for Assura_LVS
 No Assura license available.
@@ -96,8 +96,8 @@ Reading the design data...
 Finished dfIIToVdb.
 
 Building the VDB part 2 in background mode.
-2024/04/22 19:00:10 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/04/22 19:00:10 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/04/24 13:51:04 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/04/24 13:51:04 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Building tables for LVS Preprocessing in background mode.
 
@@ -113,16 +113,16 @@ Checking out license for Assura_LVS
 Checking out license for Phys_Ver_Sys_LVS_XL
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on it075724.wks.bris.ac.uk at Mon Apr 22 19:00:11 2024
+run on it075661.wks.bris.ac.uk at Wed Apr 24 13:51:05 2024
 Loading all available p-cell functions
 AMS_DB set to cds
 Reading schematic network
  running dfIIToVldb -cdslib /home/oj23092/VLSI_Design_Lab/cds.lib /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/xort/xort.vlr /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/xort/xort.rsf
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.07s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.08s.
 @(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:40 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075724.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/dfIIToVldb on Mon Apr 22 19:00:11 2024
+run on it075661.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/dfIIToVldb on Wed Apr 24 13:51:05 2024
 
 Loading all available p-cell functions
 AMS_DB set to cds
@@ -139,11 +139,11 @@ Top Cell View: "schematic"
 Output Data Base Name: "/home/oj23092/VLSI_Design_Lab/ASSURA_LVS/xort/xort.sdb"
 Simulator Name: "auCdl"
 Failed to obtain license for "Assura_LVS". 
-Checking out license for Phys_Ver_Sys_LVS_XL
 ERROR (LMF-02005): License call failed for feature Assura_LVS, version 4.100 and quantity 1. The license server search path is defined as 5280@ls-dc2-fen-p1.services.bris.ac.uk:5280@ls-dc2-fen-p0.services.bris.ac.uk. The FLEXnet error message is as follows,
     FLEXnet ERROR(-5, 0, 0): No such feature exists.
 
 Run 'lic_error LMF-02005' for more information.
+Checking out license for Phys_Ver_Sys_LVS_XL
 *WARNING* LIB A_CELLS from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 51 redefines
 LIB A_CELLS from the same file (defined earlier.)
 *WARNING* LIB PRIMLIBRF from File /home/oj23092/VLSI_Design_Lab/cds.lib Line 52 redefines
@@ -180,18 +180,18 @@ Preprocessing layout network phase 1
 *WARNING* deleteCellPin - Unable to find cell 'PMOSD30M'
 Preprocessing schematic network phase 2
 Preprocessing layout network phase 2
-cpu=0.00m  wall=0.00m  mem=89.11mb
+cpu=0.00m  wall=0.10m  mem=89.11mb
 
 Finished /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/nvn
 
 Executing: substrate_all = cellBoundary(root)
 
 Building the VDB part 3 in background mode.
-2024/04/22 19:00:12 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/04/22 19:00:12 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/04/24 13:51:11 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/04/24 13:51:11 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.08  elap: 4  pf: 0  in: 32  out: 104  virt: 101M  phys: 629M
+cpu: 0.07  elap: 9  pf: 0  in: 32  out: 104  virt: 101M  phys: 562M
 
 Running the Task Processor, 1 cells, 4978 steps...
 
@@ -3016,12 +3016,12 @@ Executing: extractDevice("SP090S155D" SP090S155D_device (spiral_term11 "P1") (sp
 Executing: saveRecognition(SP090S155D_device "device")
 
 Finished running rules. Task processor time in main process:
-cpu: 0.23  elap: 0  pf: 0  in: 0  out: 1176  virt: 143M  phys: 753M
+cpu: 0.23  elap: 0  pf: 0  in: 0  out: 1176  virt: 143M  phys: 690M
 
 No output post-processing: This is not a DRC run
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6472  virt: 147M  phys: 769M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6472  virt: 147M  phys: 702M
 
 
 *****  aveng terminated normally  *****
@@ -3039,14 +3039,14 @@ Loading tech rule set file : /eda/cadence/ams/4.10/assura/c35b4/c35b4c3/techRule
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075724.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/avrpt on Mon Apr 22 19:00:12 2024
+run on it075661.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/avrpt on Wed Apr 24 13:51:12 2024
 
 
    Creating Error Database 'xort'...
 
    Reading VDB ...
-2024/04/22 19:00:13 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/04/22 19:00:13 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2024/04/24 13:51:12 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/04/24 13:51:12 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 --------------------------------------------------------------------------------
 Rule      Message                                    FlatCount     RealCount
 --------------------------------------------------------------------------------
@@ -3234,7 +3234,7 @@ Total  errors:                                               0            0
 
    Writing Report into /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/xort/xort.err ...
 
-avrpt cpu sec:    0.04  elapsed:     1  virtual:    93M
+avrpt cpu sec:    0.05  elapsed:     0  virtual:    93M
 
 Finished /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/bin/avrpt
 
@@ -3262,20 +3262,20 @@ Checking out license for Phys_Ver_Sys_LVS_XL
 @(#)$CDS: avnx_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:36 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
 
-run on it075724.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/avnx on Mon Apr 22 19:00:13 2024
+run on it075661.wks.bris.ac.uk from /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618/tools.lnx86/assura/bin/64bit/avnx on Wed Apr 24 13:51:13 2024
 
 avnx started...
-2024/04/22 19:00:14 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2024/04/22 19:00:14 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
-cpu: 0.08  elap: 1  pf: 0  in: 0  out: 16  virt: 580M  phys: 1020M
+2024/04/24 13:51:13 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/04/24 13:51:13 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+cpu: 0.09  elap: 0  pf: 0  in: 0  out: 16  virt: 580M  phys: 980M
 
-Run time =  1.00 seconds
-CPU time =  0.11 seconds
+Run time =  0.00 seconds
+CPU time =  0.12 seconds
 
                   End of Summary Report
 
 ************************************************************************
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 13016  virt: 511M  phys: 1020M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 13000  virt: 511M  phys: 980M
 ***** avnx terminated normally ***** 
 
 
@@ -3286,7 +3286,7 @@ Checking out license for Assura_LVS
 Checking out license for Phys_Ver_Sys_LVS_XL
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.25 09/19/2022 00:41 (sjfhw885) $
 sub-version 4.1_USR6_EHF13, integ signature 2022-09-19-0008
-run on it075724.wks.bris.ac.uk at Mon Apr 22 19:00:14 2024
+run on it075661.wks.bris.ac.uk at Wed Apr 24 13:51:14 2024
 Loading all available p-cell functions
 AMS_DB set to cds
 Reading schematic network
@@ -3338,7 +3338,8 @@ Starting /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/b
 Finished /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/bin/vldbToRpa
 
 Starting /eda/cadence/2022-23/RHELx86/ASSURA_04.16.113_618//tools.lnx86/assura/bin/ercChk /home/oj23092/VLSI_Design_Lab/ASSURA_LVS/xort/xort.rsf
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.07s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 5.08s.
+WARNING License '111' took more than 5.00 seconds (actual time was 5.08 seconds) to check out.
 Loading all available p-cell functions
 AMS_DB set to cds
 
@@ -3377,7 +3378,7 @@ Assura LVS terminated normally.
 
 
 
-Run ended: Mon Apr 22 19:00:15 2024
+Run ended: Wed Apr 24 13:51:20 2024
 
 *****  Assura terminated normally  *****
 
